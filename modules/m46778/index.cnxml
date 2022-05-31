@@ -1,0 +1,542 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chi-Square Distribution Table</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46778</md:content-id>
+  <md:title>Chi-Square Distribution Table</md:title>
+  <md:abstract>The is a Chi-Square table to use in class when technology is not available. It can also be used for tests when technology is not avialable.</md:abstract>
+  <md:uuid>ce4be9cf-cc2b-4f46-a789-0cd5e4d9bed1</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164793359345">
+      <title>Chi-Square Distribution Table</title>
+      <figure id="import-auto-id1164803183218">
+        <media id="import-auto-id1164790758128" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-341f.png" height="170" width="206"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1164789496802">The shaded area is equal to <emphasis effect="italics">α </emphasis>for <emphasis effect="italics">χ</emphasis>2  = <emphasis effect="italics">χ</emphasis>2<sub>α</sub></para><table id="import-auto-id1164797054712" summary="I will write later">
+<tgroup cols="11"><colspec colnum="1" colname="c1" align="right"/>
+          <colspec colnum="2" colname="c2" align="right"/>
+          <colspec colnum="3" colname="c3" align="right"/>
+          <colspec colnum="4" colname="c4" align="right"/>
+          <colspec colnum="5" colname="c5" align="right"/>
+          <colspec colnum="6" colname="c6" align="right"/>
+          <colspec colnum="7" colname="c7" align="right"/>
+          <colspec colnum="8" colname="c8" align="right"/>
+          <colspec colnum="9" colname="c9" align="right"/>
+          <colspec colnum="10" colname="c10" align="right"/>
+          <colspec colnum="11" colname="c11" align="right"/>
+          <thead>
+            <row>
+              <entry align="center">df</entry>
+              <entry align="center">χ2 (.995)</entry>
+              <entry align="center">χ2 (.990)</entry>
+              <entry align="center">χ2 (.975)</entry>
+              <entry align="center">χ2 (.950)</entry>
+              <entry align="center">χ2
+(.900)</entry>
+              <entry align="center">χ2 (.100)</entry>
+              <entry align="center">χ2
+(.050)</entry>
+              <entry align="center">χ2 (.025)</entry>
+              <entry align="center">χ2
+(.010)</entry>
+              <entry align="center">χ2
+(.005)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.001</entry>
+              <entry align="right">0.004</entry>
+              <entry align="right">0.016</entry>
+              <entry>2.706</entry>
+              <entry>3.841</entry>
+              <entry>5.024</entry>
+              <entry>6.635</entry>
+              <entry>7.879</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>0.010</entry>
+              <entry>0.020</entry>
+              <entry>0.051</entry>
+              <entry>0.103</entry>
+              <entry>0.211</entry>
+              <entry>4.605</entry>
+              <entry>5.991</entry>
+              <entry>7.378</entry>
+              <entry>9.210</entry>
+              <entry>10.597</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>0.072</entry>
+              <entry>0.115</entry>
+              <entry>0.216</entry>
+              <entry>0.352</entry>
+              <entry>0.584</entry>
+              <entry>6.251</entry>
+              <entry>7.815</entry>
+              <entry>9.348</entry>
+              <entry>11.345</entry>
+              <entry>12.838</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>0.207</entry>
+              <entry>0.297</entry>
+              <entry>0.484</entry>
+              <entry>0.711</entry>
+              <entry>1.064</entry>
+              <entry>7.779</entry>
+              <entry>9.488</entry>
+              <entry>11.143</entry>
+              <entry>13.277</entry>
+              <entry>14.860</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>0.412</entry>
+              <entry>0.554</entry>
+              <entry>0.831</entry>
+              <entry>1.145</entry>
+              <entry>1.610</entry>
+              <entry>9.236</entry>
+              <entry>11.070</entry>
+              <entry>12.833</entry>
+              <entry>15.086</entry>
+              <entry>16.750</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>0.676</entry>
+              <entry>0.872</entry>
+              <entry>1.237</entry>
+              <entry>1.635</entry>
+              <entry>2.204</entry>
+              <entry>10.645</entry>
+              <entry>12.592</entry>
+              <entry>14.449</entry>
+              <entry>16.812</entry>
+              <entry>18.548</entry>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>0.989</entry>
+              <entry>1.239</entry>
+              <entry>1.690</entry>
+              <entry>2.167</entry>
+              <entry>2.833</entry>
+              <entry>12.017</entry>
+              <entry>14.067</entry>
+              <entry>16.013</entry>
+              <entry>18.475</entry>
+              <entry>20.278</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>1.344</entry>
+              <entry>1.646</entry>
+              <entry>2.180</entry>
+              <entry>2.733</entry>
+              <entry>3.490</entry>
+              <entry>13.362</entry>
+              <entry>15.507</entry>
+              <entry>17.535</entry>
+              <entry>20.090</entry>
+              <entry>21.955</entry>
+            </row>
+            <row>
+              <entry>9</entry>
+              <entry>1.735</entry>
+              <entry>2.088</entry>
+              <entry>2.700</entry>
+              <entry>3.325</entry>
+              <entry>4.168</entry>
+              <entry>14.684</entry>
+              <entry>16.919</entry>
+              <entry>19.023</entry>
+              <entry>21.666</entry>
+              <entry>23.589</entry>
+            </row>
+            <row>
+              <entry>10</entry>
+              <entry>2.156</entry>
+              <entry>2.558</entry>
+              <entry>3.247</entry>
+              <entry>3.940</entry>
+              <entry>4.865</entry>
+              <entry>15.987</entry>
+              <entry>18.307</entry>
+              <entry>20.483</entry>
+              <entry>23.209</entry>
+              <entry>25.188</entry>
+            </row>
+            <row>
+              <entry>11</entry>
+              <entry>2.603</entry>
+              <entry>3.053</entry>
+              <entry>3.816</entry>
+              <entry>4.575</entry>
+              <entry>5.578</entry>
+              <entry>17.275</entry>
+              <entry>19.675</entry>
+              <entry>21.920</entry>
+              <entry>24.725</entry>
+              <entry>26.757</entry>
+            </row>
+            <row>
+              <entry>12</entry>
+              <entry>3.074</entry>
+              <entry>3.571</entry>
+              <entry>4.404</entry>
+              <entry>5.226</entry>
+              <entry>6.304</entry>
+              <entry>18.549</entry>
+              <entry>21.026</entry>
+              <entry>23.337</entry>
+              <entry>26.217</entry>
+              <entry>28.300</entry>
+            </row>
+            <row>
+              <entry>13</entry>
+              <entry>3.565</entry>
+              <entry>4.107</entry>
+              <entry>5.009</entry>
+              <entry>5.892</entry>
+              <entry>7.042</entry>
+              <entry>19.812</entry>
+              <entry>22.362</entry>
+              <entry>24.736</entry>
+              <entry>27.688</entry>
+              <entry>29.819</entry>
+            </row>
+            <row>
+              <entry>14</entry>
+              <entry>4.075</entry>
+              <entry>4.660</entry>
+              <entry>5.629</entry>
+              <entry>6.571</entry>
+              <entry>7.790</entry>
+              <entry>21.064</entry>
+              <entry>23.685</entry>
+              <entry>26.119</entry>
+              <entry>29.141</entry>
+              <entry>31.319</entry>
+            </row>
+            <row>
+              <entry>15</entry>
+              <entry>4.601</entry>
+              <entry>5.229</entry>
+              <entry>6.262</entry>
+              <entry>7.261</entry>
+              <entry>8.547</entry>
+              <entry>22.307</entry>
+              <entry>24.996</entry>
+              <entry>27.488</entry>
+              <entry>30.578</entry>
+              <entry>32.801</entry>
+            </row>
+            <row>
+              <entry>16</entry>
+              <entry>5.142</entry>
+              <entry>5.812</entry>
+              <entry>6.908</entry>
+              <entry>7.962</entry>
+              <entry>9.312</entry>
+              <entry>23.542</entry>
+              <entry>26.296</entry>
+              <entry>28.845</entry>
+              <entry>32.000</entry>
+              <entry>34.267</entry>
+            </row>
+            <row>
+              <entry>17</entry>
+              <entry>5.697</entry>
+              <entry>6.408</entry>
+              <entry>7.564</entry>
+              <entry>8.672</entry>
+              <entry>10.085</entry>
+              <entry>24.769</entry>
+              <entry>27.587</entry>
+              <entry>30.191</entry>
+              <entry>33.409</entry>
+              <entry>35.718</entry>
+            </row>
+            <row>
+              <entry>18</entry>
+              <entry>6.265</entry>
+              <entry>7.015</entry>
+              <entry>8.231</entry>
+              <entry>9.390</entry>
+              <entry>10.865</entry>
+              <entry>25.989</entry>
+              <entry>28.869</entry>
+              <entry>31.526</entry>
+              <entry>34.805</entry>
+              <entry>37.156</entry>
+            </row>
+            <row>
+              <entry>19</entry>
+              <entry>6.844</entry>
+              <entry>7.633</entry>
+              <entry>8.907</entry>
+              <entry>10.117</entry>
+              <entry>11.651</entry>
+              <entry>27.204</entry>
+              <entry>30.144</entry>
+              <entry>32.852</entry>
+              <entry>36.191</entry>
+              <entry>38.582</entry>
+            </row>
+            <row>
+              <entry>20</entry>
+              <entry>7.434</entry>
+              <entry>8.260</entry>
+              <entry>9.591</entry>
+              <entry>10.851</entry>
+              <entry>12.443</entry>
+              <entry>28.412</entry>
+              <entry>31.410</entry>
+              <entry>34.170</entry>
+              <entry>37.566</entry>
+              <entry>39.997</entry>
+            </row>
+            <row>
+              <entry>21</entry>
+              <entry>8.034</entry>
+              <entry>8.897</entry>
+              <entry>10.283</entry>
+              <entry>11.591</entry>
+              <entry>13.240</entry>
+              <entry>29.615</entry>
+              <entry>32.671</entry>
+              <entry>35.479</entry>
+              <entry>38.932</entry>
+              <entry>41.401</entry>
+            </row>
+            <row>
+              <entry>22</entry>
+              <entry>8.643</entry>
+              <entry>9.542</entry>
+              <entry>10.982</entry>
+              <entry>12.338</entry>
+              <entry>14.041</entry>
+              <entry>30.813</entry>
+              <entry>33.924</entry>
+              <entry>36.781</entry>
+              <entry>40.289</entry>
+              <entry>42.796</entry>
+            </row>
+            <row>
+              <entry>23</entry>
+              <entry>9.260</entry>
+              <entry>10.196</entry>
+              <entry>11.689</entry>
+              <entry>13.091</entry>
+              <entry>14.848</entry>
+              <entry>32.007</entry>
+              <entry>35.172</entry>
+              <entry>38.076</entry>
+              <entry>41.638</entry>
+              <entry>44.181</entry>
+            </row>
+            <row>
+              <entry>24</entry>
+              <entry>9.886</entry>
+              <entry>10.856</entry>
+              <entry>12.401</entry>
+              <entry>13.848</entry>
+              <entry>15.659</entry>
+              <entry>33.196</entry>
+              <entry>36.415</entry>
+              <entry>39.364</entry>
+              <entry>42.980</entry>
+              <entry>45.559</entry>
+            </row>
+            <row>
+              <entry>25</entry>
+              <entry>10.520</entry>
+              <entry>11.524</entry>
+              <entry>13.120</entry>
+              <entry>14.611</entry>
+              <entry>16.473</entry>
+              <entry>34.382</entry>
+              <entry>37.652</entry>
+              <entry>40.646</entry>
+              <entry>44.314</entry>
+              <entry>46.928</entry>
+            </row>
+            <row>
+              <entry>26</entry>
+              <entry>11.160</entry>
+              <entry>12.198</entry>
+              <entry>13.844</entry>
+              <entry>15.379</entry>
+              <entry>17.292</entry>
+              <entry>35.563</entry>
+              <entry>38.885</entry>
+              <entry>41.923</entry>
+              <entry>45.642</entry>
+              <entry>48.290</entry>
+            </row>
+            <row>
+              <entry>27</entry>
+              <entry>11.808</entry>
+              <entry>12.879</entry>
+              <entry>14.573</entry>
+              <entry>16.151</entry>
+              <entry>18.114</entry>
+              <entry>36.741</entry>
+              <entry>40.113</entry>
+              <entry>43.195</entry>
+              <entry>46.963</entry>
+              <entry>49.645</entry>
+            </row>
+            <row>
+              <entry>28</entry>
+              <entry>12.461</entry>
+              <entry>13.565</entry>
+              <entry>15.308</entry>
+              <entry>16.928</entry>
+              <entry>18.939</entry>
+              <entry>37.916</entry>
+              <entry>41.337</entry>
+              <entry>44.461</entry>
+              <entry>48.278</entry>
+              <entry>50.993</entry>
+            </row>
+            <row>
+              <entry>29</entry>
+              <entry>13.121</entry>
+              <entry>14.256</entry>
+              <entry>16.047</entry>
+              <entry>17.708</entry>
+              <entry>19.768</entry>
+              <entry>39.087</entry>
+              <entry>42.557</entry>
+              <entry>45.722</entry>
+              <entry>49.588</entry>
+              <entry>52.336</entry>
+            </row>
+            <row>
+              <entry>30</entry>
+              <entry>13.787</entry>
+              <entry>14.953</entry>
+              <entry>16.791</entry>
+              <entry>18.493</entry>
+              <entry>20.599</entry>
+              <entry>40.256</entry>
+              <entry>43.773</entry>
+              <entry>46.979</entry>
+              <entry>50.892</entry>
+              <entry>53.672</entry>
+            </row>
+            <row>
+              <entry>40</entry>
+              <entry>20.707</entry>
+              <entry>22.164</entry>
+              <entry>24.433</entry>
+              <entry>26.509</entry>
+              <entry>29.051</entry>
+              <entry>51.805</entry>
+              <entry>55.758</entry>
+              <entry>59.342</entry>
+              <entry>63.691</entry>
+              <entry>66.766</entry>
+            </row>
+            <row>
+              <entry>50</entry>
+              <entry>27.991</entry>
+              <entry>29.707</entry>
+              <entry>32.357</entry>
+              <entry>34.764</entry>
+              <entry>37.689</entry>
+              <entry>63.167</entry>
+              <entry>67.505</entry>
+              <entry>71.420</entry>
+              <entry>76.154</entry>
+              <entry>79.490</entry>
+            </row>
+            <row>
+              <entry>60</entry>
+              <entry>35.534</entry>
+              <entry>37.485</entry>
+              <entry>40.482</entry>
+              <entry>43.188</entry>
+              <entry>46.459</entry>
+              <entry>74.397</entry>
+              <entry>79.082</entry>
+              <entry>83.298</entry>
+              <entry>88.379</entry>
+              <entry>91.952</entry>
+            </row>
+            <row>
+              <entry>70</entry>
+              <entry>43.275</entry>
+              <entry>45.442</entry>
+              <entry>48.758</entry>
+              <entry>51.739</entry>
+              <entry>55.329</entry>
+              <entry>85.527</entry>
+              <entry>90.531</entry>
+              <entry>95.023</entry>
+              <entry>100.425</entry>
+              <entry>104.215</entry>
+            </row>
+            <row>
+              <entry>80</entry>
+              <entry>51.172</entry>
+              <entry>53.540</entry>
+              <entry>57.153</entry>
+              <entry>60.391</entry>
+              <entry>64.278</entry>
+              <entry>96.578</entry>
+              <entry>101.879</entry>
+              <entry>106.629</entry>
+              <entry>112.329</entry>
+              <entry>116.321</entry>
+            </row>
+            <row>
+              <entry>90</entry>
+              <entry>59.196</entry>
+              <entry>61.754</entry>
+              <entry>65.647</entry>
+              <entry>69.126</entry>
+              <entry>73.291</entry>
+              <entry>107.565</entry>
+              <entry>113.145</entry>
+              <entry>118.136</entry>
+              <entry>124.116</entry>
+              <entry>128.299</entry>
+            </row>
+            <row>
+              <entry>100</entry>
+              <entry>67.328</entry>
+              <entry>70.065</entry>
+              <entry>74.222</entry>
+              <entry>77.929</entry>
+              <entry>82.358</entry>
+              <entry>118.498</entry>
+              <entry>124.342</entry>
+              <entry>129.561</entry>
+              <entry>135.807</entry>
+              <entry>140.169</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+</tgroup><caption>I will write this later</caption>
+</table></section>
+  </content>
+</document>

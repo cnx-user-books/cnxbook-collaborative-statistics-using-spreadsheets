@@ -1,0 +1,75 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Normal Distribution: Using Spreadsheets to Explore the Normal Distribution</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47480</md:content-id>
+  <md:title>The Normal Distribution: Using Spreadsheets to Explore the Normal Distribution</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to explore the Normal Distribution.</md:abstract>
+  <md:uuid>4c83e645-3c74-4eb1-9e3d-fdcfd309b84a</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1812472">
+      <title>Normal Distribution using Spreadsheets</title>
+      <para id="import-auto-id2668798">In this section we will discuss techniques using spreadsheet for exploring normal probability distributions, finding z-scores, and displaying normal distributions. </para>
+      <section id="import-auto-id5500879">
+        <title>Normal Probability Distributions and Finding Z-scores</title>
+        <para id="import-auto-id5143950">You can set up a worksheet in Excel to computer probabilities for Standard Normal Distributions.  </para>
+        <table id="import-auto-id4694093" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>Function</entry>
+                <entry>Excel Formula</entry>
+                <entry>Google Spreadsheet formula</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Returns the Standard Normal Cumulative Distribution for a specified z value based on your value of interest in relationship to the mean and standard deviation of the data set.</entry>
+                <entry>=norm.dist(x, mean, standard deviation, True)</entry>
+                <entry>=normdist(x, mean, standard deviation, 1)</entry>
+              </row>
+              <row>
+                <entry>Returns the inverse of the Standard Normal Cumulative Distribution for a specified z value. It will give you a value of interest based on the probability of interest, mean, and standard score</entry>
+                <entry>=norm.inv(probability, mean, standard deviation)</entry>
+                <entry>=norminv(probability, mean, standard deviation)</entry>
+              </row>
+              <row>
+                <entry>Returns the Standard Normal Cumulative Distribution for a specified z value based on a Standard Distribution (0 as the mean and 1 as the standard deviation) This would be equivalent to looking up a cumulative distribution value using the z-score table.</entry>
+                <entry>=norm.s.dist(z-score of interest,True)</entry>
+                <entry>=normsdist(s-score of interest)</entry>
+              </row>
+              <row>
+                <entry>Returns the inverse of the Standard Normal Cumulative Distribution. Given a probability value, it will return the specified z value based on a Standard Distribution (0 as the mean and 1 as the standard deviation) This would be equivalent to looking up a z-score on using the z-score table, when you already have a probability of interest.</entry>
+                <entry>=norm.s.inv(probability value of interest)</entry>
+                <entry>=normsinv(probability value of interest)</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="import-auto-id5468406">Using the formulas shown in the Excel or a Google Spreadsheet can be used instead of a z-score table for homework and your project.</para>
+      </section>
+      <section id="import-auto-id4233675">
+        <title>Displaying Normal Distributions:</title>
+        <para id="import-auto-id4932427">To graph normal distributions the “Statistics Online Computational Resources (SOCR)” at <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> (just as in the previous chapter) has in the dropdown menu for SOCR distribution the normal distribution. For a normal distribution, you will need to have your mean and standard deviation and again your right and left cut off values. You can enter standard scores (0 as the mean, and 1 as the standard deviation) to use this template or you can use your actual mean and standard deviation to generate a graph of the distribution and the ancillary values of interest. Below is a graph based on a standard score and a graph where the actual mean and standard deviation were used.</para>
+        <figure id="import-auto-id3376004">
+          <media id="import-auto-id4254916" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-9c3a.png" height="401" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id4466889">
+          <media id="import-auto-id2164817" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-40c5.png" height="405" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id4133957">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1788778">At your computer, try to use some of these tools to work out your homework problems or check homework that you have completed to see if the results are the same or similar. </para>
+      </section>
+    </section>
+  </content>
+</document>

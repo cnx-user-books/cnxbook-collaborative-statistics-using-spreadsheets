@@ -1,0 +1,48 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Chi-Square Distribution: Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46789</md:content-id>
+  <md:title>The Chi-Square Distribution: Introduction</md:title>
+  <md:abstract>This module provides an introduction to Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>1bf439d9-52b2-4081-9592-5349f0fd303f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m17571/latest/" strength="2">View the Video Lecture for this Chapter</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content><section id="element-217"><title>Student Learning Outcomes</title><para id="element-335">
+By the end of this chapter, the student should be able to:
+</para><list id="element-377" list-type="bulleted"><item>Interpret the chi-square probability distribution as the sample size
+changes.</item>
+
+<item>Conduct and interpret chi-square test of independence hypothesis 
+tests.</item>
+
+</list></section><section id="id18472880"><title>Introduction</title>
+    <para id="delete_me">Have you ever wondered if the number of sessions students spent in one-on-one tutoring in a year varied by the students' grade level in school? How about if the types of movies people preferred
+were different across different age groups? What about if there were differences in the major reasons various age groups used park trails? You could answer these
+questions by conducting a hypothesis test.</para><para id="element-8">You will now study a new distribution, one that is used to determine the answers to the
+above examples. This distribution is called the Chi-square distribution.</para><para id="element-213">In this chapter, you will learn one of the three major applications of the Chi-square distribution:
+
+<list id="list-9872341" list-type="bulleted"><item>The test of independence, which determines if events are independent, such as 
+the examples above.</item>
+
+
+
+</list></para></section><section id="sec-184"><title>Optional Collaborative Classroom Activity</title>
+
+<para id="element-747">
+Look in the sports section of a newspaper or on the Internet for some sports data
+(baseball averages, basketball scores, golf tournament scores, football odds, swimming
+times, etc.). Plot a histogram and a boxplot using your data. See if you can determine a
+probability distribution that your data fits. Have a discussion with the class about your
+choice.</para></section>  
+
+  </content>
+  
+</document>

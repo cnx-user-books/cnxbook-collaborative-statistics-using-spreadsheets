@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Box Plots with Outliers</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46129</md:content-id>
+  <md:title>Box Plots with Outliers</md:title>
+  <md:abstract>This section gives step by step directions on how to convert a quick box plot to a box plot with outliers.</md:abstract>
+  <md:uuid>fcd80733-85da-42d7-86ac-8e35f5157f7e</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1168839601645">Now that you know how to find a quick box plot, one made up of the minimum value, first quartile, median, third quartile and maximum value we are going to go a step further and do the mathematics for an outlier box plot.  So instead of looking at the data and saying well that value looks different or far away from the rest of data so it must be an outlier we will have a concrete way of determining if data values are outliers.  </para>
+    <para id="import-auto-id1168847362275">An outlier is a data value that is well separated from most of the other data in a distribution.  Judging whether or not a value fits this definition relies on qualitative judgment.  What is needed is a more precise rule for identifying outliers.  Such a rule has been described by a statistician named John W. Tukey.  </para>
+    <section id="import-auto-id1168848968446">
+      <title>Finding Outliers</title>
+      <para id="import-auto-id1168839598993">Tukey uses the following procedure for identifying outliers.</para>
+      <list id="eip-280" list-type="enumerated" number-style="arabic"><item>Define the location of a FENCE as the value that is 1.5 times the interquartile range below the lower quartile, or above the upper quartile.</item>
+<item>Define the UPPER FENCE as the upper quartile plus one step. UPPER FENCE = Q3 + 1.5 (IQR)</item>
+<item>Define the LOWER FENCE as the lower quartile minus one step. LOWER FENCE = Q1 - 1.5 (IQR)</item>
+<item>Any value that is less than the Lower Fence or that is greater than the Upper Fence is declared an OUTLIER </item></list></section>
+    <section id="import-auto-id1168851480413">
+      <title>The Outlier Box Plot</title>
+      <para id="import-auto-id1168838595873">In order to draw an outlier box plot, you need to find two additional values, sometimes called the ADJACENT values.  The Lower Adjacent value is the actual value in the distribution that is closest to the Lower Fence, but which is not less than the Lower Fence.  Similarly, the Upper Adjacent Value is the actual value in the distribution that comes closest to the Upper Fence, but that is not greater than the Upper Fence.</para>
+      <para id="import-auto-id1168851564466">Let’s go through an example to understand the process of constructing an outlier box plot.  This example uses data on the number of hysterectomies performed by male doctors.</para>
+      <para id="import-auto-id1168852119394">The data for the male doctors are given as follows:</para>
+      <para id="import-auto-id1168844307989">20  25  25  27  28  31  33  34  36  37  44  50  59  85  86</para>
+      <para id="import-auto-id1168839431575">The first step is to determine the five number summary (a short hand for listing out some of your statistics).  The five number summary starts with the sample size (minimum, first quartile, median, third quartile, maximum value). For this data the five number summary is 15(20, 27, 34, 50, 86).</para><para id="import-auto-id1168847782418">A quick box plot based on this five number summary would look like the graph below:</para>
+      <figure id="import-auto-id1168852089216">
+        <media id="import-auto-id1168838993144" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6.png" height="145" width="624"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168847740051">From the five number summary we can determine that the Interquartile Range is </para>
+      <para id="import-auto-id1168851825730">IQR = Q3 - Q1 = 50 - 27 = 23</para>
+      <para id="import-auto-id1168848108607">Now that we have the IQR, we can calculate the location of the Fences.</para>
+      <para id="import-auto-id1168848200684">LOWER FENCE = Q1 – 1.5(IQR) = 27 – 1.5(23) = 27 - 34.5 = -7.5</para>
+      <para id="import-auto-id1168846844901">UPPER FENCE = Q3 + 1.5(IQR) = 50 + 1.5(23) = 50 + 34.5 = 84.5</para><para id="import-auto-id1168851033038">You will notice that the Lower Fence represents an impossible value for number of hysterectomies, -7.5.  Don't be concerned about this.  The fences are just boundaries that let us determine if there are any outliers.  In this situation, we know there are no outliers at the low end of the distribution since a doctor cannot perform less than 0 surgeries.  Also, the lowest value is 20, which is not lower than -7.5, so, once again, there are no outliers at the low end of the distribution.  In fact, we have just found the LOWER ADJACENT VALUE.  Because 20 is the lowest value that comes closest to the Lower Fence without being less than the Lower Fence, the Lower Adjacent Value is 20.</para>
+      <para id="import-auto-id1168847088706">To find the Upper Adjacent Value, look for the value that comes closest to 84.5 without being greater than 84.5.  The Upper Adjacent Value is therefore 59.  Any value that is greater than the Upper Adjacent Value is considered an outlier.  In this case there are two outliers at the upper end of the distribution, 85 and 86.  The outlier box plot for this data set would look like the graph shown below:</para>
+      <figure id="import-auto-id1168839059866">
+        <media id="import-auto-id1168847936836" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7.png" height="148" width="624"/>
+        </media>
+      </figure>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Confidence Interval: Assumptions and Conditions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46273</md:content-id>
+  <md:title>Confidence Interval: Assumptions and Conditions</md:title>
+  <md:abstract>This is a summary of the conditions data must meet in order to calculate a confidence interval.</md:abstract>
+  <md:uuid>2a798f11-669c-4642-acd9-4f89f2697746</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1171440783306">
+      <title>Assumptions and Conditions</title>
+      <para id="import-auto-id1171435799623">When constructing confidence intervals the assumptions and conditions of the central limit theorem must be met in order to use the normal model.</para>
+      <para id="import-auto-id1171440914930"><emphasis effect="bold">Randomization Condition:</emphasis> The data must be sampled randomly.  Is one of the good sampling methodologies discussed in the Sampling and Data chapter being used?</para>
+      <para id="import-auto-id1171443803588"><emphasis effect="bold">Independence Assumption</emphasis>:  The sample values must be independent of each other.  This means that the occurrence of one event has no influence on the next event.  Usually, if we know that people or items were selected randomly we can assume that the independence assumption is met.</para>
+      <para id="import-auto-id1171436666817"><emphasis effect="bold">10% Condition:  </emphasis>When the sample is drawn without replacement (usually the case), the sample size, <emphasis effect="italics">n</emphasis>, should be no more than 10% of the population.</para>
+      <para id="import-auto-id1171436870174"><emphasis effect="bold">Sample Size Condition:</emphasis>  The sample size must be sufficiently large.  Although the Central Limit Theorem tells us that we can use a Normal model to think about the behavior of sample means when the sample size is large enough, it does not tell us how large that should be. If the population is very skewed, you will need a pretty large sample size to use the CLT, however if the population is unimodal and symmetric, even small samples are ok.  So think about your sample size in terms of what you know about the population and decide whether the sample is large enough.  In general a sample size of 30 is considered sufficient.</para><para id="import-auto-id1171439576272">When working with <emphasis effect="bold">numerical data and σ is unknown</emphasis> the assumptions of randomization, independence and the 10% condition must be met.  In addition, with small sample sizes we cannot assume that that data follows a normal distribution so we need to check the <emphasis effect="bold">nearly normal condition</emphasis>.  To check the nearly normal condition start by making a histogram or stemplot of the data, it is a good idea to make an outlier boxplot, too.  If the sample is small, less than 15 then the data must be normally distributed.  If the sample size is moderate, between 15 and 40, then a little skewing in the data will can be tolerated.  With large sample sizes, more than 40, we are concerned about multiple peaks (modes) in the data and outliers.  The data might not be approximately normal with either of these conditions and you may want to run the test both with and without the outliers to determine the extent of their effect.  If there are multiple modes in the data if could be that there are two groups in the data that need to be separated.</para>
+      <para id="import-auto-id1171435832981">When working with <emphasis effect="bold">binomial or categorical data</emphasis> the assumptions of randomization, independence and the 10% condition must be met.  In addition, a new assumption, the <emphasis effect="bold">success/ failure condition</emphasis>, must be checked.  When working with proportions we need to be especially concerned about sample size when the proportion is close to zero or one.  To check that the sample size is large enough calculate the success by multiplying the sample percentage by the sample size and calculate failure by multiplying one minus the sample percentage by the sample size.  If both of these products are larger than ten then the condition is met.</para>
+      </section>
+  </content>
+</document>

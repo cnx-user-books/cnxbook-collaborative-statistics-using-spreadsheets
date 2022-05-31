@@ -1,0 +1,1377 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Collaborative Statistics: Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47474</md:content-id>
+  <md:title>Collaborative Statistics: Formulas</md:title>
+  <md:abstract>This module provides an overview of Statistics Formulas used as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>f157791d-4257-4c84-b781-65490f1f2f15</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-735"><title>Binomial Distribution</title><m:math>
+ <m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+<newline/>
+<m:math>
+<m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+
+    <m:msup>
+      <m:mi>p</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>
+       , for <m:math>
+<m:mi>x</m:mi>
+  <m:mo>=</m:mo>
+  <m:mn>0</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>1</m:mn>
+  <m:mo>,</m:mo>
+  <m:mn>2</m:mn>
+  <m:mo>,</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>.</m:mo>
+  <m:mo>,</m:mo>
+  <m:mi>n</m:mi>
+</m:math></para><para id="eip-443"><title>Binomial Probability</title><m:math>
+<m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:mn>n</m:mn>
+  <m:mn>!</m:mn>
+</m:mrow>
+<m:mrow>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>-</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>!</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>!</m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo>·</m:mo>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>x</m:mn>
+</m:msup>
+<m:mo>·</m:mo>
+<m:msup>
+<m:mi>q</m:mi>
+<m:mrow>
+<m:mn>n</m:mn>
+<m:mn>-</m:mn>
+<m:mn>x</m:mn>
+</m:mrow>
+</m:msup>
+</m:math>
+</para><para id="eip-536"><title>Central Limit Theorem</title><m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mrow>
+<m:mn>x</m:mn>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mi>μ</m:mi>
+</m:math></para><para id="eip-7"><title>Central Limit Theorem (standard error)</title><m:math>
+<m:msub>
+<m:mo>σ</m:mo>
+<m:mn>x</m:mn>
+<m:mn>-</m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mo>n</m:mo>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-497"><title>Chi-Square Distribution</title><m:math>
+ <m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+    <m:msubsup>
+      <m:mi>Χ</m:mi>
+      <m:mi>df</m:mi>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+</m:math>   
+
+<newline/>
+   <m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+      <m:msup>
+        <m:mi>e</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+    </m:mrow>
+    <m:mrow>
+      <m:msup>
+        <m:mn>2</m:mn>
+        <m:mfrac>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:msup>
+      <m:mi>Γ</m:mi>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+  </m:mfrac>
+</m:math>,
+<m:math><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math> , <m:math><m:mi>n</m:mi></m:math> = positive integer and degrees of freedom</para><para id="eip-894"><title>Confidence Intervals (one population)</title><m:math>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>-</m:mo>
+<m:mi>E </m:mi>
+<m:mo>&lt; </m:mo> 
+<m:mi>p </m:mi>
+<m:mo>&lt;</m:mo>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>+</m:mo>
+<m:mi>E</m:mi>
+</m:math>
+where
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math>
+<newline/>
+
+<m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>&lt;</m:mo>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>+</m:mo>
+<m:mi>E</m:mi>
+</m:math>
+where
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mo>n</m:mo>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+or
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mo>n</m:mo>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-23"><title>Confidence Interval (two populations)</title><m:math>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>&lt;</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>1</m:mo>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>2</m:mo>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>E</m:mi>
+</m:math>
+where
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>1</m:mo>
+</m:msub>
+<m:msub>
+<m:mover>
+<m:mi>q</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>1</m:mo>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>1</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>2</m:mo>
+</m:msub>
+<m:msub>
+<m:mover>
+<m:mi>q</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>2</m:mo>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math>
+
+<newline/>
+
+<m:math>
+<m:mo>(</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>1</m:mo>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>2</m:mo>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mo>1</m:mo>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>&lt;</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>1</m:mo>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>2</m:mo>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>E</m:mi>
+</m:math>
+where
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mo>σ</m:mo>
+<m:mo>1</m:mo>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>1</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mo>σ</m:mo>
+<m:mo>2</m:mo>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math>
+or
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:msub>
+<m:mo>s</m:mo>
+<m:mo>1</m:mo>
+</m:msub>
+<m:mo>2</m:mo>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>1</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:msub>
+<m:mo>s</m:mo>
+<m:mo>2</m:mo>
+</m:msub>
+<m:mo>2</m:mo>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math></para><para id="eip-663"><title>Goodness of Fit</title>Chi-Square
+<m:math>
+<m:mo>=</m:mo>
+<m:mi>χ</m:mi>
+<m:mo>=</m:mo>
+<m:mi>∑</m:mi>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+where
+
+<m:math>
+<m:mi>O</m:mi>
+<m:mo>=</m:mo>
+</m:math>
+
+observed and
+
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>row total</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>column total</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>grand total</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+and 
+
+<m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+</m:math></para><para id="eip-363"><title>Margin of Error (mean, σ known)</title><m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:msqrt>
+</m:mfrac>
+</m:math></para><para id="eip-393"><title>Margin of Error (mean, σ unknown)</title><m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+<m:msqrt>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:msqrt>
+</m:mfrac>
+</m:math></para><para id="eip-854"><title>Margin of Error (proportion)</title><m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math></para><para id="eip-418"><title>Mean</title><m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>∑</m:mi>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-918"><title>Mean (binomial)</title><m:math>
+<m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>·</m:mo>
+<m:mi>p</m:mi>
+</m:math></para><para id="eip-39"><title>Mean (frequency table)</title><m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>∑</m:mi>
+<m:mi>f</m:mi>
+<m:mo>·</m:mo>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>∑</m:mi>
+<m:mi>f</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-579"><title>Mean (probability distribution)</title><m:math>
+<m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+<m:mi>∑</m:mi>
+<m:mi>x</m:mi>
+<m:mo>·</m:mo>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:math></para><para id="eip-320"><title>Normal Distribution</title><m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>μ</m:mi>
+  <m:mo>,</m:mo>
+  <m:msup>
+    <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>)</m:mo>
+</m:math>   
+
+<newline/>
+<m:math>
+<m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+      <m:mi>σ</m:mi>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:msqrt>
+    </m:mrow>
+  </m:mfrac>
+  <m:msup>
+    <m:mi>e</m:mi>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>−</m:mo>
+          <m:mo>(</m:mo>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mi>μ</m:mi>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msup>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>σ</m:mi>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:msup></m:math> , <m:math>
+  <m:mspace width="12pt"/><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
+<m:mo>&lt;</m:mo><m:mi>∞</m:mi>
+</m:math></para><para id="eip-150"><title>Sample Size Determination (Mean)</title><m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mo>[</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:mi>σ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:msup>
+<m:mo>]</m:mo>
+<m:mo>2</m:mo>
+</m:msup>
+</m:math></para><para id="eip-814"><title>Sample Size Determination (Proportion)</title><m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mo>2</m:mo>
+</m:msup>
+<m:mo>·</m:mo>
+<m:mi>0.25</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>E</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-248"><title>Sample Size Determination (where p-hat and q-hat are known)</title><m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>z</m:mi>
+<m:mfrac>
+<m:mi>a</m:mi>
+<m:mi>2</m:mi>
+</m:mfrac>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mo>2</m:mo>
+</m:msup>
+<m:mo>·</m:mo>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>E</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-996"><title>Standard Deviation</title><m:math>
+<m:mi>s</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mi>∑</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math></para><para id="eip-713"><title>Standard Deviation (binomial)</title><m:math>
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+<m:mo>·</m:mo>
+<m:mi>p</m:mi>
+<m:mo>·</m:mo>
+<m:mi>q</m:mi>
+</m:msqrt>
+</m:math></para><para id="eip-459"><title>Standard Deviation (frequency table)</title><m:math>
+<m:mi>s</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>∑</m:mi>
+<m:mo>(</m:mo>
+<m:mi>f</m:mi>
+<m:mo>·</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mi>∑</m:mi>
+<m:mo>(</m:mo>
+<m:mi>f</m:mi>
+<m:mo>·</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math></para><para id="eip-756"><title>Standard Deviation (probability distribution)</title><m:math>
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mi>∑</m:mi>
+<m:mo>[</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+<m:mo>·</m:mo>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>]</m:mo>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>μ</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+</m:msqrt>
+</m:math></para><para id="eip-465"><title>Standard Deviation (shortcut)</title><m:math>
+<m:msqrt>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>∑</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mi>∑</m:mi>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math></para><para id="eip-347"><title>Standard Score</title><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>z</m:mi>
+<m:mo>-</m:mo>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+</m:mrow>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+or
+
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mi>z</m:mi>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo>σ</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-412"><title>Student-t Distribution</title><m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:msub>
+    <m:mi>t</m:mi>
+    <m:mi>df</m:mi>
+  </m:msub>
+</m:math></para><para id="eip-841"><title>Test for Independence or Homogeneity</title>Chi-Square
+<m:math>
+<m:mo>=</m:mo>
+<m:mi>χ</m:mi>
+<m:mo>=</m:mo>
+<m:mi>∑</m:mi>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+where
+
+<m:math>
+<m:mi>O</m:mi>
+<m:mo>=</m:mo>
+</m:math>
+
+observed and
+
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>row total</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>column total</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>grand total</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+and 
+
+<m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:mi>r</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mi>c</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+<m:mo>)</m:mo>
+</m:math></para><para id="eip-449"><title>Tests Statistic (one sample, μ known)</title><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+<m:mo>/</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-33"><title>Test Statistic (one sample, μ unknown)</title><m:math>
+<m:mi>t</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>s</m:mi>
+<m:mo>/</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+where
+
+<m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+</m:math></para><para id="eip-427"><title>Test Statistic (one sample, proportion)</title><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mo>-</m:mo>
+<m:mi>p</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-253"><title>Test Statistic (two samples, proportions)</title><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mover>
+<m:mi>p</m:mi>
+<m:mo>̂</m:mo>
+</m:mover>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+</m:mrow>
+
+<m:mrow>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+where
+
+<m:math>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math></para><para id="eip-317"><title>Test Statistic (two samples, two means, μ unknown)</title><m:math>
+<m:mi>t</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+</m:mrow>
+
+<m:mrow>
+<m:msqrt>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:msup>
+<m:mrow>
+<m:mi>s</m:mi>
+</m:mrow>
+<m:mi>2</m:mi>
+</m:msup>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+where
+
+<m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+</m:math>
+
+smaller of 
+
+<m:math>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+</m:math>
+
+or
+
+<m:math>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:mi>1</m:mi>
+</m:math></para><para id="eip-177"><title>Uniform Distribution</title><m:math>
+<m:mi>X</m:mi>
+  <m:mo>~</m:mo>
+  <m:mi>U</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>b</m:mi>
+  <m:mo>)</m:mo>
+</m:math>
+
+<newline/>
+<m:math>
+  <m:mi>f</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+      <m:mi>b</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>a</m:mi>
+    </m:mrow>
+  </m:mfrac>
+</m:math>
+, 
+<m:math>
+ <m:mi>a</m:mi>
+  <m:mo>&lt;</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>&lt;</m:mo>
+  <m:mi>b</m:mi>
+</m:math></para><para id="eip-934"><title>Variance</title><m:math>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+</m:math></para><para id="eip-218"><title>Variance (binomial)</title><m:math>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mo>2</m:mo>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>·</m:mo>
+<m:mi>p</m:mi>
+<m:mo>·</m:mo>
+<m:mi>q</m:mi>
+</m:math></para></content>
+  
+</document>

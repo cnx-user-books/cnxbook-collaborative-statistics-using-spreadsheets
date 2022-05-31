@@ -1,0 +1,637 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>t-table</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46791</md:content-id>
+  <md:title>t-table</md:title>
+  <md:abstract>student t-table with density curve</md:abstract>
+  <md:uuid>8f16be13-ea3b-415d-82d8-7cad02f5b763</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1166772391172">
+      <title>T-Table with Density Curve</title>
+      <figure id="import-auto-id1166767131052">
+        <media id="import-auto-id1166751124905" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-9ede.png" height="119" width="165"/>
+        </media>
+      </figure>
+      <table id="import-auto-id1166751110982" summary="This is a student t-table for determining the critical values for a t-test based on degrees of freedom in the first column and cumulative probability in columns 2-12 for one and two tail tests.">
+<tgroup cols="12"><colspec colnum="1" colname="c1" align="right"/>
+          <colspec colnum="2" colname="c2" align="right"/>
+          <colspec colnum="3" colname="c3" align="right"/>
+          <colspec colnum="4" colname="c4" align="right"/>
+          <colspec colnum="5" colname="c5" align="right"/>
+          <colspec colnum="6" colname="c6" align="right"/>
+          <colspec colnum="7" colname="c7" align="right"/>
+          <colspec colnum="8" colname="c8" align="right"/>
+          <colspec colnum="9" colname="c9" align="right"/>
+          <colspec colnum="10" colname="c10" align="right"/>
+          <colspec colnum="11" colname="c11" align="right"/>
+          <colspec colnum="12" colname="c12" align="right"/>
+          <thead>
+            <row>
+              <entry align="center">Cum. Prob</entry>
+              <entry align="center">t .5000</entry>
+              <entry align="center">t .7500</entry>
+              <entry align="center">t .8000</entry>
+              <entry align="center">t .8500</entry>
+              <entry align="center">t .9000</entry>
+              <entry align="center">t .9500</entry>
+              <entry align="center">t .9750</entry>
+              <entry align="center">t .9900</entry>
+              <entry align="center">t .9950</entry>
+              <entry align="center">t .9990</entry>
+              <entry align="center">t .9995</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry align="right">One-tail</entry>
+              <entry align="right">0.5000</entry>
+              <entry align="right">0.2500</entry>
+              <entry align="right">0.2000</entry>
+              <entry align="right">0.1500</entry>
+              <entry align="right">0.1000</entry>
+              <entry align="right">0.0500</entry>
+              <entry align="right">0.0250</entry>
+              <entry align="right">0.0100</entry>
+              <entry align="right">0.0050</entry>
+              <entry align="right">0.0010</entry>
+              <entry align="right">0.0005</entry>
+            </row>
+            <row>
+              <entry align="right">Two-tails</entry>
+              <entry align="right">1.000</entry>
+              <entry align="right">0.500</entry>
+              <entry align="right">0.400</entry>
+              <entry align="right">0.300</entry>
+              <entry align="right">0.200</entry>
+              <entry align="right">0.100</entry>
+              <entry align="right">0.050</entry>
+              <entry align="right">0.020</entry>
+              <entry align="right">0.010</entry>
+              <entry align="right">0.002</entry>
+              <entry align="right">0.001</entry>
+            </row>
+            <row>
+              <entry align="right">df</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry align="right">1</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">1.000</entry>
+              <entry align="right">1.376</entry>
+              <entry align="right">1.963</entry>
+              <entry align="right">3.078</entry>
+              <entry align="right">6.314</entry>
+              <entry align="right">12.710</entry>
+              <entry align="right">31.820</entry>
+              <entry align="right">63.660</entry>
+              <entry align="right">318.310</entry>
+              <entry align="right">636.620</entry>
+            </row>
+            <row>
+              <entry align="right">2</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.816</entry>
+              <entry align="right">1.061</entry>
+              <entry align="right">1.386</entry>
+              <entry align="right">1.886</entry>
+              <entry align="right">2.920</entry>
+              <entry align="right">4.303</entry>
+              <entry align="right">6.965</entry>
+              <entry align="right">9.925</entry>
+              <entry align="right">22.327</entry>
+              <entry align="right">31.599</entry>
+            </row>
+            <row>
+              <entry align="right">3</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.765</entry>
+              <entry align="right">0.978</entry>
+              <entry align="right">1.250</entry>
+              <entry align="right">1.638</entry>
+              <entry align="right">2.353</entry>
+              <entry align="right">3.182</entry>
+              <entry align="right">4.541</entry>
+              <entry align="right">5.841</entry>
+              <entry align="right">10.215</entry>
+              <entry align="right">12.924</entry>
+            </row>
+            <row>
+              <entry align="right">4</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.741</entry>
+              <entry align="right">0.941</entry>
+              <entry align="right">1.190</entry>
+              <entry align="right">1.533</entry>
+              <entry align="right">2.132</entry>
+              <entry align="right">2.776</entry>
+              <entry align="right">3.747</entry>
+              <entry align="right">4.604</entry>
+              <entry align="right">7.173</entry>
+              <entry align="right">8.610</entry>
+            </row>
+            <row>
+              <entry align="right">5</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.727</entry>
+              <entry align="right">0.920</entry>
+              <entry align="right">1.156</entry>
+              <entry align="right">1.476</entry>
+              <entry align="right">2.015</entry>
+              <entry align="right">2.571</entry>
+              <entry align="right">3.365</entry>
+              <entry align="right">4.032</entry>
+              <entry align="right">5.893</entry>
+              <entry align="right">6.869</entry>
+            </row>
+            <row>
+              <entry align="right">6</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.718</entry>
+              <entry align="right">0.906</entry>
+              <entry align="right">1.134</entry>
+              <entry align="right">1.440</entry>
+              <entry align="right">1.943</entry>
+              <entry align="right">2.447</entry>
+              <entry align="right">3.143</entry>
+              <entry align="right">3.707</entry>
+              <entry align="right">5.208</entry>
+              <entry align="right">5.959</entry>
+            </row>
+            <row>
+              <entry align="right">7</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.711</entry>
+              <entry align="right">0.896</entry>
+              <entry align="right">1.119</entry>
+              <entry align="right">1.415</entry>
+              <entry align="right">1.895</entry>
+              <entry align="right">2.365</entry>
+              <entry align="right">2.998</entry>
+              <entry align="right">3.499</entry>
+              <entry align="right">4.785</entry>
+              <entry align="right">5.408</entry>
+            </row>
+            <row>
+              <entry align="right">8</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.706</entry>
+              <entry align="right">0.889</entry>
+              <entry align="right">1.108</entry>
+              <entry align="right">1.397</entry>
+              <entry align="right">1.860</entry>
+              <entry align="right">2.306</entry>
+              <entry align="right">2.896</entry>
+              <entry align="right">3.355</entry>
+              <entry align="right">4.501</entry>
+              <entry align="right">5.041</entry>
+            </row>
+            <row>
+              <entry align="right">9</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.703</entry>
+              <entry align="right">0.883</entry>
+              <entry align="right">1.100</entry>
+              <entry align="right">1.383</entry>
+              <entry align="right">1.833</entry>
+              <entry align="right">2.262</entry>
+              <entry align="right">2.821</entry>
+              <entry align="right">3.250</entry>
+              <entry align="right">4.297</entry>
+              <entry align="right">4.781</entry>
+            </row>
+            <row>
+              <entry align="right">10</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.700</entry>
+              <entry align="right">0.879</entry>
+              <entry align="right">1.093</entry>
+              <entry align="right">1.372</entry>
+              <entry align="right">1.812</entry>
+              <entry align="right">2.228</entry>
+              <entry align="right">2.764</entry>
+              <entry align="right">3.169</entry>
+              <entry align="right">4.144</entry>
+              <entry align="right">4.587</entry>
+            </row>
+            <row>
+              <entry align="right">11</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.697</entry>
+              <entry align="right">0.876</entry>
+              <entry align="right">1.088</entry>
+              <entry align="right">1.363</entry>
+              <entry align="right">1.796</entry>
+              <entry align="right">2.201</entry>
+              <entry align="right">2.718</entry>
+              <entry align="right">3.106</entry>
+              <entry align="right">4.025</entry>
+              <entry align="right">4.437</entry>
+            </row>
+            <row>
+              <entry align="right">12</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.695</entry>
+              <entry align="right">0.873</entry>
+              <entry align="right">1.083</entry>
+              <entry align="right">1.356</entry>
+              <entry align="right">1.782</entry>
+              <entry align="right">2.179</entry>
+              <entry align="right">2.681</entry>
+              <entry align="right">3.055</entry>
+              <entry align="right">3.930</entry>
+              <entry align="right">4.318</entry>
+            </row>
+            <row>
+              <entry align="right">13</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.694</entry>
+              <entry align="right">0.870</entry>
+              <entry align="right">1.079</entry>
+              <entry align="right">1.350</entry>
+              <entry align="right">1.771</entry>
+              <entry align="right">2.160</entry>
+              <entry align="right">2.650</entry>
+              <entry align="right">3.012</entry>
+              <entry align="right">3.852</entry>
+              <entry align="right">4.221</entry>
+            </row>
+            <row>
+              <entry align="right">14</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.692</entry>
+              <entry align="right">0.868</entry>
+              <entry align="right">1.076</entry>
+              <entry align="right">1.345</entry>
+              <entry align="right">1.761</entry>
+              <entry align="right">2.145</entry>
+              <entry align="right">2.624</entry>
+              <entry align="right">2.977</entry>
+              <entry align="right">3.787</entry>
+              <entry align="right">4.140</entry>
+            </row>
+            <row>
+              <entry align="right">15</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.691</entry>
+              <entry align="right">0.866</entry>
+              <entry align="right">1.074</entry>
+              <entry align="right">1.341</entry>
+              <entry align="right">1.753</entry>
+              <entry align="right">2.131</entry>
+              <entry align="right">2.602</entry>
+              <entry align="right">2.947</entry>
+              <entry align="right">3.733</entry>
+              <entry align="right">4.073</entry>
+            </row>
+            <row>
+              <entry align="right">16</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.690</entry>
+              <entry align="right">0.865</entry>
+              <entry align="right">1.071</entry>
+              <entry align="right">1.337</entry>
+              <entry align="right">1.746</entry>
+              <entry align="right">2.120</entry>
+              <entry align="right">2.583</entry>
+              <entry align="right">2.921</entry>
+              <entry align="right">3.686</entry>
+              <entry align="right">4.015</entry>
+            </row>
+            <row>
+              <entry align="right">17</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.689</entry>
+              <entry align="right">0.863</entry>
+              <entry align="right">1.069</entry>
+              <entry align="right">1.333</entry>
+              <entry align="right">1.740</entry>
+              <entry align="right">2.110</entry>
+              <entry align="right">2.567</entry>
+              <entry align="right">2.898</entry>
+              <entry align="right">3.646</entry>
+              <entry align="right">3.965</entry>
+            </row>
+            <row>
+              <entry align="right">18</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.688</entry>
+              <entry align="right">0.862</entry>
+              <entry align="right">1.067</entry>
+              <entry align="right">1.330</entry>
+              <entry align="right">1.734</entry>
+              <entry align="right">2.101</entry>
+              <entry align="right">2.552</entry>
+              <entry align="right">2.878</entry>
+              <entry align="right">3.610</entry>
+              <entry align="right">3.922</entry>
+            </row>
+            <row>
+              <entry align="right">19</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.688</entry>
+              <entry align="right">0.861</entry>
+              <entry align="right">1.066</entry>
+              <entry align="right">1.328</entry>
+              <entry align="right">1.729</entry>
+              <entry align="right">2.093</entry>
+              <entry align="right">2.539</entry>
+              <entry align="right">2.861</entry>
+              <entry align="right">3.579</entry>
+              <entry align="right">3.883</entry>
+            </row>
+            <row>
+              <entry align="right">20</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.687</entry>
+              <entry align="right">0.860</entry>
+              <entry align="right">1.064</entry>
+              <entry align="right">1.325</entry>
+              <entry align="right">1.725</entry>
+              <entry align="right">2.086</entry>
+              <entry align="right">2.528</entry>
+              <entry align="right">2.845</entry>
+              <entry align="right">3.552</entry>
+              <entry align="right">3.850</entry>
+            </row>
+            <row>
+              <entry align="right">21</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.686</entry>
+              <entry align="right">0.859</entry>
+              <entry align="right">1.063</entry>
+              <entry align="right">1.323</entry>
+              <entry align="right">1.721</entry>
+              <entry align="right">2.080</entry>
+              <entry align="right">2.518</entry>
+              <entry align="right">2.831</entry>
+              <entry align="right">3.527</entry>
+              <entry align="right">3.819</entry>
+            </row>
+            <row>
+              <entry align="right">22</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.686</entry>
+              <entry align="right">0.858</entry>
+              <entry align="right">1.061</entry>
+              <entry align="right">1.321</entry>
+              <entry align="right">1.717</entry>
+              <entry align="right">2.074</entry>
+              <entry align="right">2.508</entry>
+              <entry align="right">2.819</entry>
+              <entry align="right">3.505</entry>
+              <entry align="right">3.792</entry>
+            </row>
+            <row>
+              <entry align="right">23</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.685</entry>
+              <entry align="right">0.858</entry>
+              <entry align="right">1.060</entry>
+              <entry align="right">1.319</entry>
+              <entry align="right">1.714</entry>
+              <entry align="right">2.069</entry>
+              <entry align="right">2.500</entry>
+              <entry align="right">2.807</entry>
+              <entry align="right">3.485</entry>
+              <entry align="right">3.768</entry>
+            </row>
+            <row>
+              <entry align="right">24</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.685</entry>
+              <entry align="right">0.857</entry>
+              <entry align="right">1.059</entry>
+              <entry align="right">1.318</entry>
+              <entry align="right">1.711</entry>
+              <entry align="right">2.064</entry>
+              <entry align="right">2.492</entry>
+              <entry align="right">2.797</entry>
+              <entry align="right">3.467</entry>
+              <entry align="right">3.745</entry>
+            </row>
+            <row>
+              <entry align="right">25</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.684</entry>
+              <entry align="right">0.856</entry>
+              <entry align="right">1.058</entry>
+              <entry align="right">1.316</entry>
+              <entry align="right">1.708</entry>
+              <entry align="right">2.060</entry>
+              <entry align="right">2.485</entry>
+              <entry align="right">2.787</entry>
+              <entry align="right">3.450</entry>
+              <entry align="right">3.725</entry>
+            </row>
+            <row>
+              <entry align="right">26</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.684</entry>
+              <entry align="right">0.856</entry>
+              <entry align="right">1.058</entry>
+              <entry align="right">1.315</entry>
+              <entry align="right">1.706</entry>
+              <entry align="right">2.056</entry>
+              <entry align="right">2.479</entry>
+              <entry align="right">2.779</entry>
+              <entry align="right">3.435</entry>
+              <entry align="right">3.707</entry>
+            </row>
+            <row>
+              <entry align="right">27</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.684</entry>
+              <entry align="right">0.855</entry>
+              <entry align="right">1.057</entry>
+              <entry align="right">1.314</entry>
+              <entry align="right">1.703</entry>
+              <entry align="right">2.052</entry>
+              <entry align="right">2.473</entry>
+              <entry align="right">2.771</entry>
+              <entry align="right">3.421</entry>
+              <entry align="right">3.690</entry>
+            </row>
+            <row>
+              <entry align="right">28</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.683</entry>
+              <entry align="right">0.855</entry>
+              <entry align="right">1.056</entry>
+              <entry align="right">1.313</entry>
+              <entry align="right">1.701</entry>
+              <entry align="right">2.048</entry>
+              <entry align="right">2.467</entry>
+              <entry align="right">2.763</entry>
+              <entry align="right">3.408</entry>
+              <entry align="right">3.674</entry>
+            </row>
+            <row>
+              <entry align="right">29</entry>
+              <entry align="right">0.000</entry>
+              <entry align="right">0.683</entry>
+              <entry align="right">0.854</entry>
+              <entry align="right">1.055</entry>
+              <entry align="right">1.311</entry>
+              <entry align="right">1.699</entry>
+              <entry align="right">2.045</entry>
+              <entry align="right">2.462</entry>
+              <entry align="right">2.756</entry>
+              <entry>3.396</entry>
+              <entry>3.659</entry>
+            </row>
+            <row>
+              <entry>30</entry>
+              <entry>0.000</entry>
+              <entry>0.683</entry>
+              <entry>0.854</entry>
+              <entry>1.055</entry>
+              <entry>1.310</entry>
+              <entry>1.697</entry>
+              <entry>2.042</entry>
+              <entry>2.457</entry>
+              <entry>2.750</entry>
+              <entry>3.385</entry>
+              <entry>3.646</entry>
+            </row>
+            <row>
+              <entry>40</entry>
+              <entry>0.000</entry>
+              <entry>0.681</entry>
+              <entry>0.851</entry>
+              <entry>1.050</entry>
+              <entry>1.303</entry>
+              <entry>1.684</entry>
+              <entry>2.021</entry>
+              <entry>2.423</entry>
+              <entry>2.704</entry>
+              <entry>3.307</entry>
+              <entry>3.551</entry>
+            </row>
+            <row>
+              <entry>60</entry>
+              <entry>0.000</entry>
+              <entry>0.679</entry>
+              <entry>0.848</entry>
+              <entry>1.045</entry>
+              <entry>1.296</entry>
+              <entry>1.671</entry>
+              <entry>2.000</entry>
+              <entry>2.390</entry>
+              <entry>2.660</entry>
+              <entry>3.232</entry>
+              <entry>3.460</entry>
+            </row>
+            <row>
+              <entry>80</entry>
+              <entry>0.000</entry>
+              <entry>0.678</entry>
+              <entry>0.846</entry>
+              <entry>1.043</entry>
+              <entry>1.292</entry>
+              <entry>1.664</entry>
+              <entry>1.990</entry>
+              <entry>2.374</entry>
+              <entry>2.639</entry>
+              <entry>3.195</entry>
+              <entry>3.416</entry>
+            </row>
+            <row>
+              <entry>100</entry>
+              <entry>0.000</entry>
+              <entry>0.677</entry>
+              <entry>0.845</entry>
+              <entry>1.042</entry>
+              <entry>1.290</entry>
+              <entry>1.660</entry>
+              <entry>1.984</entry>
+              <entry>2.364</entry>
+              <entry>2.626</entry>
+              <entry>3.174</entry>
+              <entry>3.390</entry>
+            </row>
+            <row>
+              <entry>1000</entry>
+              <entry>0.000</entry>
+              <entry>0.675</entry>
+              <entry>0.842</entry>
+              <entry>1.037</entry>
+              <entry>1.282</entry>
+              <entry>1.646</entry>
+              <entry>1.962</entry>
+              <entry>2.330</entry>
+              <entry>2.581</entry>
+              <entry>3.098</entry>
+              <entry>3.300</entry>
+            </row>
+            <row>
+              <entry>z-Score</entry>
+              <entry>0.000</entry>
+              <entry>0.674</entry>
+              <entry>0.842</entry>
+              <entry>1.036</entry>
+              <entry>1.282</entry>
+              <entry>1.645</entry>
+              <entry>1.960</entry>
+              <entry>2.326</entry>
+              <entry>2.576</entry>
+              <entry>3.090</entry>
+              <entry>3.291</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis effect="bold">Confidence Level</emphasis>
+              </entry>
+              <entry>0%</entry>
+              <entry>50%</entry>
+              <entry>60%</entry>
+              <entry>70%</entry>
+              <entry>80%</entry>
+              <entry>90%</entry>
+              <entry>95%</entry>
+              <entry>98%</entry>
+              <entry>99%</entry>
+              <entry>99.8%</entry>
+              <entry>99.90%</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></section>
+  </content>
+</document>

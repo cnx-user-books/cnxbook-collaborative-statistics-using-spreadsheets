@@ -1,0 +1,330 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Central Limit Theorem: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48359</md:content-id>
+  <md:title>Central Limit Theorem: Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>6d07f25c-0da5-47a3-adf8-eb697a182561</md:uuid>
+</metadata>
+
+<content>
+<rule id="rule-1" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sample Means</title><statement id="id6337619">
+<para id="element-1"><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mn>N</m:mn>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="35pt"/>
+</m:math>
+<emphasis>
+The Mean
+<m:math>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="10pt"/>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math></para></statement>
+</rule><rule id="rule-1_5" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sample Means  Z-Score and Standard Error of the Mean</title><statement id="id6532768">
+<para id="element-984"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="25pt"/>
+</m:math>
+<emphasis>
+Standard Error of the Mean (Standard Deviation
+<m:math><m:mo>(</m:mo><m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply><m:mo>)</m:mo></m:math>):</emphasis>
+
+<m:math>
+<m:mspace width="10pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+</para></statement>
+</rule><rule id="rule-2" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sums</title><statement id="id6417476">
+<para id="element-2"><m:math>
+
+<m:mi>ΣX</m:mi></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>[</m:mo>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>]</m:mo>
+<m:mspace width="10pt"/>
+</m:math>
+<emphasis>
+Mean for Sums
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>ΣX</m:mi>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="10pt"/>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math>
+
+</para>
+</statement>
+
+</rule>
+
+<rule id="rule-4" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sums Z-Score and Standard Deviation for Sums</title><statement id="id1309978">
+
+<para id="element-513"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>Σx</m:mi>
+<m:mo>−</m:mo>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="25pt"/>
+</m:math>
+<emphasis>
+Standard Deviation for Sums
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>ΣX</m:mi>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="25pt"/>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math></para>
+</statement>
+</rule><section id="eip-490"><title>Definitions</title><list id="eip-197"><title>Average</title><item>A number that describes the central tendency of the data. There are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean.</item>
+</list><list id="eip-683"><title>Central Limit Theorem</title><item>Given a random variable (RV) with known mean μ and known standard deviation σ. We are sampling with size n and we are interested in two new RVs - the sample mean,<m:math> <m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math>,
+
+and the sample sum, ΣX. 
+
+If the size n of the sample is sufficiently large, then <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mn>N</m:mn>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+
+</m:math>
+
+
+
+
+
+ and 
+
+<m:math>
+
+<m:mi>ΣX</m:mi></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+
+<m:mi>n</m:mi>
+
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+</m:math>. 
+
+If the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample  means will equal the population mean and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, 
+, is called the standard error of the mean</item>
+</list><list id="eip-370"><title>Mean</title><item>A number that measures the central tendency.  A common name for mean is  'average.'  The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by <m:math> <m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math>
+) is 
+<m:math> <m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math>(the sum of all values in the sample divided by the number of values in the sample), 
+
+and the mean for a population (denoted by 
+μ) is μ (the sum of all the values in the population divided by the number of values in the population)
+.</item>
+</list><list id="eip-565"><title>Standard Error of the Mean</title><item>The standard deviation of the distribution of the sample means, <m:math>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+
+
+</m:math>
+</item>
+</list></section>
+     
+  </content>
+  
+</document>

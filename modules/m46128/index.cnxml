@@ -1,0 +1,60 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Sampling and Data: Summary</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46128</md:content-id>
+  <md:title>Sampling and Data: Summary</md:title>
+  <md:abstract>This module provides an outline/review of key concepts related to statistical sampling and data.</md:abstract>
+  <md:uuid>78e49fd1-2bef-4aa3-a580-ce40891a4f4e</md:uuid>
+</metadata>
+
+<content>
+
+
+<list id="eip-567"><title>Average</title><item>A number that describes the central tendency of the data. There are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean.</item>
+</list><list id="eip-172"><title>Continuous Random Variable</title><item>A random variable (RV) whose outcomes are measured. Example: The height of trees in the forest is a continuous RV</item>
+
+</list><list id="eip-711"><title>Cumulative Relative Frequency  (cum. rel. freq. or cum RF)</title><item>An accumulation of the previous relative frequencies. The Cumulative Relative Frequency is the sum of the relative frequencies for all values that are less than or equal to the given value.</item></list><list id="eip-886"><title>Data</title><item>A set of observations (a set of possible outcomes). Most data can be put into two groups: qualitative (hair color, ethnic groups and other attributes of the population) and quantitative (distance traveled to college, number of children in a family, etc.). Quantitative data can be separated into two subgroups: discrete and continuous. Data is discrete if it is the result of counting (the number of students of a given ethnic group in a class, the number of books on a shelf, etc.).  Data is continuous if it is the result of measuring (distance traveled, weight of luggage, etc.)</item><item>Quantitative Data (a number)
+
+<list id="new" list-type="bulleted"><item>Discrete (You count it.)</item>
+ <item>Continuous (You measure it.)</item>
+</list>
+</item>
+
+<item>Qualitative Data (a category, words)</item></list><list id="eip-376"><title>Discrete Random Variable</title><item>A random variable (RV) whose outcomes are counted.</item>
+</list><list id="eip-302"><title>Frequency (freq. or f)</title><item>The number of times an answer occurs</item></list><list id="eip-958"><title>Parameter</title><item>A number that is a property of the population. </item>
+</list><list id="eip-664"><title>Population</title><item>The collection, or set, of all individuals, objects, or measurements whose properties are being studied.</item>
+</list><list id="element-935" list-type="bulleted"><title>Probability</title><item>Mathematical tool used to study randomness. A number between 0 and 1, inclusive, that gives the likelihood that a specific event will occur. </item>
+</list><list id="eip-609"><title>Proportion</title><item>As a number: A proportion is the number of successes divided by the total number in the sample.</item>
+<item>As a probability distribution:  Given a binomial random variable (RV), X ∼ B(n,p), consider the ratio of the number X of successes in n Bernouli trials to the number n of trials. </item>
+<item>p = x/n</item></list><list id="eip-483"><title>Random Sampling</title><item>Each member of the population has an equal chance of being selected</item></list><list id="eip-73"><title>Relative Frequency (rel. freq. or RF)</title><item>The proportion of times an answer occurs</item>
+<item>Can be interpreted as a fraction, decimal, or percent</item></list><list id="eip-878"><title>Sample</title><item>A portion of the population understudy. A sample is representative if it characterizes the population being studied.</item></list><list id="eip-981"><title>Sampling</title><item><emphasis>With Replacement</emphasis>: A member of the population may be chosen more than once</item>
+
+<item><emphasis>Without Replacement</emphasis>: A member of the population may be chosen only once</item></list><list id="eip-753"><title>Sampling Methods</title><item>Random
+<list id="element-2334a" list-type="bulleted">
+
+ <item>Simple random sample</item>
+ <item>Stratified sample</item>
+ <item>Cluster sample</item>
+ <item>Systematic sample</item>
+
+</list>
+</item>
+
+<item>Not Random
+<list id="element-9873a" list-type="bulleted">
+<item>Convenience sample</item>
+</list>
+</item>
+</list><list id="eip-619"><title>Statistic</title><item>A numerical characteristic of the sample. A statistic estimates the corresponding population parameter. For example, the average number of full-time students in a 7:30 a.m. class for this term (statistic) is an estimate for the average number of full-time students in any class this term (parameter).</item></list><list id="eip-259"><title>Statistics</title><item>Deals with the collection, analysis, interpretation, and presentation of data</item></list><list id="eip-378"><title>The 5 W's</title><item>Who</item>
+<item>What</item>
+<item>Why</item>
+<item>Where</item>
+<item>When</item>
+<item>How</item></list><list id="eip-690"><title>Variable</title><item>A characteristics of interest for each person or thing in a population. Variables may be numerical or categorical.</item>
+<item>Numerical variables take on values with equal units such as weight in pounds and time in hours.</item>
+<item>Categorical variables place the person or thing in to a category.</item></list><para id="eip-983"><title>Data Decision Tree</title><media id="DataDecisionTree" alt="This is a diagram of how to display categorical or quantitative data.">
+	   
+  <image mime-type="image/jpeg" src="../../media/descriptivestatisticsflowchart.jpeg" height="1760" print-width="6 in"/>
+		 
+</media></para></content>
+</document>

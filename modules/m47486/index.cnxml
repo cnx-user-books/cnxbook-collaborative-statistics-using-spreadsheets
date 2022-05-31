@@ -1,0 +1,121 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Chi-Square Distribution Using Spreadsheets to Calculate and Display Results</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47486</md:content-id>
+  <md:title>The Chi-Square Distribution Using Spreadsheets to Calculate and Display Results</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to calculate and display Chi-Square results for bivariate proportional data.</md:abstract>
+  <md:uuid>a673cc6d-f9ff-40ef-9030-0ad99d6ee182</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165234918899">
+      <title>The Chi-Square Distribution using Spreadsheets</title>
+      <para id="import-auto-id1165234563130">In this section we will discuss techniques using spreadsheet for exploring Chi-Square</para>
+      <section id="import-auto-id1165234459179">
+        <title>Hypothesis Testing Formulas</title>
+        <para id="import-auto-id1165234753483">In Excel and in Google Spreadsheet we will need to enter equations (as we did before) to generate the Chi-Square Expected Values before using the built in formulas. The built in formulas ask for the actual values and the expected values. To generate these values, we have created the following demonstration using the example 11.2 from the chapter. You can generate this type of contingency table using Pivot Tables. We will demonstrate how to use that table to create a table for expected values.</para>
+        <table id="import-auto-id1165236052629" summary="">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <thead>
+              <row>
+                <entry/>
+                <entry>A</entry>
+                <entry>B</entry>
+                <entry>C</entry>
+                <entry>D</entry>
+                <entry>E</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>2</entry>
+                <entry>Type of Volunteer</entry>
+                <entry>1-3 hrs.</entry>
+                <entry>4-6 hrs.</entry>
+                <entry>7-9 hrs.</entry>
+                <entry>Row Total</entry>
+              </row>
+              <row>
+                <entry>3</entry>
+                <entry>Community College Students</entry>
+                <entry>111</entry>
+                <entry>96</entry>
+                <entry>48</entry>
+                <entry>255</entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>Four-Year College Students</entry>
+                <entry>96</entry>
+                <entry>133</entry>
+                <entry>61</entry>
+                <entry>290</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>Nonstudents</entry>
+                <entry>91</entry>
+                <entry>150</entry>
+                <entry>53</entry>
+                <entry>294</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>Column Total</entry>
+                <entry>298</entry>
+                <entry>379</entry>
+                <entry>162</entry>
+                <entry>839</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="import-auto-id1165234657911">Using the cell addresses as above I will create the expected values using these formulas.</para>
+        <figure id="import-auto-id1165235079088">
+          <media id="import-auto-id1165234249901" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-18e2.png" height="240" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1165236240708">You will now have the data you need to use the Chisq.test formula. Pick a cell on your spreadsheet where you would like the results.  For this example we picked cell B16, so in cell A16 I entered my label. In cell B16 I typed, =chisq.test. The menu then pops up and lets you know to enter the actual values and the expected values. Once you select the cells that contain your actual and expected values the p-value for the chi-square test  will appear. Observe the following two screenshots. </para>
+        <figure id="import-auto-id1165234955658">
+          <media id="import-auto-id1165234747694" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-e659.png" height="428" width="541"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1165233061416">
+          <media id="import-auto-id1165234349811" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-084c.png" height="417" width="518"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1165234888276">If you are more interested in the actual Chi-Square calculation based on the sum of the (observed-expected)^2 / expected rather than the p-value output which is given by the above formula, we would need to create one more set of data, to create the Chi-Square sum value below you will see  the set up.</para>
+        <figure id="import-auto-id1165234959641">
+          <media id="import-auto-id1165234281203" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-d366.png" height="291" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1165233128738">These values will produce the following results.</para>
+        <figure id="import-auto-id1165233450629">
+          <media id="import-auto-id1165234977686" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-a071.png" height="203" width="575"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1165234979707">A Chi-Square sum value of 12.99</para>
+      </section>
+      <section id="import-auto-id1165234205236">
+        <title>Displaying Chi-Square Results:</title>
+        <para id="import-auto-id1165233045426">To graph Chi-Square Distribution use the “Statistics Online Computational Resources (SOCR)” (just as in the previous chapter) at <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> has in the dropdown menu for SOCR distribution the Chi-Square distribution. For the Chi-Square distribution, you will only need the Degrees of Freedom (c-1)*(r-1). You can then enter your right cut off values (which in this case will be your critical values). Below is a graph of the Chi distribution for the above example. <figure id="import-auto-id1165234372969"><media id="import-auto-id1165233454879" alt=""><image mime-type="image/png" src="../../media/graphics6-3dca.png" height="393" width="576"/></media></figure></para>
+        <para id="import-auto-id1165233114230">Note that our value of 12.99 gives us the probability value that we calculated using the Excel chisq.test. </para>
+      </section>
+      <section id="import-auto-id1165235241895">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1165234330443">At your computer, try to use some of these tools to work out your homework problems or check homework that you have completed to see if the results are the same or similar. </para>
+      </section>
+    </section>
+  </content>
+</document>

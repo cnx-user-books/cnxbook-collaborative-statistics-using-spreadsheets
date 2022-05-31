@@ -1,0 +1,68 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The Chi-Square Distribution: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46788</md:content-id>
+  <md:title>The Chi-Square Distribution: Summary of Formulas</md:title>
+  <md:abstract>This module provides a summary on formulas used in Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>49723b17-77cb-42ec-9685-ad8f8c6bc420</md:uuid>
+</metadata>
+
+<content>
+<list id="eip-958"><title>Test of Independence</title><item>Use the test of independence to test whether two factors are
+independent or not.</item>
+<item>The degrees of freedom are equal to
+<m:math><m:mtext>(number of columns - 1)(number of rows - 1)</m:mtext></m:math>.</item>
+<item>The test statistic is
+
+<m:math>
+<m:munder>
+<m:mi>Σ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>i</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>j</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:munder>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math> where
+<m:math><m:mi>O</m:mi></m:math> = observed values,
+<m:math><m:mi>E</m:mi></m:math> = expected values,
+<m:math><m:mi>i</m:mi></m:math> = the number of rows in the
+table, and 
+<m:math><m:mi>j</m:mi></m:math> = the number of columns in
+the table.
+</item>
+<item>The test is right-tailed.</item>
+<item>If the null hypothesis is true, the expected number 
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>(row total)(column total)</m:mtext>
+<m:mtext>total surveyed</m:mtext>
+</m:mfrac>
+</m:math>.
+
+</item>
+</list><note id="eip-697">The expected value for each cell needs to be at least 5 in order to
+use the Independence test.</note><section id="eip-419"><title>Glossary</title><para id="eip-666"><title>Contingency Table</title>
+The method of displaying a frequency distribution as a table with rows and columns to show how two variables may be dependent (contingent) upon each other.  The table provides an easy way to calculate conditional probabilities
+</para></section></content>
+  
+</document>

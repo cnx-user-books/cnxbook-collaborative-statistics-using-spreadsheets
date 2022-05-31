@@ -1,0 +1,442 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Normal Distribution: Calculations of Probabilities</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46212</md:content-id>
+  <md:title>Normal Distribution: Calculations of Probabilities</md:title>
+  <md:abstract/>
+  <md:uuid>b75527e3-aa46-437f-98c3-49a9133a0d17</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Probabilities are calculated by using technology and the normal distribution table in the appendix of the text.</para><example id="element-375"><para id="element-437">
+ If the area to the left is 0.0228, then the area to the right is <m:math><m:mn>1</m:mn> 
+<m:mo>-</m:mo> 
+<m:mn>0.0228</m:mn>
+<m:mo>=</m:mo> 
+<m:mn>0.9772</m:mn>
+</m:math>.
+</para>
+</example><example id="element-961"><para id="element-231">
+The final exam scores in a statistics class were normally distributed with a mean
+of 63 and a standard deviation of 5.
+</para><exercise id="element-857"><problem id="id1168986723014">
+  <para id="element-415">
+    Find the probability that a randomly selected student scored more than 65 on the exam.
+  </para> 
+</problem>
+
+<solution id="id1168986723026">
+  <para id="element-83">Start by defining the variable and describing the population Let <m:math>
+		<m:mi>X</m:mi>
+		<m:mo>=</m:mo>
+	</m:math> a score on the final exam.
+<m:math>
+		<m:mi>X</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mn>63</m:mn>
+		<m:mo>,</m:mo>
+		<m:mn>5</m:mn>
+		<m:mo>)</m:mo>
+
+</m:math>, where <m:math>
+		<m:mi>μ</m:mi>
+		<m:mo>=</m:mo>
+		<m:mn>63</m:mn>
+</m:math> and <m:math>
+		<m:mi>σ</m:mi>
+		<m:mo>=</m:mo>
+		<m:mn>5</m:mn>
+	</m:math>
+</para><para id="eip-id1169334667215">Next calculate the z-score, 
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>x</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>65</m:mn>
+<m:mo>-</m:mo>
+<m:mn>63</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>0.40</m:mn>
+<m:mspace width="20pt"/>
+</m:math>
+
+
+</para>
+<para id="element-449">Then draw the normal distribution curve labeling the x-axis with z-scores.  Remember that the peak of the distribution will be at zero.  Graph where a z-score of +0.40 will be found.  We want the probability of being more than this z=score. </para><para id="element-389"><m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>65</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+</m:math>.</para><para id="element-294"><m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>z</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>+0.40</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+
+</m:math>
+</para><para id="element-778"><media id="id1168988266495" alt="Normal distribution curve with values of 63 and 65. A vertical upward line extends from point 65 to the curve. The probability area from point 65 to the end of the curve is equal to +0.4000."><image src="../../media/NDPicture2.png" mime-type="image/png" print-width="3in"/></media>
+</para><para id="element-45">Using the normal distribution table locate the z-score you calculated.  The ones and tenths place is found along the side of the table and the hundredths place is located at the top of the table.  Our z-score is +0.40 so we will use the positive z-score table and find 0.4 on the side and 0.00 on the top.  Our probability is found where this row and column intersect.</para><para id="element-736"><media id="import-auto-id9043987" alt="This is picture of a z-chart with 9 columns and 7 rows. The second column and the sixth row is highlighted as the probability for a z score of 0.40 which is 0.6554">
+          <image mime-type="image/png" src="../../media/chapt 6 new2.PNG" height="252" width="624"/>
+        </media></para><para id="element-862">Remember that we are looking for the probability of more than +0.40, P(x &gt; 65) = P(z &gt; +0.40).  Our table tells us the probability of being less than our z-score so we need to subtract the probability on the chart from one.
+<media id="import-auto-id2774793" alt="This is a picture of a standard normal curve with the z score of 0.40 indicated and the standard normal curve is shaded from that point 0.40 to the right until the end of the standard normal curve.">
+          <image mime-type="image/png" src="../../media/NDPicture11.png" height="218" width="402"/>
+        </media></para></solution>
+</exercise><exercise id="element-243"><problem id="id1168986705169">
+  <para id="element-950">Find the probability that a randomly selected student scored less than 76.3.
+  </para>
+</problem>
+
+<solution id="id1168986705184">
+  <para id="eip-id1169361198251">Using the same population mean and standard deviation in problem 1 , let X = score on the final exam.  X~N(63, 5), where µ = 63 and σ = 5.</para><para id="eip-id1165068499100">Next calculate the z-score, 
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>x</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>76.3</m:mn>
+<m:mo>-</m:mo>
+<m:mn>63</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mn>13.3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>2.66</m:mn>
+<m:mspace width="20pt"/>
+</m:math>
+</para><para id="element-181">Then draw the normal distribution curve labeling the x-axis with z-scores.  Remember that the peak of the distribution will be at zero.  Graph where a z-score of +2.66 will be found.  We want the probability of being less than this z=score, P(x &lt; 76.3) = P(z &lt; +2.66), so we will shade the graph to the left. <figure id="import-auto-id2773241"><media id="import-auto-id1167013653860" alt="This is a standard normal curve that is shaded from a z score of -3 to the z score of +2.66"><image mime-type="image/png" src="../../media/NDPicture18.png" height="174" width="324" print-width="3in"/></media></figure><media id="import-auto-id5005742" alt="This is a picture of a z-score table indicating the intersection of the z score 1.46 which yeilds a probability of 0.9961 ">
+          <image mime-type="image/png" src="../../media/chap 6 z-score.PNG" height="272" width="624"/>
+        </media></para><para id="element-497">Our table tells us the probability of being less than our z-score the probability we see on the table is the answer to our question;
+<m:math>
+		<m:reln><m:lt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>x</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mn>76.3</m:mn>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+	</m:math>
+=
+<m:math>
+		<m:mspace width="4pt"/>
+		<m:reln><m:lt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>z</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mn>+2.66</m:mn>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+		<m:mo>=</m:mo>
+		<m:mn>0.9961 or 99.61%.</m:mn>
+	</m:math>
+     </para><para id="element-440">The probability that one student scores less than 76.3 is approximately .9961 (or 99.61%).</para></solution>
+</exercise><exercise id="element-585"><problem id="id1168986688411">
+  <para id="element-922">Find the 90th percentile (that is, find the score k that has 90 % of the scores below k and
+10% of the scores above k). We are using the same population as in the previous problems,  X~N(63, 5).
+  </para></problem>
+
+<solution id="id1168986688427">
+  <para id="element-815">Start by using the standard normal table and finding which z-score gives a probability closest to 90% or 0.90.  To do this look at the probabilities in the interior of the table, 0.8997 is the closest .090.  The z-score for this probability is 1.28.</para>
+
+<para id="element-816"> <media id="import-auto-id2260494" alt="This is a picture of a z score table indicating the z score value for 2.66 which is the probability of 0.9961">
+          <image mime-type="image/png" src="../../media/NDPicture24.png" height="230" width="624"/>
+        </media>
+      </para>
+
+<para id="element-582">Next draw the graph and shading the area that corresponds to the 90<sup>th</sup> percentile.</para><para id="element-147"><media id="id1168986688569" alt="Normal distribution curve with values of 63 and x on the x-axis. The x-axis is equal to X. A vertical upward line extends from point x to the curve. The probability area, occurring from the beginning of the curve to point x, is equal to 0.90."><image src="../../media/NDPicture19.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-488">Find the z-score 1.28 on graph and shade the area to the right.  Using your z-score, mean and standard deviation put the values you know into the z-score formula.
+
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>k</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac></m:math> Use algebra to solve for k, the score closest to 90% <m:math><m:mo> 1.28 =</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>k</m:mn>
+<m:mo>-</m:mo>
+<m:mn>63</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+
+
+
+</m:math></para></solution>
+</exercise><para id="eip-1">The score closest to 90% is 69.4.</para></example><example id="element-32"><para id="element-190">A computer is used for office work at home, research, communication, personal finances, education,
+entertainment, social networking and a myriad of other things. Suppose that the average number of hours a household
+personal computer is used for entertainment is 2 hours per day. Assume the times for
+entertainment are normally distributed and the standard deviation for the times is half an hour.
+</para><exercise id="element-496"><problem id="id1168986736072">
+  <para id="element-723">
+Find the probability that a household personal computer is used between 1.8 and 2.75 hours
+per day.
+  </para>
+</problem>
+
+<solution id="id1168986736088">
+  <para id="element-150">Let 
+<m:math><m:mi>X</m:mi></m:math> = the amount of time (in hours) a household personal computer is used for entertainment.
+<m:math>
+		<m:mi>x</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mn>2</m:mn>
+		<m:mo>,</m:mo>
+		<m:mn>0.5</m:mn>
+		<m:mo>)</m:mo>
+	</m:math>
+where <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:math> and 
+<m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>0.5</m:mn></m:math>.
+  </para><para id="element-923">Find <m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mn>1.8</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>2.75</m:mn>
+<m:mo>)</m:mo>
+</m:math>. 
+We want to know the probability of being between 1.8 and 2.75 hours. Start by calculating the z-score for each of these values. 
+To calculate the z-score, 
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>x</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>1.8</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.5</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mn>-0.2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>-0.40</m:mn>
+<m:mspace width="15pt"/>
+</m:math>
+
+
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>x</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>2.75</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.5</m:mn>
+</m:mrow>
+</m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mn>.75</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>1.5</m:mn>
+<m:mspace width="10pt"/>
+</m:math>
+</para><para id="element-618">Draw the standard normal distribution curve labeling the x-axis with z-scores.  Graph where a z-score of -0.40 and +1.50 will be found.  We want the probability of being between these z-scores, P(1.8&lt;x &lt;2.75) = P(-0.40&lt;z &lt;+1.50), so we will shade between these two z-scores. <figure id="import-auto-id9037541"><media id="import-auto-id1400045" alt="Normal distribution curve with z scores from -0.40 to +1.50 shaded."><image mime-type="image/png" src="../../media/NDPicture23.png" height="200" width="345" print-width="3in"/> </media></figure></para>
+
+<para id="element-619">Now look up the two z-scores on the Z-score table to find their probabilities. P(z&lt;-0.40) = 0.3446 and P(z&lt;1.50) = 0.9332. To find the probability of being between two values subtract the two probabilities, the larger probability take away the smaller probability, 0.9332 - 0.3446 = 0.5886.</para><para id="element-620">
+<m:math>
+<m:mspace width="15pt"/> 
+<m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mn>-0.40</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi>z</m:mi>
+</m:mrow>
+</m:reln>
+<m:mrow>
+<m:mn>+1.50</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.5886</m:mn>
+</m:math></para><para id="element-319"><media id="id1168986736293" alt="Normal distribution curve with values 1.8, 2, and 2.75 on the x-axis. The x-axis is equal to X. Vertical upward lines extend upward from 1.8 and 2.75 to the curve."><image src="../../media/normdist_calcprop3.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-292">The probability that a household personal computer is used between 1.8 and 2.75 hours
+per day for entertainment is 0.5886.</para>
+</solution>
+</exercise><exercise id="element-423"><problem id="id1168986736344">
+  <para id="element-72">
+   Find the maximum number of hours per day that the bottom quartile of households use a
+personal computer for entertainment.
+  </para>
+</problem>
+
+<solution id="id1168986736360">
+  <para id="element-958">To find the maximum number of hours per day that the bottom quartile of
+households uses a personal computer for entertainment, <emphasis>find the 25th percentile, <m:math><m:mi>k</m:mi></m:math></emphasis>,
+where 
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+</m:mrow>
+<m:mrow> 
+<m:mi>k</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mn>0.25</m:mn>
+</m:math>.
+  </para><para id="element-754"><media id="id1168986736428" alt="Normal distribution curve with value k on the x-axis. The probability area from k to the end of the curve is equal to 0.75 and the rest of the area is equal to 0.25."><image src="../../media/normdist_calcprop4.png" mime-type="image/png"/></media></para><para id="element-660">Find the z-score that has a probability closest to 25% or .25. The P(z&lt;-0.67)=0.2514.  Using the same population as in the previous problem, X~N(2, 0.5) put what you know into the z-score formula and solve for k. 
+
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>k</m:mn>
+<m:mo>-</m:mo>
+<m:mn>µ</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>σ</m:mn>
+</m:mrow>
+</m:mfrac></m:math> Use algebra to solve for k, the score closest to 25% <m:math><m:mo> -0.67 =</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>k</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.5</m:mn>
+</m:mrow>
+</m:mfrac>
+
+
+
+</m:math></para><para id="element-344">The maximum number of hours per day that the bottom quartile of households uses a
+personal computer for entertainment is 1.66 hours.</para></solution>
+</exercise>
+</example>   
+  </content>
+  
+</document>

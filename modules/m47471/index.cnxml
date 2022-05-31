@@ -1,0 +1,153 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Bivariate Descriptive Statistics: Using Spreadsheets to View and Summarize Data</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47471</md:content-id>
+  <md:title>Bivariate Descriptive Statistics: Using Spreadsheets to View and Summarize Data</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to explore and summarize bivariate data.</md:abstract>
+  <md:uuid>943c4600-0fb4-42c6-ba5d-4e34ee58b8f1</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163884617020">
+      <title>Displaying Bivariate Data in Graphs</title>
+      <para id="import-auto-id1163888394622">In this section we will discuss techniques using a spreadsheet for displaying quantitative data using stemplots, histograms, boxplots and qualitative data using bar graphs and pie charts. We will primarily use Microsoft Excel and Google Spreadsheet, as we will use these two resources for sampling and surveying in this introductory course.  </para>
+    </section>
+    <section id="import-auto-id1163867322465">
+      <title>Categorical- Categorical</title>
+      <para id="import-auto-id1163888535227">We will review a few techniques that you will use to create, copy, and paste into a document, and save your displays of data.  </para>
+      <para id="import-auto-id1163877667008"><emphasis effect="bold"><emphasis effect="italics">Contingency Tables: </emphasis></emphasis><emphasis effect="bold">Excel </emphasis>- We will use pivot tables to create contingency tables. We have used them before for univariate data. This time we will highlight two columns of data to create our pivot tables.  Both columns of data must be categorical. The two columns of data must be side-by-side. A good technique to use is to copy the two columns of data you want to display in a contingency table to a new labeled worksheet, side by side.  The example below demonstrates that process. </para>
+      <figure id="import-auto-id1163888477081">
+        <media id="import-auto-id1163875429165" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-787e.png" height="436" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163888482146">I have two columns of data in a new worksheet labeled. When I mouse over the OK button, and click, the PivotTable Fields will appear and I can use them to create a contingency table. I usually select the variable with the least number of “categories” for the columns and the variable with the largest number of “categories” for the rows. This just makes the chart easier to cut and paste into a word document. In the example below I have dragged and dropped “Where do you live?” to the “Columns” field and “College Rank” to the “Rows” field. I can then either put college rank or where do you live in the “Values” field. For this example I put college rank into the values field. I now have a contingency table. See image below. I have only the “counts” in my contingency table. The next step will be to create row or column percents.</para>
+      <figure id="import-auto-id1163890155982">
+        <media id="import-auto-id1163865194672" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-bdd2.png" height="332" width="575"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163900484402">I can now add another “college rank” to the “Values” field to create a percent field. I now have two “college rank” fields in my “Values” field.  I will create percentages for either row or columns by clicking on the down arrow next to the count of “college rank” and picking “Value field setting” from the drop-down menu.  When I pick “value field settings” a pop-up menu will appear and you will select the tab that says “Show Values As”, and then from the drop-down menu of “Show Values As”, select percent of column or percent of rows. For this example I have picked “percent of column” since my data is mostly off campus. I can now see that 60 percent of the students from this sample that live off campus are seniors.  I can use the percents to interpret my data. Note that when I created the second “Values” field, a “Value” field was created in the “Columns” field. You don’t create this field, the Excel spreadsheet did that automatically from you creation in the “Values” field. See image below. Also note that I highlighted my titles on the actual PivotTable and then from the home tab selected “wrap text” to make my columns neater. You can experiment with other editing of the titles to get the “look” you want. </para>
+      <figure id="import-auto-id1163890376101">
+        <media id="import-auto-id1163888997408" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-a5b4.png" height="351" width="576"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1163865010512"><emphasis effect="bold">Google Spreadsheet</emphasis> – You can create pivot tables in Google Spreadsheet as you did for univariate data however you have the same limitations, you cannot create row or column percentages unless you create them using formula (which you can do!) The only difference here is that you will again highlight two columns of data that you want to look at in the pivot table and select one for the rows and one for the columns. See the image below. Go back to Sampling and Data to get more details on how to find the Report Editor.</para>
+      <figure id="import-auto-id1163865168744">
+        <media id="import-auto-id1163875359754" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-4e7e.png" height="369" width="575"/>
+        </media>
+      </figure>
+      <section id="import-auto-id1163888546185">
+        <title>Bar Graphs (stacked and side by side): </title>
+        <para id="import-auto-id1163886959998">In both Excel and Google Spreadsheet, it is very easy to create side by side or stacked bar graphs directly from your contingency tables.  Highlight the fields on your contingency table (note do not highlight the totals column or any of the cell highlighted “blue”) and then go to your insert tab and insert a chart. See the fields highlighted (the area highlighted grey with a green border around it) in the figure below.</para>
+        <figure id="import-auto-id1163865550259">
+          <media id="import-auto-id1163887256666" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-e2e5.png" height="230" width="464"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163886425235">You have a choice of side by side or stacked. In Excel you can use your percentages.  In Google Spreadsheet you will need to create your percentages if you want them in your bar graphs.  Below is output from Excel and Google Spreadsheet. Both spreadsheet programs give you many options in the design and format modes. In Excel you can access the design you want from the Change Chart Type field on the Design Tab. In Google Spreadsheet you change chart types in the Chart editor under the start tab or the charts tab.  Explore . . . it’s fun. </para>
+        <figure id="import-auto-id1163876796130">
+          <media id="import-auto-id1163867815314" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-6b27.png" height="436" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1163881272980">
+          <media id="import-auto-id1163886549054" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-ab3a.png" height="413" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id2869125">
+          <media id="import-auto-id1163874179285" alt="">
+            <image mime-type="image/png" src="../../media/graphics8-6ae7.png" height="350" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1163864293119">
+        <title>Pie Charts:</title>
+        <para id="import-auto-id1163891510597">Pie charts are created the same way as bar graphs in Excel and in Google Spreadsheets using the pivot table . . . however you will need to change the order of the columns to create multiple pie charts. If you use the sort function in the PivotTable field (highlighted in green below) the field at the top of the PivotChart Fields, mouse over the down arrow, a popup menu will appear, pick a different sort option (a to z, z to a, or more sort options), and then the order of your columns will change. See Image of the popup menu below.</para>
+        <figure id="import-auto-id1163901848714">
+          <media id="import-auto-id1163883445883" alt="">
+            <image mime-type="image/png" src="../../media/graphics9-382a.png" height="357" width="461"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163881588188">To make multiple pie charts you will need to copy the pie chart as a picture and paste it on your spreadsheet before you pick an alternative sort method.  If you do not copy the pie chart as a picture, when you sort the data, you graph will change (it remains dynamic). Same is true when creating pie charts in Google Spreadsheet.  </para>
+      </section>
+      <section id="import-auto-id1163867353631">
+        <title>Optional Classroom Exercise for Categorical –Categorical Data:</title>
+        <para id="import-auto-id1163881484293">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Google Spreadsheet or Excel; (3) create a new worksheet tab and label it Bivariate Graphs for Categorical Data; (4) pick two column of data that are categorical and has been “cleaned” and create a contingency table, side by side bar graphs and side by side pie graphs with all the appropriate labels; And (5) save the file again and post in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1163871952121">
+        <title>Categorical - Numerical</title>
+        <para id="import-auto-id1163885151530">When working with categorical and numerical data and Excel or Google Spreadsheet, one of the best first steps is again, to copy the columns of data from your working data sheet to a new spreadsheet, and label the spreadsheet. The next step will be to sort the data. You must be sure to sort both columns of data together.  The data from the categorical column and the numerical column are related.  They are a pair of data from the same source. In examining categorical – numerical data we want to know what is the relationship between the two responses, so we <emphasis effect="bold">must</emphasis> keep the two columns together. </para>
+        <para id="import-auto-id1163888474604"><emphasis effect="bold">Sorting Data:  </emphasis>To sort data in Excel or Google Spreadsheet, you will go to the “DATA” tab and select “sort data” you want to sort by your categorical data based on the alphabet. Once you have sorted the data the order will change. Once you have the new order of your data you will need to copy in a separate column each of the numeric data for each unique categorical data source. See the example below. I have labeled each column by the category and have copied only the numeric data related to the category in the rows below the title of the column. Note that I used “wrap text” to keep my titles compact and I copied my data into the appropriate columns based on my titles. This is the same process in Excel and in Google Spreadsheet. </para>
+        <figure id="import-auto-id1163881182571">
+          <media id="import-auto-id1163867671646" alt="">
+            <image mime-type="image/png" src="../../media/graphics10-3c70.png" height="380" width="554"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1163905526325">
+          <media id="import-auto-id1163886947276" alt="">
+            <image mime-type="image/png" src="../../media/graphics11-7158.png" height="578" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163880830742"><emphasis effect="bold">Descriptive Statistics: </emphasis>Once you have created your columns of sorted data you can select all of the columns and create your summary descriptive statistics using the Data Analysis Tool in Excel or by using formula to create you summary statistics in Excel or Google Spreadsheet.</para>
+        <figure id="import-auto-id1163866454287">
+          <media id="import-auto-id1163890908872" alt="">
+            <image mime-type="image/png" src="../../media/graphics12-e019.png" height="422" width="575"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1163896695230">
+          <media id="import-auto-id1163904893378" alt="">
+            <image mime-type="image/png" src="../../media/graphics13-58b7.png" height="635" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163885075663"><emphasis effect="bold">Side by Side Histogram</emphasis> will need to be created individually as we did in Univariate Descriptive Statistics using the individual columns of data and then copy and pasting them side by side using either Excel or Google Spreadsheets. </para>
+        <para id="import-auto-id1163884216222"><emphasis effect="bold">Side by Side Box Plots</emphasis> will also need to be create individually in Excel as we did in Univariate Descriptive Statistics however you will use the template especially created for multiple side by side box plots. </para>
+        <para id="import-auto-id1163875430615"><emphasis effect="bold">Side by Side Stem and Leaf</emphasis> graphs also will use the same methods as we used in Univariate Descriptive Statistics. </para>
+      </section>
+      <section id="import-auto-id1163888791981">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1163883449574">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Google Spreadsheet or Excel; (3) create a new worksheet tab and label it Bivariate Graphs for Categorical-Numeric Data; (4) pick two columns of data one that is categorical and one that is numerical and has been “cleaned” and sort your data by categories; (5) create your columns of sorted data with all the appropriate labels; (6) create your descriptive statistics for each of your categories of data; (7) create either side by side histograms, box plots, or stem and leaf graphs based on the descriptive statistics indication of shape, center, and spread; finally, (8) save the file again and post in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1163871885710">
+        <title>Numerical – Numerical</title>
+        <para id="import-auto-id1163864697051">When we have numerical-numerical data we can use the descriptive statistics that we had created previously, since we are not re-grouping the data. We will want to look at the relationship between the two numerical sets of data and to do that we will create a scatter plot, create a line of best fit, create the equation for the line of best fit and inspect the R and R<sup>2 </sup>values. </para>
+        <para id="import-auto-id1163883963699"><emphasis effect="bold">Scatterplots </emphasis>in Excel and Google Spreadsheet are very much the same. You will select your two column of data of interest, copy and paste them to a new spreadsheet and label the spreadsheet. Once that is complete you will highlight the two columns of data and go to the “INSERT” tab and “insert scatter or bubble chart.” The following popup window will appear after you click. </para>
+        <figure id="import-auto-id1163866893650">
+          <media id="import-auto-id1163867682444" alt="">
+            <image mime-type="image/png" src="../../media/graphics14.png" height="419" width="575"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163883806115">You will now need to choose the graph and click “OK” to insert the graph into your page (in Excel) or Insert (in Google spreadsheet. You will then need to create labels for the axis. Once you click on “OK” or “Insert” this following screen will appear and if you mouse over and click on your scatterplot you will see the plus, paintbrush, and funnel appear to the right of the graph.  Those tools will allow you to edit your scatterplot to make it look professional. </para>
+        <figure id="import-auto-id1163900764093">
+          <media id="import-auto-id1163888820215" alt="">
+            <image mime-type="image/png" src="../../media/graphics15.png" height="395" width="575"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1163867633135">
+          <media id="import-auto-id1163881368369" alt="">
+            <image mime-type="image/png" src="../../media/graphics16.png" height="408" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163864961240"><emphasis effect="bold">In Excel:</emphasis> Now choose the plus to edit your chart title, create your axis labels, and trendline. When you mouse over “trendline” a right facing arrow will appear.  Click on that arrow and you will see a new pull down menu with the option to select, “more options. . . ” Select that option and you will see another popup menu with the choice to select a Linear trendline, and then at the bottom of that trendline options list you will find option boxes for  “Display Equation on chart”, and Display R-squared value on chart.  Put a check mark in both of these boxes and you are ready to describe the relationship between the two variables. </para>
+        <figure id="import-auto-id1163871951692">
+          <media id="import-auto-id1163868567601" alt="">
+            <image mime-type="image/png" src="../../media/graphics17.png" height="420" width="575"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1163890560591"><emphasis effect="bold">In Google Spreadsheet:</emphasis> Click on the down arrow in the upper right hand corner and select advanced edit. You can there customize your chart adding a title and axis labels. You will not however be able to add the trendline or the equation easily. Excel is more advanced for this feature. You could also turn off legend since it is not necessary for this type of graph.  It has a drop down menu with the option of none. </para>
+        <figure id="import-auto-id1163883780829">
+          <media id="import-auto-id1163869755511" alt="">
+            <image mime-type="image/png" src="../../media/graphics18.png" height="414" width="575"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1163885019938">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1163890843182">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Google Spreadsheet or Excel; (3) create a new worksheet tab and label it Bivariate Graphs for Numeric-Numeric Data; (4) pick two columns of data (both numerical) and data has been “cleaned”; (5) create you’re a scatterplot with all the appropriate labels; (6) create line of best fit with R<sup>2</sup>; (7) create a paragraph describing the relationship between the variables; finally, (8) copy and paste your scatterplot to a word document with your narrative description, save the file and post in the appropriate Moodle assignment. </para>
+      </section>
+    </section>
+  </content>
+</document>

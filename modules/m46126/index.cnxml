@@ -1,0 +1,301 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Univariate Descriptive Statistics: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46126</md:content-id>
+  <md:title>Univariate Descriptive Statistics: Summary of Formulas</md:title>
+  <md:abstract>A summary of useful formulas used in examining descriptive statistics</md:abstract>
+  <md:uuid>6a422d42-7ce1-4e7b-b349-675f6a9c1bfb</md:uuid>
+</metadata>
+
+<content>
+  <list id="element-91" list-type="bulleted"><title>Commonly Used Symbols</title><item>
+   The symbol 
+<m:math><m:mi>Σ</m:mi></m:math> means to add or to find the sum.
+    </item>
+<item>
+   <m:math><m:mi>n</m:mi></m:math> = the number of data values in a sample
+    </item>
+<item>
+   <m:math><m:mi>N</m:mi></m:math> = the number of people, things, etc. in the population
+    </item>
+
+<item>
+   <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = the sample mean </item>
+
+<item><m:math><m:mi>s</m:mi></m:math> = the sample standard deviation
+    </item>
+
+<item>
+   <m:math><m:mi>μ</m:mi></m:math> = the population mean </item>
+<item>
+<m:math><m:mi>σ</m:mi></m:math> = the population standard deviation
+    </item>
+<item>
+   <m:math><m:mi>f</m:mi></m:math> = frequency</item>
+<item>
+<m:math><m:mi>x</m:mi></m:math> = numerical value 
+    </item></list><list id="element-819" list-type="bulleted"><title>Commonly Used Expressions</title><item id="element-361"> <m:math><m:mi>x</m:mi><m:mo>*</m:mo><m:mi>f</m:mi></m:math> = A value multiplied by its respective frequency
+</item>
+
+<item id="element-829"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {x} } {}</m:annotation></m:semantics></m:math> = The sum of the values</item>
+
+<item id="element-202"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>(x</m:mi></m:mrow><m:mo stretchy="false">*</m:mo><m:mi>f)</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {(x}  times f)} {}</m:annotation></m:semantics></m:math> = The sum of values multiplied by their respective frequencies </item> 
+	
+ 
+	
+<item id="element-22">
+<m:math>
+ <m:mo>(</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>−</m:mo>
+  <m:mover>
+    <m:mi>x</m:mi>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>)</m:mo>
+  </m:math> or <m:math>
+  <m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+  <m:mo>−</m:mo>
+  <m:mi>μ</m:mi>
+  <m:mo>)</m:mo>
+</m:math> = Deviations from the mean (how far a value is from the mean)</item> 
+	
+<item id="element-195"><m:math>
+<m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mover>
+
+          <m:mi>x</m:mi>
+ 
+
+        <m:mo>¯</m:mo>
+      </m:mover>
+         <m:mo>)</m:mo>  
+  </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup></m:math>
+ or 
+<m:math>
+  <m:msup>
+    <m:mrow>
+      <m:mo>(</m:mo>
+       <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>μ</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math> = Deviations squared
+    </item>
+
+<item id="element-837">
+  <m:math>
+   <m:msup>
+    <m:mrow>
+      <m:mi>f</m:mi>      
+      <m:mo>(</m:mo>
+      <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mover>
+        
+          <m:mi>x</m:mi>
+                
+        <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>)</m:mo>
+
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+  </m:math>
+ or 
+<m:math>
+  <m:msup>
+    <m:mrow>
+<m:mi>f</m:mi>
+      <m:mo>(</m:mo>
+       <m:mi>x</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>μ</m:mi>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn>
+  </m:msup>
+</m:math> = The deviations squared and multiplied by their frequencies
+   
+
+</item> 
+	
+
+
+</list><list id="eip-379"><title>Box Plot with Outliers Formulas</title><item>IQR=Q3 - Q1</item>
+<item>LOWER FENCE=Q1 – 1.5(IQR) </item>
+<item>UPPER FENCE=Q3 + 1.5(IQR)</item>
+<item>OUTLIERS=greater than 1.5(IQR) but less than 3.0(IQR), this is indicated by: o</item>
+<item>Far OUTLIERS=3.0(IQR) or greater, this is indicated by: *</item></list><para id="element-126"><emphasis>Mean Formulas: </emphasis> 
+   <list id="list2"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {x} }  over  {n} } } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>(f</m:mi><m:mo stretchy="false">· </m:mo><m:mi>x)</m:mi></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {f times x} }  over  {n} } } {}</m:annotation></m:semantics></m:math></item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mi>N</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {x} }  over  {N} } } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math>=
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>(f</m:mi><m:mo stretchy="false">·</m:mo><m:mi>x)</m:mi></m:mrow></m:mrow><m:mi>N</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { Sum {f times x} }  over  {N} } } {}</m:annotation></m:semantics></m:math></item></list></para> 
+	
+
+	
+<para id="element-449"><emphasis>Standard Deviation Formulas: </emphasis>
+
+<list id="list3"><item>
+   <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s={}} {}</m:annotation></m:semantics></m:math> 
+      <m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>	
+       or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s={}} {}</m:annotation></m:semantics></m:math>
+       <m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo>·</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>x</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+    </item>
+
+<item>
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation></m:semantics></m:math>
+      <m:math>
+ <m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>μ</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>N</m:mi>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+
+or
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>σ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation></m:semantics></m:math> 
+<m:math>
+<m:msqrt>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Σ</m:mi>
+        <m:msup>
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo>·</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mover>
+              <m:mi>μ</m:mi>
+              <m:mo>¯</m:mo>
+            </m:mover>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>N</m:mi>
+    </m:mfrac>
+  </m:msqrt>
+</m:math>
+      </item></list></para> 
+	
+<para id="element-512"><emphasis>Formulas Relating a Value, the Mean, and the Standard Deviation:</emphasis>
+
+<list id="list4"><item>
+value = mean + (#ofSTDEVs)(standard deviation), where #ofSTDEVs = the number of standard deviations 
+    </item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math>+ (#ofSTDEVs)(<m:math><m:mi>s</m:mi></m:math>)</item>
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>μ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math> +  (#ofSTDEVs)(<m:math><m:mi>σ</m:mi></m:math>) </item></list></para><section id="eip-276"><title>Glossary</title><para id="eip-769"><title>Frequency</title>
+The number of times a value of the data occurs.
+</para><para id="eip-705"><title>Interquartile Range (IRQ)</title>The distance between the third quartile (Q3) and the first quartile (Q1). IQR = Q3 - Q1.</para><para id="eip-656"><title>Mean</title>A number that measures the central tendency.  A common name for mean is  'average.'  The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>) is <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = <m:math>
+<m:apply><m:divide/><m:ci>Sum of all values in the sample</m:ci><m:ci>Number of all values in the sample </m:ci></m:apply>
+</m:math>  
+
+and the mean for a population (denoted by 
+μ) is μ = <m:math>
+<m:apply><m:divide/><m:ci>Sum of all values in the population</m:ci><m:ci>Number of all values in the population</m:ci></m:apply>
+</m:math>. </para><para id="eip-650"><title>Median</title>A number that separates ordered data into halves.  Half the values are the same number or smaller than the median and half the values are the same number or larger than the median. The median may or may not be part of the data.</para><para id="eip-586"><title>Mode</title>The value that appears most frequently in a set of data.</para><para id="eip-56"><title>Outlier</title>An observation that does not fit the rest of the data.</para><para id="eip-324"><title>Percentile</title>A number that divides ordered data into hundredths.Example . 
+Let a data set contain 200 ordered observations starting with 
+{2.3,2.7,2.8,2.9,2.9,3.0...}. Then the first percentile is <m:math>
+<m:apply><m:divide/><m:ci>(2.7 +2.8)</m:ci><m:ci>2</m:ci></m:apply>
+</m:math> = 2.75, because 1% of the data is to the left of this point on the number line and 99% of the data is on its right. The second percentile is <m:math>
+<m:apply><m:divide/><m:ci>(2.9 +2.9)</m:ci><m:ci>2</m:ci></m:apply>
+</m:math> = 2.9. Percentiles may or may not be part of the data. In this example, the first percentile is not in the data, but the second percentile is. The median of the data is the second quartile and the 50th percentile. The first and third quartiles are the 25th and the 75th percentiles, respectively.</para><para id="eip-160"><title>Quartiles</title>The numbers that separate the data into quarters. Quartiles may or may not be part of the data. The second quartile is the median of the data..</para><para id="eip-942"><title>Relative Frequency</title>The ratio of the number of times a value of the data occurs in the set of all outcomes to the number of all outcomes.</para><para id="eip-248"><title>Standard Deviation</title>A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and   σ for population standard deviation.</para><para id="eip-474"><title>Variance</title>Mean of the squared deviations from the mean. Square of the standard deviation.  For a set of data, a deviation can be represented as   where x is a value of the data <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> and <m:math><m:mi>x</m:mi></m:math> is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and 1.</para></section></content>
+  
+</document>

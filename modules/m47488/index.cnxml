@@ -1,0 +1,62 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Two Mean, Two Proportion Hypothesis Testing: Using Spreadsheets to Calculate and Display Hypothesis Tests</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47488</md:content-id>
+  <md:title>Two Mean, Two Proportion Hypothesis Testing: Using Spreadsheets to Calculate and Display Hypothesis Tests</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to calculate z-tests and t-tests for two sample tests.</md:abstract>
+  <md:uuid>661b63e0-ce01-447d-8400-22c9e1b6476e</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1172520049541">
+      <title>Hypothesis Testing: Two Means, Two Proportions using Spreadsheets</title>
+      <para id="import-auto-id1172520062353">In this section we will discuss techniques using spreadsheet for conducting a hypothesis test for two sample means, population standard deviation unknown and for two sample proportions.</para>
+      <section id="import-auto-id1172520047934">
+        <title>Hypothesis Testing Formulas</title>
+        <para id="import-auto-id1172520073252">In Excel we can use either Data Analysis or we can enter equations as we did for single samples. </para>
+        <para id="import-auto-id1172520084589">Using Data Analysis you will go to the “DATA” tab on your Excel Ribbon and select (by double clicking) on “Data Analysis.” Below is a screenshot of the Excel Ribbon and the Popup menu that you should see when you open Data Analysis.</para>
+        <figure id="import-auto-id1172520078093">
+          <media id="import-auto-id1172520071145" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-5fc8.png" height="80" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1172520067326">
+          <media id="import-auto-id1172513069075" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-03ca.png" height="224" width="453"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1172520061732">We will be using the t-Test Two-Sample Assuming Unequal Variances. When you select the t-test Two-Sample Assuming Unequal Variance the following popup menu will appear.</para>
+        <figure id="import-auto-id1172520061036">
+          <media id="import-auto-id1172520086259" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-09ca.png" height="300" width="474"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1172520082238">Again you will complete the fields as you did for preparing descriptive statistics or histograms, entering your two data sets in the Input fields, entering your hypothesized mean difference from your null hypothesis (usually “0”), check labels if you are importing the data with the labels (and you should), enter your Alpha level (based on your test significance level), and then select whether you want the results on the page you are working or on a new worksheet. The results will be reported as such. </para>
+        <figure id="import-auto-id1172520087404">
+          <media id="import-auto-id1172520091100" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-f20b.png" height="258" width="369"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1172519982868">For a two sample proportion you will need to enter your equations into a spreadsheet as you did for a single sample and generate your results. </para>
+        <para id="import-auto-id1172520064381">In an Excel or Google Spreadsheet you would arrange your data as demonstrated in the following columns. The following is labeled as though it was an Excel or Google Spreadsheet.</para>
+        <para id="import-auto-id1172520074504">For Categorical Data: </para>
+        <figure id="import-auto-id1172519984416"><media id="import-auto-id1172520187593" alt="">
+            <image mime-type="image/png" src="../../media/TWO SAMPLE PROPORTION TEST.PNG" height="420" width="576"/>
+          </media>
+        </figure></section>
+      <section id="import-auto-id1172520049213">
+        <title>Displaying Confidence Intervals:</title>
+        <para id="import-auto-id1172520078247">To graph T-test and Z-test use the “Statistics Online Computational Resources (SOCR)”(just as in the previous chapter) at <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> (just as in the previous chapter) has in the dropdown menu for SOCR distribution the normal distribution and for a Student’s t-distribution. For a normal distribution, you will need to have your mean and standard deviation and again your right and left cut off values (which in this case will be your critical values). For a Student’s t-distribution, you will need to have degrees of freedom and again your right and left cut off values (which in this case will be your critical values). Below is a graph of the Student’s t-distribution. We have used the example from 8.6 Two column Model step by step example for this demonstration. The degrees of freedom were 14 and a 95% confidence interval. We used the t-table to determine the left and right cut off values. In this instance two tailed confidence interval of 95% with 14 degrees for freedom is minus and plus 2.145. <figure id="import-auto-id1172520046392"><media id="import-auto-id1172520065047" alt=""><image mime-type="image/png" src="../../media/graphics6-3ad2.png" height="402" width="575"/></media></figure></para><para id="import-auto-id1172520049377">This next example is using the normal distribution for determining the confidence interval for a population proportion. The normal density curve here has the population proportion as the mean (p or p-hat) and the standard deviation (the square root of (p(1-p)/n). We have demonstrated the example 8.8 to show you how this looks in SOCR. For this problem the mean proportion was .842 and the critical z-value for a 95% confidence interval was ± 0.032 or (0.81, 0.874).</para>
+        <figure id="import-auto-id1172520073437">
+          <media id="import-auto-id1172520067178" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-0ae5.png" height="403" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1172520133858">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1172520080830">At your computer, try to use some of these tools to work out your homework problems or check homework that you have completed to see if the results are the same or similar. </para>
+      </section>
+    </section>
+  </content>
+</document>

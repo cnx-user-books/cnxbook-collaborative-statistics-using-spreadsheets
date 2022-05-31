@@ -1,0 +1,53 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Collaborative Statistics Using Spreadsheets: Two column Step by Step form for Sampling Distribution and Confidence Intervals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48796</md:content-id>
+  <md:title>Collaborative Statistics Using Spreadsheets: Two column Step by Step form for Sampling Distribution and Confidence Intervals</md:title>
+  <md:abstract>This is a two column step by step form for students to use to conduct a sampling distribution or a confidence interval for a sample of data.</md:abstract>
+  <md:uuid>02222d31-2168-43d0-8c37-06326523328c</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1163826627089">
+      <emphasis effect="bold">Step by Step Model for Sampling Distribution and Confidence Intervals</emphasis>
+    </para>
+    <table id="import-auto-id1163826626862" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>Enter your plan here</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions. </entry>
+            <entry> List your assumptions here and state how the assumptions have been met</entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model.</entry>
+            <entry>Provide the formulas you will use and then use the formulas to determine the parameters</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Plot:</emphasis>  Make a picture. Sketch the model and shade the area we’re interested in.  </entry>
+            <entry>Insert a graphic display of your model here. You can use the link at <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> to create the model and then paste it here.</entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1163826650460">
+                <emphasis effect="bold">Mechanics</emphasis>
+              </para>
+            </entry>
+            <entry>Provide the formulas you will use and then use the formulas to determine distribution score and the probability of that score.</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>

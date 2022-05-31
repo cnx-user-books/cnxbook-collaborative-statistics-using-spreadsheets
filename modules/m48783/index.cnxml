@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>What Inference Test Should I perform with my survey data?</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48783</md:content-id>
+  <md:title>What Inference Test Should I perform with my survey data?</md:title>
+  <md:abstract>A decision making flowchart for inferential statistics. I have my data. What test can I perform?</md:abstract>
+  <md:uuid>1dcb54d9-619b-40eb-95f7-60692411beed</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me"><title>What Inference Test should I perform with my survey data?</title>The following two charts visually represent the decision making process for how to move from your collected data to making a decision on what inference test to perform.  The first chart covers steps 1 - 3 and the second chart repeats step 3 and then adds steps 4-5.  I hope you find this flow chart helpful when looking at your data and trying to decide what is the best test to perform. 
+  </para><para id="eip-298"><media id="flowchart1" alt="">
+            <image mime-type="image/png" src="../../media/flow chart 2 with formulas part 1a.png" height="1800" print-width="7 in"/>
+          </media></para><para id="eip-54"><media id="flowchartpart2" alt="">
+            <image mime-type="image/png" src="../../media/flow chart 2 with formulas part 2pdf.png" height="1800" print-width="7 in"/>
+          </media></para></content>
+
+</document>

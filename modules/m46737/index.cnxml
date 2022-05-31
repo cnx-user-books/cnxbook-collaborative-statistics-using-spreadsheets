@@ -1,0 +1,332 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Two Column Model Step by Step Example of a Hypothesis Test for Two Means, Sigma Unknown</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46737</md:content-id>
+  <md:title>Two Column Model Step by Step Example of a Hypothesis Test for Two Means, Sigma Unknown</md:title>
+  <md:abstract>This is a two column model for conducting a two sample mean hypothesis test when sigma is unknown.</md:abstract>
+  <md:uuid>686c5b18-7e38-41f5-8f48-b4d8e2409621</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169783730988"><emphasis effect="bold">Step-By-Step Example of a Hypothesis Test for Two Means, sigma unknown</emphasis> (same as Example 1: Independent groups)</para><para id="import-auto-id1169767849066">The average amount of time boys and girls ages 7 through 11 spend playing sports each day is believed to be the same.  A random sample of boys and girls ages 7-11 is selected. An experiment is done, data is collected, resulting in the table below. Is there a difference in the mean amount of time boys and girls ages 7 through 11 play sports each day?  Both populations have a normal distribution.  Test at the 5% level of significance. (This is the same problem as Example 1 only it is now in our two column model. You will have a copy of this form in your course site and are encouraged to use this process when you conduct a hypothesis test.)
+</para><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1169769536051" summary="Will write later.">
+<tgroup cols="4"><colspec colnum="1" colname="c1" align="right"/>
+        <colspec colnum="2" colname="c2" align="right"/>
+        <colspec colnum="3" colname="c3" align="right"/>
+        <colspec colnum="4" colname="c4" align="right"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>Sample size</entry>
+            <entry>Average Number of Hours Playing Sports Per Day</entry>
+            <entry>Sample Standard Deviation</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Girls</entry>
+            <entry>9</entry>
+            <entry>2 hours</entry>
+            <entry>
+              <m:math> <m:msqrt> <m:mo>0.75</m:mo> </m:msqrt> </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Boys</entry>
+            <entry>16</entry>
+            <entry>3.2 hours</entry>
+            <entry>1.00</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1169782955818" summary="Will write later.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+ <thead>
+  <row>
+   <entry>Guidelines </entry>
+   <entry> Example</entry>
+  </row>
+ </thead>
+ <tbody>
+  <row>
+   <entry>
+    <list id="eip-id3878789432" list-type="bulleted" bullet-style="none">
+    <item>
+    <emphasis effect="bold">State the question:</emphasis> State what we want to determine and what level of significance is important in your decision. </item></list>
+   </entry>
+   <entry>
+<para id="eip-223">We are asked to test the hypothesis that the mean time boys and girls between 7 and 11 spend playing sports each day is the same.  We do not know the population standard deviations. The significance level is 5%.</para></entry>
+  </row>
+  <row>
+   <entry>
+<list id="eip-id849782347" list-type="bulleted" bullet-style="none"><item>
+<emphasis effect="bold">Plan:</emphasis> Based on the above question(s) and the answer to the following questions, decide which test you will be performing.  Is the problem about numerical or categorical data?If the data is numerical is the population standard deviation known? Do you have one group or two groups?What type of model is this?
+</item>
+</list>
+</entry>
+   <entry> 
+<para id="eip-630">We have bivariate, quantitative data.  We have two independent groups. We have a sample of 9 for the girls and 16 for the boys.  We do not know the population standard deviations.  Therefore, we can perform a Students t-Test for independent samples, with approximately 18.8462 degrees of freedom. Our model will be:</para><equation id="eip-802"><m:math>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>G</m:mi></m:msub></m:apply>
+<m:mo>-</m:mo>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>B</m:mi></m:msub></m:apply>
+<m:mo>~</m:mo><m:mo>T</m:mo><m:mo>(</m:mo>
+<m:msqrt> <m:mfrac>
+<m:mrow>
+<m:msup><m:mo>s</m:mo><m:mo>2</m:mo></m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub><m:mo>n</m:mo><m:mo>1</m:mo></m:msub>
+</m:mrow> </m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup><m:mo>s</m:mo><m:mo>2</m:mo></m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub><m:mo>n</m:mo><m:mo>2</m:mo></m:msub>
+</m:mrow> </m:mfrac> </m:msqrt> <m:mo>)</m:mo>
+<m:mo>=</m:mo> 
+</m:math></equation><equation id="eip-476"><m:math><m:mo>T</m:mo> <m:mo>(</m:mo> <m:mo>0</m:mo> <m:mo>,</m:mo> 
+<m:msqrt> <m:mfrac>
+<m:mrow><m:mo>(</m:mo> <m:msqrt> <m:mo>.75</m:mo> </m:msqrt><m:msup><m:mo>)</m:mo><m:mo>2</m:mo></m:msup></m:mrow>
+<m:mrow> <m:mo>9</m:mo> </m:mrow>
+</m:mfrac>
+<m:mfrac>
+<m:mrow> <m:msup><m:mo>(1)</m:mo><m:mo>2</m:mo></m:msup> </m:mrow>
+<m:mrow> <m:mo>16</m:mo> </m:mrow>
+</m:mfrac> </m:msqrt> <m:mo>)</m:mo>
+</m:math></equation></entry>
+  </row>
+  <row>
+   <entry> <list id="eip-id8743853279324357" list-type="bulleted" bullet-style="none">
+    <item><emphasis effect="bold">Hypothesis:</emphasis> State the null and alternative hypotheses in words and then in symbolic form</item> 
+    <item> </item>
+    <item> 1. Express the hypothesis to be tested in symbolic form.</item> 
+    <item> </item>
+    <item> 2. Write a symbolic expression that must be true when the original claim is false.</item>
+    <item> </item>
+    <item>3. The null hypothesis is the statement which included the equality.        </item>
+    <item> </item>
+    <item>4. The alternative hypothesis is the statement without the equality.   </item>
+    <item>
+</item>
+   </list>
+   </entry>
+   <entry><para id="eip-299"><emphasis effect="bold">Null hypothesis in words:
+ </emphasis> The null hypothesis is that the true mean time playing sports each day of girls is equal to the true mean time each day of boys playing sports.
+<newline/><emphasis effect="bold"> Null Hypothesis symbolically: 
+</emphasis>  H<sub>0</sub>: Mean time  μ<sub>G</sub> = μ<sub>B</sub> 
+<newline/><emphasis effect="bold"> Alternative Hypothesis in words:
+</emphasis>  The alternative is that the true mean time playing sports each day of girls is Not equal to the true mean time each day of boys playing sports.
+<newline/><emphasis effect="bold"> Alternative Hypothesis symbolically: 
+</emphasis> H<sub>a</sub>: Mean time μ<sub>G</sub> ≠ μ<sub>B</sub></para></entry>
+          </row>
+          <row>
+            <entry>
+<list id="eip-id874385327957" list-type="bulleted" bullet-style="none">
+<item><emphasis effect="bold">The criteria for the inferential test stated above:</emphasis> Think about the assumptions and check the conditions.If your assumptions include the need for particular types of data distribution, please insert the appropriate graphs or charts if necessary.</item>
+</list>
+</entry>
+<entry>
+<para id="eip-151"><emphasis effect="bold">Randomization Condition: </emphasis> The samples are random samples.
+<newline/><emphasis effect="bold"> Independence Assumption: </emphasis>  It is reasonable to think that the times within the samples are independent when you have a random samples. There is no reason to think the time spent on sports of one child has any bearing on the time spent on sports of another child.
+<newline/><emphasis effect="bold"> Independent Groups Assumption: </emphasis>  It is reasonable to think that the boys and girls times are independent of each other.
+<newline/><emphasis effect="bold"> 10% Condition:</emphasis> I assume the number of children in the community where this was done is more than 250, so 9 girl times and 16 boy times is less than 10% of each population.
+<newline/><emphasis effect="bold"> Nearly Normal Condition:</emphasis> The problem states that both are from normal populations.
+<newline/><emphasis effect="bold"> Sample Size Condition:</emphasis> Since the distribution of the times are both normal, my samples of 9 and 16 scores are large enough.</para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169776015896">
+                <emphasis effect="bold">Compute the test statistic: </emphasis>
+              </para>
+            </entry>
+            <entry>The conditions are satisfied and σ is unknown, so we will use a hypothesis test for two means with unknown population standard deviations. We will use a t-test.We need the sample means, sample standard deviations and Standard Error (SE).<para id="eip-320"><newline/><newline/><m:math>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>G</m:mi></m:msub></m:apply>
+<m:mo>= 2</m:mo> <m:mo>;</m:mo>
+<m:msub><m:mo>S</m:mo><m:mo>G</m:mo></m:msub><m:mo>=</m:mo>
+<m:msqrt> <m:mo>0.75</m:mo></m:msqrt>
+<m:mo>; n = 9 ;</m:mo>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>B</m:mi></m:msub></m:apply>
+<m:mo>=</m:mo> <m:mo>3.2</m:mo> <m:mo>;</m:mo>
+<m:msub><m:mo>S</m:mo><m:mo>G</m:mo></m:msub><m:mo>=</m:mo><m:mo>1.00</m:mo><m:mo>;</m:mo>
+</m:math></para><list id="eip-225" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:mo>n = 16</m:mo> 
+<m:mo>;</m:mo>
+<m:mo>SE = </m:mo> 
+<m:msqrt> <m:mfrac>
+<m:mrow> <m:msup><m:mo>S</m:mo><m:msub><m:mn>2</m:mn></m:msub><m:mn>G</m:mn></m:msup></m:mrow>
+<m:mrow> <m:msub><m:mo>n</m:mo><m:mn>G</m:mn></m:msub> </m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow> <m:msup><m:mo>S</m:mo><m:msub><m:mn>2</m:mn></m:msub><m:mn>B</m:mn></m:msup></m:mrow>
+<m:mrow> <m:msub><m:mo>n</m:mo><m:mn>B</m:mn></m:msub> </m:mrow>
+</m:mfrac> </m:msqrt> 
+<m:mo>+</m:mo>
+<m:msqrt> <m:mfrac>
+<m:mrow><m:mo>.75</m:mo></m:mrow>
+<m:mrow><m:mo>9</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow><m:mo>1</m:mo></m:mrow>
+<m:mrow><m:mo>16</m:mo></m:mrow>
+</m:mfrac> </m:msqrt> 
+<m:mo>=</m:mo>
+<m:msqrt> <m:mo>0.1458</m:mo> </m:msqrt>
+<m:mo>= 0.382</m:mo> <m:mo>;</m:mo>
+<m:mo>df ≈ 18.8462</m:mo>
+</m:math>
+</item></list><list id="eip-244" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:mo>(</m:mo>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>G</m:mi></m:msub></m:apply>
+<m:mo>-</m:mo>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>B</m:mi></m:msub></m:apply>
+<m:mo>) = 2 - 3.2 = -1.2</m:mo>
+</m:math>
+</item></list><para id="eip-371"><m:math>
+<m:mo>t = </m:mo>
+<m:mfrac>
+<m:mrow> 
+  <m:mo> ( </m:mo>
+  <m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>G</m:mi></m:msub>  </m:apply>
+  <m:mo> - </m:mo>
+  <m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>B</m:mi></m:msub></m:apply>
+  <m:mo> ) - (0)</m:mo>
+</m:mrow>
+<m:mrow> <m:mo>SE</m:mo> </m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow> <m:mo> 2 - 3.2 </m:mo> </m:mrow>
+<m:mrow> <m:mo> 0.382 </m:mo> </m:mrow>
+</m:mfrac>
+<m:mo> = -3.142 </m:mo>
+</m:math></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Determine the Critical Region(s): </emphasis>Based on your hypotheses are you performing a left-tailed, right-tailed, or tw0-sided test?</entry>
+            <entry>I will perform a two tailed test.  I am only concerned with the scores being different than each other.</entry>
+          </row>
+          <row>
+            <entry><para id="import-auto-id1169775910748"><emphasis effect="bold">Sketch the test statistic and critical region:</emphasis></para>Look up the probability on the table.</entry>
+            <entry align="left">
+              <para id="eip-119"><media id="twotailtest2" alt="">
+                  <image mime-type="image/png" src="../../media/sketch the test statistic and critical region.PNG" height="169" width="325" print-width="3in"/>
+                </media></para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169776491581">
+                <emphasis effect="bold">Determine the P-value</emphasis>
+              </para>
+            </entry>
+            <entry>P(t&lt; -2.804) &lt; 0.02 We used a two tailed probability.</entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169775942116">
+                <emphasis effect="bold">State whether you reject or fail to reject the Null hypothesis.</emphasis>
+              </para>
+            </entry>
+            <entry>Since the probability is less than the critical value of 5%, we will reject the null hypothesis.</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>Since the probability is less than 5%, this is considered a rare event and the small probability tells us to reject the null hypothesis.  There is sufficient evidence that the mean number of hours boys aged 7 to 11 play sports per day is different than the mean number of hours girls aged 7 to 11 play sports per day. The p-value tells us that there is less than 2% chance of obtaining our sample difference in means of 1.2 hours less for girls if the null hypothesis is true. This is a rare event. </entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169779292982">
+                <emphasis effect="bold">If you reject the null hypothesis, continue to complete the following</emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169782914151">
+                <emphasis effect="bold">Calculate and display your confidence interval for the Alternative hypothesis.</emphasis>
+              </para>
+            </entry>
+            <entry align="left">The confidence interval is t ± t<sup>*</sup> (SE) =-1.2 ± 2.101(0.382) =-1.2 ± 0.803  (-2.003, -0.397)<m:math><m:mspace width="60pt"/></m:math><para id="eip-584"/><para id="eip-532"><media id="test3" alt=""><image mime-type="image/png" src="../../media/confidence interval for alternative hypothesis.PNG" height="197" width="362" print-width="2.8in"/></media></para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169774682898">
+                <emphasis effect="bold">State your conclusion based on your confidence interval.</emphasis>
+              </para>
+            </entry>
+            <entry>I am 95% confident that the true mean difference in the number of hours girls 7 to 11 play sports each day is between 0.301 and 2.099 hours less than the number of hour boys 7 to 11 play sports each day.</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

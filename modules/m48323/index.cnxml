@@ -1,0 +1,56 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Topics: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48323</md:content-id>
+  <md:title>Probability Topics: Summary of Formulas</md:title>
+  <md:abstract>This module provides a review of the probability formulas, including the definitions of independent, complementary, and mutually exclusive events as well as the addition and multiplication rules.</md:abstract>
+  <md:uuid>9d65e120-5875-4fcb-8d9d-552454b9b6c5</md:uuid>
+</metadata>
+
+<content>
+
+<rule id="r1" type="formula"><label>Formula</label><title>Complement</title>
+
+  <statement id="id1166200705576">
+    <para id="ruleexp1">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>A'</m:mi></m:math> are complements then <m:math><m:mi>P(A)</m:mi> <m:mo>+</m:mo> <m:mtext>P(A' )</m:mtext> <m:mo>=</m:mo> <m:mn>1</m:mn></m:math>
+    </para>
+  </statement>
+</rule>
+<rule id="r2" type="formula"><label>Formula</label>
+<title>Addition Rule</title>
+  <statement id="id1166199051945">
+    <para id="ruleexp2"><m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext> <m:mo>-</m:mo> <m:mtext>P(A AND B)</m:mtext></m:math>
+    </para>
+  </statement>
+</rule>
+<rule id="r3" type="formula"><label>Formula</label>
+<title>Mutually Exclusive</title>
+  <statement id="id1166209622113">
+    <para id="ruleexp3">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are mutually exclusive then <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mn>0</m:mn></m:math>   ; so <m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext></m:math>.</para>
+  </statement>
+</rule>
+<rule id="r4" type="formula"><label>Formula</label>
+<title>Multiplication Rule</title>
+  <statement id="id1166213186740">
+    <list id="element-753" list-type="bulleted"><item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(B)</m:mtext> <m:mtext>P(A|B)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mtext>P(B|A)</m:mtext></m:math></item>
+    </list>
+  </statement>
+</rule>
+<rule id="r5" type="formula"><label>Formula</label>
+<title>Independence</title>
+  <statement id="id1166200411300">
+    <para id="ruleexp5">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are independent then:
+    </para><list id="element-828" list-type="bulleted"><item><m:math><m:mtext>P(A|B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(B|A) </m:mtext><m:mo>=</m:mo> <m:mtext>P(B)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mtext>P(B)</m:mtext></m:math></item></list>
+  </statement>
+</rule><section id="eip-426"><title>Glossary</title><para id="eip-575"><title>Conditional Probability</title>The likelihood that an event will occur given that another event has already occurred.</para><para id="eip-330"><title>Contingency Table</title>The method of displaying a frequency distribution as a table with rows and columns to show how two variables may be dependent (contingent) upon each other.  The table provides an easy way to calculate conditional probabilities</para><para id="eip-428"><title>Equally Likely</title>Each outcome of an experiment has the same probability.</para><para id="eip-225"><title>Event</title>A subset in the set of all outcomes of an experiment. The set of all outcomes of an experiment is called a sample space and denoted usually by S. An event is any arbitrary subset in S. It can contain one outcome, two outcomes, no outcomes (empty subset), the entire sample space, etc. Standard notations for events are capital letters such as A, B, C, etc.</para><para id="eip-471"><title>Experiment</title>A planned activity carried out under controlled condition.</para><para id="eip-400"><title>Independent Event</title>The occurrence of one event has no effect on the probability of the occurrence of any other event. Events A and B are independent if one of the following is true: 
+ <newline/>(1). P (A | B) = P (A)
+ <newline/>(2). P (B | A) = P (B)
+ <newline/>(3). P (A and B) = P (A) P(B)</para><para id="eip-91"><title>Mutually Exclusive</title>An observation cannot fall into more than one class (category). Being in more than one category prevents being in a mutually exclusive category.</para><para id="eip-277"><title>Outcome</title>A particular result of an experiment.</para><para id="eip-846"><title>Probability</title>A number between 0 and 1, inclusive, that gives the likelihood that a specific event will occur. The foundation of statistics is given by the following 3 axioms (by A. N. Kolmogorov, 1930’s): Let S  denote the sample space and A  and B  are two events in S . Then:
+ <newline/>(1). 0≤P(A)≤1
+ <newline/>(2). If A and B are any two mutually exclusive events, then   P(A or B)= P(A)+P(B)
+ <newline/>(3). P(S)=1</para><para id="eip-994"><title>Sample Space</title>The set of all possible outcomes of an experiment.</para><para id="eip-52"><title>Tree Diagram</title>The useful visual representation of a sample space and events in the form of a “tree” with branches marked by possible outcomes simultaneously with associated probabilities (frequencies, relative frequencies).</para><para id="eip-543"><title>Venn Diagram</title>The visual representation of a sample space and events in the form of circles or ovals showing their intersection.</para></section></content>
+  
+</document>

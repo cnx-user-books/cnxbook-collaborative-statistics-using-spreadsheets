@@ -1,0 +1,248 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Discrete and Continuous Random Variables: Summary of the Discrete and Continuous Probability Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46205</md:content-id>
+  <md:title>Discrete and Continuous Random Variables: Summary of the Discrete and Continuous Probability Functions</md:title>
+  <md:abstract>This module provides a review of the binomial and uniform probability distribution functions and their properties.</md:abstract>
+  <md:uuid>05050c51-9c10-4c2b-8587-09a4b6f36771</md:uuid>
+</metadata>
+
+<content>
+<rule id="binomial-1" type="formula"><label>Formula</label><title>Binomial</title><statement id="id20785991">
+<para id="element-701"><m:math><m:mi>X</m:mi></m:math>~<m:math><m:mi>B</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:math></para><para id="element-2"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math> = the number of successes in <m:math><m:mi>n</m:mi></m:math> independent trials
+</para>
+
+<para id="element-3"><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math>  = the number of independent trials
+</para>
+
+<para id="element-4"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math>  takes on the values <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math> 0,1, 2, 3, ...,<m:math><m:mi>n</m:mi></m:math>
+</para>
+
+<para id="element-5"><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> = the probability of a success for any trial
+</para>
+
+<para id="element-6"><m:math><m:mrow><m:mi>q</m:mi></m:mrow></m:math> = the probability of a failure for any trial
+</para>
+
+<para id="element-7"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="15pt"/>
+<m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow></m:math>
+</para>
+
+<para id="element-8">The mean is <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:mrow></m:math>. The standard deviation is <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:mrow></m:math>.
+</para>
+</statement>
+</rule>
+<rule id="Geometric" type="formula"><label>Formula</label><title>Uniform</title><statement id="id13369021">
+<para id="element-1000"><m:math><m:mi>X</m:mi></m:math> = a real number between <m:math><m:mi>a</m:mi></m:math>  and <m:math><m:mi>b</m:mi></m:math> 
+(in some instances, <m:math><m:mi>X</m:mi></m:math> can take on the
+values <m:math><m:mi>a</m:mi></m:math>  and <m:math><m:mi>b</m:mi></m:math>).
+<m:math><m:mi>a</m:mi></m:math>  = smallest <m:math><m:mi>X</m:mi></m:math> ; <m:math><m:mi>b</m:mi></m:math>  = largest <m:math><m:mi>X</m:mi></m:math> </para><para id="element-10"><emphasis><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>U</m:mi><m:mo>(</m:mo><m:mi>a,</m:mi> <m:mi>b</m:mi><m:mo>)</m:mo></m:math></emphasis>
+</para><para id="element-15">The mean is 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>μ</m:mi></m:mrow>
+<m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:reln></m:math>
+</para><para id="element-14">The standard deviation is
+
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow>
+<m:mrow><m:msqrt><m:mfrac>
+<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mn>12</m:mn></m:mrow>
+</m:mfrac></m:msqrt></m:mrow>
+</m:reln></m:math>
+</para><para id="element-13"><emphasis>Probability density function:</emphasis>
+<m:math>
+<m:apply>
+<m:ci type="fn">f</m:ci><m:ci>X</m:ci></m:apply>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac>
+</m:math>
+for 
+
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>a</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>b</m:mi></m:mrow></m:reln></m:math>
+</para><para id="element-12"><emphasis>Area to the Left of x:</emphasis>
+<m:math><m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mtext>(base)</m:mtext><m:mtext>(height)</m:mtext></m:mrow></m:reln>
+</m:math>
+</para><para id="element-118"><emphasis>Area to the Right of x:</emphasis>
+<m:math><m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mtext>(base)</m:mtext><m:mtext>(height)</m:mtext></m:mrow></m:reln>
+</m:math></para><para id="element-117"><emphasis>Area Between c and d:</emphasis>
+<m:math>
+
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>c</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mi>d</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>. </para></statement>
+</rule><section id="eip-136"><title>Glossary</title><para id="eip-702"><title>Bernoulli Trials</title>
+An experiment with the following characteristics: 
+ <newline/>(1). There are only 2 possible outcomes called “success” and “failure” for each trial.
+ <newline/>(2). The probability p of a success is the same for any trial  (so the probability q = 1–p of a failure is the same for any trial
+</para><para id="eip-697"><title>Binomial Distribution</title>A discrete random variable (RV) which arises from Bernoulli trials. There are a fixed number, n, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV 
+X is defined as the number of successes in n trials. The notation is: 
+
+X~ B
+  (
+  n
+  ,
+  p
+  ). The mean is μ=np
+ and the standard deviation is <m:math display="display"><m:ci>σ</m:ci></m:math> = <m:math>
+<m:apply><m:root/><m:ci>npq</m:ci></m:apply>
+</m:math>. The probability of exactly x successes in n trials is
+
+
+<emphasis>P(X = x) =</emphasis>(<m:math>
+<m:apply><m:divide/><m:ci>n</m:ci><m:ci>x</m:ci></m:apply>
+</m:math>)<m:math>
+<m:apply><m:power/><m:ci>p</m:ci><m:ci>x</m:ci></m:apply>
+</m:math><m:math>
+<m:apply><m:power/><m:ci>q</m:ci><m:apply><m:minus/><m:ci>n</m:ci><m:ci>x</m:ci></m:apply></m:apply>
+</m:math></para><para id="eip-578"><title>Conditional Probability</title>The likelihood that an event will occur given that another event has already occurred.</para><para id="eip-607"><title>Expected Value</title>Expected arithmetic average when an experiment is repeated many times. (Also called the mean). Notations: 
+
+E(x),μ.    
+
+For a discrete random variable (RV) with probability distribution function
+ 
+P(x),the definition can also be written in the form
+ 
+E(x)
+=μ
+=∑xP(x).</para><para id="eip-737"><title>Exponential Distribution</title>A continuous random variable (RV) that appears when we are interested in the intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital. Notation: X~Exp(m). The mean is μ = <m:math>
+<m:apply><m:divide/><m:ci>1</m:ci><m:ci>m </m:ci></m:apply>
+</m:math> and the standard deviation is σ = <m:math>
+<m:apply><m:divide/><m:ci>1</m:ci><m:ci>m </m:ci></m:apply>
+</m:math>. The probability density function  is ƒ(x) = <m:math display="display"><m:apply><m:power/><m:ci>me</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>, <m:math display="display"><m:apply><m:geq/><m:ci>x</m:ci><m:cn>0</m:cn></m:apply></m:math> and the cumulative distribution function is P(<m:math display="display"><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = 1 - <m:math display="display"><m:apply><m:power/><m:ci>e</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>.</para><para id="eip-108"><title>Geometric Distribution</title>A discrete random variable (RV) which arises from the Bernoulli trials. The trials are repeated until the first success. The geometric variable X is defined as the number of trials until the first success. Notation: <emphasis>X∼G(p)</emphasis>. The mean is μ = <m:math>
+<m:apply><m:root/><m:apply><m:times/><m:apply><m:divide/><m:cn>1</m:cn><m:ci>p</m:ci></m:apply><m:apply><m:minus/><m:apply><m:divide/><m:cn>1</m:cn><m:ci>p</m:ci></m:apply><m:cn>1</m:cn></m:apply></m:apply></m:apply>
+</m:math> is The probability of exactly x failures before the first success is given by the formula: 
+<m:math>
+<m:apply><m:power/><m:ci>P(X=x)=p(1-p)</m:ci><m:apply><m:minus/><m:ci>x</m:ci><m:ci>1</m:ci></m:apply></m:apply>
+</m:math></para><para id="eip-916"><title>Hypergeometric Distribution</title>A discrete random variable (RV) that is characterized by: 
+<newline/>(1). A fixed number of trials.  
+<newline/>(2). The probability of success is not the same from trial to trial.
+<newline/>We sample from two groups of items when we are interested in only one group. 
+X is defined as the number of successes out of the total number of items chosen. Notation: 
+X~H(r,b,n)., where r = the number of items in the group of interest, b = the number of items in the group not of interest, and n = the number of items chosen.</para><para id="eip-974"><title>Mean</title>A number that measures the central tendency.  A common name for mean is  'average.'  The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>) is <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = <m:math>
+<m:apply><m:divide/><m:ci>Sum of all values in the sample</m:ci><m:ci>Number of all values in the sample </m:ci></m:apply>
+</m:math>  
+
+and the mean for a population (denoted by 
+μ) is μ = <m:math>
+<m:apply><m:divide/><m:ci>Sum of all values in the population</m:ci><m:ci>Number of all values in the population</m:ci></m:apply>
+</m:math>  </para><para id="eip-711"><title>Poisson Distribution</title>A discrete random variable (RV) that counts the number of times a certain event will occur in a specific interval. Characteristics of the variable: 
+<newline/>(1). The probability that the event occurs in a given interval is the same for all intervals.
+<newline/>(2). The events occur with a known mean and independently of the time since the last event.
+<newline/>The distribution is defined by the mean μ of the event in the interval. Notation:   
+X~P(μ). The mean is μ = np. The standard deviation is <m:math display="display"><m:apply><m:eq/><m:ci>σ</m:ci><m:apply><m:root/><m:ci>μ</m:ci></m:apply></m:apply></m:math>. The probability of having exactly x  successes in r  trials is P(X = x) = <m:math display="display"><m:apply><m:exp/><m:apply><m:minus/><m:ci>μ</m:ci></m:apply></m:apply></m:math><m:math display="display"><m:apply><m:divide/><m:apply><m:power/><m:ci>μ</m:ci><m:ci>x</m:ci></m:apply><m:ci>x!</m:ci></m:apply></m:math>
+</para><para id="eip-912"><title>Probability Distribution Function (PDF)</title>A mathematical description of a discrete random variable (RV), given either in the form of an equation (formula) , or in the form of a table listing all the possible outcomes of an experiment and the probability associated with each outcome. 
+<emphasis>Example:</emphasis> 
+A biased coin with probability 0.7 for a head (in one toss of the coin) is tossed 5 times. We are interested in the number of heads (the RV X  = the number of heads). X  is Binomial, so<emphasis>
+   
+X∼B
+  (
+    5
+    ,
+      0
+      .
+      7
+    )</emphasis>
+  
+ 
+and <emphasis>
+   P
+  (
+  X
+  =
+  x
+  )
+  = </emphasis>(<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>5</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>).<m:math display="display"><m:apply><m:power/><m:cn>.3</m:cn><m:ci>x</m:ci></m:apply></m:math><m:math display="display"><m:apply><m:power/><m:cn>7</m:cn><m:ci>5-x</m:ci></m:apply></m:math> or in the form of the table:
+<table id="fs-id1169995568824" summary="Example for Probability Distribution Function">
+<tgroup cols="2"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(X = x)</m:mtext></m:math></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry>0.0024</entry>
+    
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0.0284</entry>
+    
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0.1323</entry>
+    
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>0.3087</entry>
+    
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>0.3602</entry>
+    
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>0.1681</entry>
+    
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></para>
+<para id="eip-755"><title>Random Variable (RV)</title>See <emphasis>variable</emphasis>.</para><para id="eip-490"><title>Uniform Distribution</title>A continuous random variable (RV) that has equally likely outcomes over the domain, <m:math display="display"><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math>
+. Often referred as the <emphasis>Rectangular distribution</emphasis> because the graph of the pdf has the form of a rectangle. Notation: 
+X~U(a,b). The mean is μ = <m:math>
+<m:apply><m:divide/><m:ci>a + b</m:ci><m:ci>2 </m:ci></m:apply>
+</m:math> and the standard deviation is <m:math display="display"><m:apply><m:root/><m:apply><m:divide/><m:apply><m:power/><m:apply><m:minus/><m:ci>b</m:ci><m:ci>a</m:ci></m:apply><m:cn>2</m:cn></m:apply><m:cn>12</m:cn></m:apply></m:apply></m:math>. The probability density function is ƒ(x) = <m:math>
+<m:apply><m:divide/><m:ci>1</m:ci><m:ci>b - a </m:ci></m:apply> </m:math>  for  <m:math display="display"><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math> or <m:math>
+<m:apply><m:leq/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply>
+</m:math>. The cumalative distribution is P(<m:math display="display"><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = <m:math>
+<m:apply><m:divide/><m:ci>x - a</m:ci><m:ci>b - a </m:ci></m:apply>
+</m:math>.
+</para><para id="eip-591"><title>Variable (Random Variable)</title>A characteristic of interest in a population being studied. Common notation for variables are upper case Latin letters 
+X, 
+Y, 
+Z,...; common notation for a  specific value from the domain (set of all possible values of a variable) are lower case Latin letters 
+x, 
+y, 
+z,.... For example, if 
+X is the number of children in a family, then 
+x represents a specific  integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two following ways. 
+
+ <newline/> (1). The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if 
+X = hair color then the domain is {black, blond, gray, green, orange}.  
+ <newline/>(2.) We can tell what specific value  
+x of the Random Variable   
+X takes only after performing the experiment. 
+    </para></section></content>
+</document>

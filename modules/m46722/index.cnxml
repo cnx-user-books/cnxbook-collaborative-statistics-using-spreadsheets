@@ -1,0 +1,162 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46722</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>8f189f22-bab9-4bea-9905-0bc412c1e0a5</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-999"><emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> </emphasis>and <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math></emphasis> are contradictory.</para>
+<table id="element-377" summary="This table states the mathematical symbols associated with either null or alternate hypothesis. The first row is for the null hypothesis and the second row is for the alternate hypothesis. There are three columns of mathematical symbols for each.">
+<tgroup cols="4"><tbody>
+  <row>
+        <entry><emphasis>If <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> has:</emphasis></entry>
+    <entry>equal <m:math><m:mi>(=)</m:mi></m:math></entry>
+    <entry>greater than or equal to in problem statement still translates to equal to
+<m:math><m:mo>(</m:mo><m:mo>=</m:mo><m:mo>)</m:mo></m:math></entry>
+    <entry>less than or equal to in problem statement still translates to equal to <m:math><m:mo>(</m:mo><m:mo>=</m:mo><m:mo>)</m:mo></m:math></entry>
+  </row>
+  <row>
+    <entry><emphasis>then <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> has:</emphasis></entry>
+    
+<entry>not equal <m:math><m:mi>(≠)</m:mi></m:math>
+<emphasis>or</emphasis>
+greater than
+<m:math><m:mo>(</m:mo><m:mo>&gt;</m:mo><m:mo>)</m:mo></m:math> <emphasis>or</emphasis>
+less than <m:math><m:mo>(</m:mo><m:mo>&lt;</m:mo><m:mo>)</m:mo></m:math></entry>
+    <entry>less than <m:math><m:mo>(</m:mo><m:mo>&lt;</m:mo><m:mo>)</m:mo></m:math></entry>
+    <entry>greater than <m:math><m:mo>(</m:mo><m:mo>&gt;</m:mo><m:mo>)</m:mo></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="element-987">If <m:math>
+<m:mi>α</m:mi> 
+<m:mo>≤</m:mo>
+</m:math> p-value, then do not reject <emphasis><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi></m:msub>
+</m:math></emphasis>.</para><para id="element-43">If <m:math>
+<m:mi>α</m:mi>
+<m:mo>&gt;</m:mo>
+</m:math> p-value, then reject <emphasis>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math> 
+</emphasis>.</para><para id="element-305"><m:math><m:mi>α</m:mi></m:math> is preconceived. Its value is set before
+the hypothesis test starts.
+The p-value is calculated from the data.</para><para id="element-965"><m:math><m:mi>α</m:mi></m:math> = probability of a Type I error = P(Type I error)
+= probability of rejecting the null hypothesis when the null hypothesis is true.</para><para id="element-704"><m:math><m:mi>β</m:mi></m:math> = probability of a Type II error = P(Type II error) = probability of not rejecting the null hypothesis when the null hypothesis is false.</para><para id="element-678">If there is no given preconceived <m:math><m:mi>α</m:mi></m:math>, then use <m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn></m:math>.</para><list id="element-254" list-type="bulleted"><title>Types of Hypothesis Tests</title><item>Single population mean, <emphasis>known</emphasis> population variance (or standard deviation): <emphasis>Normal
+test</emphasis>.</item>
+<item>Single population mean, <emphasis>unknown</emphasis> population variance (or standard deviation):
+<emphasis>Student's-t test</emphasis>.</item>
+<item>Single population proportion: <emphasis>Normal test</emphasis>.</item></list><section id="eip-507"><title>Glossary</title><para id="eip-202"><title>Binomial Distribution</title>A discrete random variable (RV) which arises from Bernoulli trials. There are a fixed number, <m:math><m:mi>n</m:mi></m:math>, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is defined as the number of successes in <m:math><m:mi>n</m:mi></m:math> trials. The notation is: 
+
+<emphasis><m:math><m:mi>X</m:mi></m:math>~<m:math> <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:math></emphasis>. The mean is <m:math><m:apply>
+  <m:eq/>
+  <m:ci>μ</m:ci>
+  <m:ci>np</m:ci>
+</m:apply>
+</m:math> and the standard deviation is 
+<m:math>
+
+   
+    <m:mi>σ</m:mi>
+  
+  <m:mo>=</m:mo>
+  <m:msqrt><m:mi>npq</m:mi></m:msqrt>
+
+</m:math>. The probability of exactly <m:math><m:mi>x</m:mi></m:math> successes in <m:math><m:mi>n</m:mi></m:math> trials is <m:math>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+  <m:msup>
+    <m:mi>p</m:mi>
+    <m:mi>x</m:mi>
+  </m:msup>
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>.
+</para><para id="eip-316"><title>Central Limit Theorem</title>Given a random variable (RV) with known mean μ and known standard deviation σ. We are sampling with size n and we are interested in two new RVs - the sample mean, <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>, and the sample sum, <emphasis>ΣX</emphasis>. If the size n of the sample is sufficiently large, then <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mn>N</m:mn>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:math> and ΣX ~ N(nμ, <m:math>
+<m:apply><m:root/><m:ci>n</m:ci></m:apply>
+</m:math>σ). If the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample  means will equal the population mean and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, <m:math display="display"><m:apply><m:divide/><m:ci>σ</m:ci><m:apply><m:root/><m:ci>n</m:ci></m:apply></m:apply></m:math> is called the standard error of the mean.</para><para id="eip-735"><title>Confidence Interval (CI)</title>An interval estimate for an unknown population parameter. This depends on: 
+<newline/>(1). The desired confidence level.
+<newline/>(2). Information that is known about the  distribution (for example, known standard deviation).
+<newline/>(3). The sample and its size.</para><para id="eip-778"><title>Hypothesis</title>A statement about the value of a population parameter. In case of two hypotheses, the statement assumed to be true is called the null hypothesis (notation <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math> </emphasis>) and the contradictory statement is called the alternate hypothesis (notation <emphasis><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math></emphasis>).</para><para id="eip-525"><title>Hypothesis Testing</title>Based on sample evidence, a procedure to determine whether the hypothesis stated is a reasonable statement and cannot be rejected, or is unreasonable and should be rejected.</para><para id="eip-60"><title>Level of Significance Test</title>Probability of a Type I error (reject the null hypothesis when it is true).  Notation: α.  In hypothesis testing, the Level of Significance is called the preconceived α or the preset α.</para><para id="eip-181"><title>Normal Distribution</title>A continuous random variable (RV) with pdf  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>f(x)</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>σ</m:mi><m:msqrt><m:mn>2π</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mn>2σ</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "pdf"= {  {1}  over  {σ sqrt {2π} } } e rSup { size 8{ -  \( x - μ \)  rSup { size 6{2} } /2σ rSup { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>μ</m:mi></m:math>  is the mean of the distribution and <m:math><m:mi>σ</m:mi></m:math>  is the standard deviation. Notation: <m:math><m:mi>X</m:mi></m:math>  ~  <m:math> <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn/>
+    </m:msup>
+  </m:mfenced></m:math>. If <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, the RV is called <emphasis>the standard normal distribution</emphasis>.</para><para id="eip-234"><title>P-Value</title>The probability that an event will happen purely by chance assuming the null hypothesis is true. The smaller the p-value, the stronger the evidence is against the null hypothesis.  </para><para id="eip-876"><title>Standard Deviation</title>A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and   σ for population standard deviation.</para><para id="eip-931"><title>Student's-t Distribution</title>Investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
+
+<newline/>(1). It is continuous and assumes any real values. 
+<newline/>(2). The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.   
+<newline/>(3). It approaches the standard normal distribution as n gets larger.   
+<newline/>(4). There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data.</para><para id="eip-868"><title>Type 1 Error</title>The decision is to reject the Null hypothesis when, in fact, the Null hypothesis is true.</para><para id="eip-109"><title>Type 2 Error</title>The decision is to not reject the Null hypothesis when, in fact, the Null hypothesis is false.</para></section></content>
+  
+</document>

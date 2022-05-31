@@ -1,0 +1,76 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Interval for a Mean, Sigma Unknown</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46277</md:content-id>
+  <md:title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Interval for a Mean, Sigma Unknown</md:title>
+  <md:abstract>A two column step by step example of how to calculate and represent a confidence interval for a mean with sigma unknown.</md:abstract>
+  <md:uuid>aa6f200a-d724-43bf-87d8-2a2252da92a6</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164255722530"><emphasis effect="bold"> Step-By-Step Example of a Confidence Interval for a Mean, sigma unknown </emphasis>(used Ex 8.7)</para>
+    <para id="import-auto-id1164249382872">Suppose you do a study of acupuncture to determine how effective it is in relieving pain.  You measure sensory rates for 15 random subjects with the results given below.  </para>
+    <para id="import-auto-id1164251646095">8.6, 9.4, 7.9, 6.8, 8.3, 7.3, 9.2, 9.6, 8.7, 11.4, 10.3, 5.4, 8.1, 5.5, 6.9</para>
+    <para id="import-auto-id1164249248350">Use the sample data to construct a 95% confidence interval for the mean sensory rate for the populations (assumed normal) from which you took this data. </para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1164255535071" summary="this is a 6 row 2 column step by step example of how to calculate the confidence interval for a population from a sample with only the sample standard deviation. The first Row contains the column titles.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Guidelines</entry>
+            <entry>Example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>We are asked to find a 95% confidence interval for the mean sensory rate, μ, of acupuncture subjects.  We have a sample of 15 rates.  We do not know the population sigma.</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions.</entry>
+            <entry>
+<para id="eip-961"><emphasis effect="bold"> Randomization Condition: </emphasis> The sample is a random sample. 
+<newline/><emphasis effect="bold"> Independence Assumption: </emphasis> It is reasonable to think that the sensory rates of 15 subjects are independent. 
+<newline/><emphasis effect="bold"> 10% Condition: </emphasis> I assume the acupuncture population is over 150, so 15 subjects is less than 10% of the population. 
+<newline/><emphasis effect="bold"> Sample Size Condition: </emphasis> Since the distribution of mean sensory rates is normal, my sample of 15 is large enough.
+<newline/><emphasis effect="bold"> Nearly Normal Condition:</emphasis>We should do a box plot and histogram to check this:
+
+</para><para id="eip-778"><media id="new" alt=""><image mime-type="image/png" src="../../media/Picture 1-36bc.png" height="207" width="230" print-width="2.5in"/></media><media id="import-auto-id1164254094695" alt=""><image mime-type="image/png" src="../../media/Picture 2-a3ae.png" height="156" width="307" print-width="2.5in"/></media></para><para id="eip-787">Even though the data is slightly skewed, it is unimodal, and there are no outliers, so we can use the model.</para></entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model</entry>
+            <entry>The conditions are satisfied and σ is unknown, so we will use a confidence interval for a mean with unknown standard deviation.We need the sample mean and Margin of Error (ME).<code id="eip-489" display="block"><m:math> <m:apply><m:conjugate/><m:mi>x</m:mi></m:apply> </m:math> = 8.2267; s = 1.6722; n =15; 
+df = 15-1 = 14; ME = <m:math> <m:msub> <m:mi>t</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> </m:msub> <m:mo>(</m:mo> <m:mfrac> <m:mrow> <m:mi>s</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mo>)</m:mo> </m:math></code></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Mechanics:</emphasis> CL = 0.95, so α = 1-CL = 1-0.95 = 0.05.  <code id="eip-967" display="block"><m:math>
+<m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow>  <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> </m:math> = 0.25; <m:math> <m:msub> <m:mi>t</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> </m:msub> </m:math> = t<sub>0.025</sub>
+
+</code><para id="eip-752">The area to the right of t<sub>0.25</sub> is 1 - 0.025 = 0.975, so t<sub>0.025, 14</sub> = 2.14</para></entry>
+            <entry>ME =2.14<equation id="eip-98"><m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow> <m:mi>1.6722</m:mi> </m:mrow>
+<m:mrow> <m:msqrt> <m:mi>15</m:mi> </m:msqrt> </m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo> <m:mn>= 0.924</m:mn>
+</m:math></equation><code id="eip-406" display="block"><m:math> <m:apply><m:conjugate/><m:mi>x</m:mi></m:apply> </m:math> = - ME = 8.2267 - 0.9240 = 7.3027
+
+</code><code id="eip-834" display="block"><m:math> <m:apply><m:conjugate/><m:mi>x</m:mi></m:apply> </m:math> = + ME = 8.2267 + 0.9240 = 9.1507</code><para id="eip-441"><media id="import-auto-id1164255558859" alt=""><image mime-type="image/png" src="../../media/confidence interval men sigma unknown.PNG" height="216" width="256" print-width="3in"/>
+                </media></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>I am 95% confident that the interval from 7.30 to 9.15 contains the true mean score of all the sensory rates.  95% of all confidence intervals constructed in this way contain the true mean sensory rate score.  </entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

@@ -1,0 +1,112 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Collaborative Statistics Using Spreadsheets: Two column Step by Step form for Hypothesis Testing</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48803</md:content-id>
+  <md:title>Collaborative Statistics Using Spreadsheets: Two column Step by Step form for Hypothesis Testing</md:title>
+  <md:abstract>This is a two column step by step form for students to use to conduct an Hypothesis Test for a sample of data.</md:abstract>
+  <md:uuid>2164484d-0449-422a-8d64-683a118a5c4d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164260133543"><emphasis effect="bold">Step-By-Step Model for a Hypothesis Test</emphasis>
+    </para><table id="import-auto-id1164248841534" summary="This is a two column thirteen row table used to complete a hypothesis Test.">
+<tgroup cols="2"><colspec colnum="1" colname="c1" colwidth="2in"/>
+        <colspec colnum="2" colname="c2" colwidth="5in"/>
+        <thead>
+          <row>
+            <entry><emphasis effect="bold">State the question:</emphasis> State what we want to determine and what level of confidence is important in your decision.</entry>
+            <entry> </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan: </emphasis>Based on the above question(s) and the answer to the following questions, decide which test you will be performing.Is the problem about numerical or categorical data?If the data is numerical is the population standard deviation known?Do you have one group or two groups?</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Hypotheses: </emphasis>State the null and alternative hypotheses in words then in symbolic form<list id="import-auto-id1164250563178" list-type="enumerated" number-style="arabic"><item>Express the hypothesis to be tested in symbolic form, </item><item>Write a symbolic expression that must be true when the original claims is false.</item><item>The null hypothesis is the statement which includes the equality.</item><item>The alternative hypothesis is the statement without the equality. </item></list></entry>
+            <entry>
+              <para id="import-auto-id1164248244029">
+                <emphasis effect="bold">Null   Hypothesis   in   words: </emphasis>
+              </para>
+              <para id="import-auto-id1164253967224">
+                <emphasis effect="bold">Null   Hypothesis   symbolically: </emphasis>
+              </para>
+              <para id="import-auto-id1164248824833">
+                <emphasis effect="bold">Alternative   Hypothesis   in   words: </emphasis>
+              </para>
+              <emphasis effect="bold">Alternative   Hypothesis   symbolically: </emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">The criteria for the inferential test stated above:</emphasis> Think about the assumptions and check the conditions.</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">Compute the test statistic: </emphasis>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Determine the Critical Region(s): </emphasis>Based on your hypotheses are you performing a left-tailed, right tailed or two-tailed test?</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Sketch the test statistic and critical region:  </emphasis>  Look up the probability on the table.</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1164248979324">
+                <emphasis effect="bold">Determine the P-value </emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1164247814130">
+                <emphasis effect="bold">State whether you reject or fail to reject the Null hypothesis. </emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1164248639101">
+                <emphasis effect="bold">If you reject the null hypothesis, continue to complete the following </emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1164248945163">
+                <emphasis effect="bold">Calculate and display your confidence interval for the Alternative hypothesis.</emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1164260126334">
+                <emphasis effect="bold">Conclusion State your conclusion based on your confidence interval.</emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

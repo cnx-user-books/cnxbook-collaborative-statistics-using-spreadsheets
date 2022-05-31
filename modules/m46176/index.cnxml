@@ -1,0 +1,227 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Bivariate Descriptive Statistics: The Regression Equation</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46176</md:content-id>
+  <md:title>Bivariate Descriptive Statistics: The Regression Equation</md:title>
+  <md:abstract>Linear Regression and Correlation: The Regression Equation is a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean. Contributions from Roberta Bloom include instructions for finding and graphing the regression equation and scatterplot using the LinRegTTest on the TI-83,83+,84+ calculators.</md:abstract>
+  <md:uuid>274f1b41-a933-4346-9fa1-289bdec7d71c</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Data rarely fit a straight line exactly. Usually, you must be satisfied with rough
+predictions. Typically, you have a set of data whose scatter plot appears to <emphasis>"fit"</emphasis> a
+straight line. This is called a <emphasis>Line of Best Fit or Least Squares Line</emphasis>.</para><section id="element-748"><title>Optional Collaborative Classroom Activity</title>
+<para id="element-900">
+If you know a person's pinky (smallest) finger length, do you think you could predict that
+person's height? Collect data from your class (pinky finger length, in inches). The
+independent variable, <m:math><m:mi>x</m:mi></m:math>, is pinky finger length and the dependent variable, <m:math><m:mi>y</m:mi></m:math>, is height.
+</para><para id="element-657">For each set of data, plot the points on graph paper. Make your graph big enough and
+<emphasis>use a ruler</emphasis>. Then "by eye" draw a line that appears to "fit" the data. For your line, pick
+two convenient points and use them to find the slope of the line. Find the y-intercept of
+the line by extending your lines so they cross the y-axis. Using the slopes and the
+y-intercepts, write your equation of "best fit". Do you think everyone will have the same
+equation? Why or why not?</para><para id="element-598">Using your equation, what is the predicted height for a pinky length of 2.5 inches?</para></section><example id="element-22"><para id="element-998">
+A random sample of 11 statistics students produced the following data
+where <m:math><m:mi>x</m:mi></m:math> is the third exam score, out of 80, and <m:math><m:mi>y</m:mi></m:math> is the final exam score, out of 200.
+Can you predict the final exam score of a random student if you know the third exam score?
+</para>
+
+<figure id="linrgs_regeq1"><subfigure id="id8083493">
+
+<table id="element-50" summary="Will write this later">
+<tgroup cols="2"><thead>
+  <row>
+    <entry align="center">x (third exam score)</entry>
+    <entry align="center">y (final exam score)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry align="right">65</entry>
+    <entry align="right">175</entry>
+  </row>
+  <row>
+    <entry align="right">67</entry>
+    <entry align="right">133</entry>
+  </row>
+  <row>
+    <entry align="right">71</entry>
+    <entry align="right">185</entry>
+  </row>
+  <row>
+    <entry align="right">71</entry>
+    <entry align="right">163</entry>
+  </row>
+  <row>
+    <entry align="right">66</entry>
+    <entry align="right">126</entry>
+  </row>
+  <row>
+    <entry align="right">75</entry>
+    <entry align="right">198</entry>
+  </row>
+  <row>
+    <entry align="right">67</entry>
+    <entry align="right">153</entry>
+  </row>
+  <row>
+    <entry align="right">70</entry>
+    <entry align="right">163</entry>
+  </row>
+  <row>
+    <entry align="right">71</entry>
+    <entry align="right">159</entry>
+  </row>
+  <row>
+    <entry align="right">69</entry>
+    <entry align="right">151</entry>
+  </row>
+  <row>
+    <entry align="right">69</entry>
+    <entry align="right">159</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><caption>Table showing the scores on the final exam based on scores from the third exam.</caption>
+</subfigure>
+<subfigure id="id7881358">
+<media id="id1164262330756" alt="Scatterplot of exam scores with the third exam score on the x-axis and the final exam score on the y-axis."><image src="../../media/linrgs_regeq1.png" mime-type="image/png" print-width="3in"/></media>
+<caption>Scatter plot showing the scores on the final exam based on scores from the third exam.</caption>
+</subfigure></figure>
+
+
+</example><para id="eip-892">The third exam score, <m:math><m:mi>x</m:mi></m:math>, is the independent variable and the final exam score, <m:math><m:mi>y</m:mi></m:math>, is the
+dependent variable. We will plot a regression line that best "fits" the data. If each of you
+were to fit a line "by eye", you would draw different lines. We can use what is called a
+<emphasis>least-squares regression line</emphasis> to obtain the best fit line.</para><para id="element-644">Consider the following diagram. Each point of data is of the the form <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:math>and each point of
+the line of best fit using least-squares linear regression has the form
+
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>,</m:mo>
+<m:mover>
+<m:mi>y</m:mi>
+<m:mo>^</m:mo>
+</m:mover>
+<m:mo>)</m:mo>
+</m:math>.
+</para><para id="element-51">The <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math> is read <emphasis>"y hat"</emphasis> and is the <emphasis>estimated value of <m:math><m:mi>y</m:mi></m:math></emphasis>. It is the value of <m:math><m:mi>y</m:mi></m:math> obtained using the
+regression line. It is not generally equal to <m:math><m:mi>y</m:mi></m:math> from data.</para><para id="element-530"><figure id="linrgs_regeq2"><media id="id1164271221679" alt="Scatterplot of the exam scores with a line of best fit tying in the relationship between the third exam and final exam scores. A specific point on the line, specific data point, and the distance between these two points are used in order to show an example of how to compute the sum of squared errors in order to find the points on the line of best fit."><image src="../../media/linrgs_regeq2.png" mime-type="image/png" print-width="5in"/></media></figure></para><para id="element-621">The term <m:math><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi></m:msub></m:math> is called the <emphasis>"error" or residual</emphasis>. It is not an error in the
+sense of a mistake. The <emphasis>absolute value of a residual</emphasis> measures the vertical distance between the actual value of <m:math><m:mi>y</m:mi></m:math> and the
+estimated value of <m:math><m:mi>y</m:mi></m:math>.
+In other words, it measures the vertical distance between the actual data point and the predicted point on the line.</para><para id="eip-462">If the observed data point lies above the line, the residual is positive, and the line underestimates the actual data value for <m:math> <m:mi>y</m:mi> </m:math>.  If the observed data point lies below the line, the residual is negative, and the line overestimates that actual data value for <m:math> <m:mi>y</m:mi> </m:math>.</para><para id="eip-104">In the diagram above, <m:math><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi></m:msub></m:math> is the residual for the point shown.  Here the point lies above the line and the residual is positive.</para><para id="element-756"><m:math><m:mi>ε</m:mi></m:math> = the Greek letter <emphasis>epsilon</emphasis></para><para id="element-15">For each data point, you can calculate the residuals or errors, <m:math><m:msub><m:mi>y</m:mi><m:mi>i</m:mi></m:msub><m:mo>-</m:mo><m:msub><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mi>i</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>ε</m:mi><m:mi>i</m:mi></m:msub></m:math> for <m:math><m:mi>i</m:mi><m:mo>=</m:mo><m:mtext>1, 2, 3, ..., 11</m:mtext></m:math>.</para><para id="element-670">Each <m:math><m:mo>|</m:mo><m:mi>ε</m:mi><m:mo>|</m:mo></m:math> is a vertical distance.</para><para id="element-610">For the example about the third exam scores and the final exam scores for the 11
+statistics students, there are 11 data points. Therefore, there are 11 <m:math><m:mi>ε</m:mi></m:math> values. If you
+square each <m:math><m:mi>ε</m:mi></m:math> and add, you get
+
+</para><para id="element-575"><m:math>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>ε</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>ε</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mtext>...</m:mtext>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>ε</m:mi>
+<m:mn>11</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mover>
+<m:mrow>
+<m:munder>
+<m:mi>Σ</m:mi>
+<m:mtext>i = 1</m:mtext>
+</m:munder>
+</m:mrow>
+<m:mn>11</m:mn>
+</m:mover>
+<m:msup>
+<m:mi>ε</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para><para id="element-215">This is called the <emphasis>Sum of Squared Errors (SSE)</emphasis>.</para>
+
+<para id="element-640">Using calculus, you can determine the values of <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> that make the <emphasis>SSE</emphasis> a minimum. When you make the <emphasis>SSE</emphasis> a
+minimum, you have determined the points that are on the line of best fit. It turns out that
+the line of best fit has the equation:
+</para>
+
+<equation id="element-710"><m:math>
+<m:mover>
+<m:mi>y</m:mi>
+<m:mo>^</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mtext>bx</m:mtext>
+</m:math>
+</equation>
+
+<para id="element-716">where <list id="eip-id1163764193649" list-type="bulleted" bullet-style="none"><item><m:math>
+<m:mi>a</m:mi><m:mo>=</m:mo><m:mover><m:mi>y</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>⋅</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math></item> <item><m:math><m:mover><m:mi>x</m:mi><m:mi>¯</m:mi></m:mover></m:math> and <m:math><m:mover><m:mi>y</m:mi><m:mi>¯</m:mi></m:mover></m:math> are the sample means of the <m:math><m:mi>x</m:mi></m:math> values and the <m:math><m:mi>y</m:mi></m:math> values, respectively. The best fit line always passes through the point
+<m:math><m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mi>¯</m:mi></m:mover><m:mo>,</m:mo><m:mover><m:mi>y</m:mi><m:mi>¯</m:mi></m:mover><m:mo>)</m:mo></m:math>.
+and </item>
+
+
+
+
+<item><m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>⋅</m:mo><m:mo>(</m:mo>
+<m:mfrac><m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>y</m:mi></m:msub></m:mrow>
+<m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></item><item> where <m:math><m:msub><m:mi>s</m:mi><m:mi>y</m:mi></m:msub></m:math>
+= the standard deviation of the
+<m:math><m:mi>y</m:mi></m:math> values and <m:math><m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub></m:math> = the standard deviation of the <m:math><m:mi>x</m:mi></m:math> values. <m:math><m:mi>r</m:mi></m:math> is the correlation
+coefficient which is discussed in the next section.</item></list></para><para id="eip-996"><title>Least Squares Criteria for Best Fit</title>The process of fitting the best fit line is called <emphasis> linear regression</emphasis>. The idea behind finding the best fit line is based on the assumption that the data are
+scattered about a straight line. The criteria for the best fit line is that the sum of the squared errors (SSE) is minimized, that is made as small as possible. Any other line you might choose would have a higher SSE than the best fit line. This best fit line is called the <emphasis> least squares regression line </emphasis>.</para><para id="eip-127">Using the summary statistics and correlation coefficient for the relationship between third exam score and final exam score we will calculate the regression equation, the line of best fit.</para><para id="eip-617">Start by calculating the slope of the line. <list id="eip-id1165372290918" list-type="bulleted" bullet-style="none"><item><m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mo>⋅</m:mo><m:mo>(</m:mo>
+<m:mfrac><m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>y</m:mi></m:msub></m:mrow>
+<m:mrow>
+<m:msub><m:mi>s</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:mfrac><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>(0.6632)</m:mi><m:mo>⋅</m:mo><m:mo>(</m:mo>
+<m:mfrac><m:mrow>
+<m:mi>20.8008</m:mi></m:mrow>
+<m:mrow>
+<m:mi>2.85721</m:mi></m:mrow></m:mfrac><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>4.827</m:mi></m:math></item></list></para><para id="eip-837">Using the slope find the u-intercept. <list id="eip-id1164937296372" list-type="bulleted" bullet-style="none"><item><m:math>
+<m:mi>a</m:mi><m:mo>=</m:mo><m:mover><m:mi>y</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mi>(b)</m:mi><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>160.4545</m:mo><m:mo>-</m:mo><m:mo>(4.827)</m:mo><m:mo>(69.1818)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mo>173.49</m:mo></m:math></item></list></para><para id="eip-17">The least squares regression line (best fit lint) for the third exam/final exam example has the equations: <m:math>
+<m:mover>
+<m:mi>y</m:mi>
+<m:mo>^</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mi>-</m:mi>
+<m:mi>173.49</m:mi>
+<m:mo>+</m:mo>
+<m:mo>4.83x</m:mo>
+</m:math></para><para id="element-27"><title>THIRD EXAM vs FINAL EXAM EXAMPLE:</title>The graph of the line of best fit for the third exam/final exam example is shown below:</para><figure id="linrgs_regeq3"><media id="id1164250764889" alt="Scatterplot of the third exam scores by final exam scores and its line of best fit."><image src="../../media/linrgs_regeq3.png" mime-type="image/png" print-width="4in"/></media></figure><note id="eip-923"><list id="id150181954" list-type="labeled-item"><item>Remember, it is always important to plot a
+scatter diagram first. If the scatter plot indicates that there is a linear relationship between
+the variables, then it is reasonable to use a best fit line to make predictions for
+<m:math><m:mi>y</m:mi></m:math> given <m:math><m:mi>x</m:mi></m:math> within the domain of <m:math><m:mi>x</m:mi></m:math>-values in the sample data, <emphasis>but not necessarily
+for <m:math><m:mi>x</m:mi></m:math>-values outside that domain.</emphasis></item> <item> You could use the line to predict the final exam score for a student who earned a grade of 73 on the third exam.</item>  <item>You should NOT use the line to predict the final exam score for a student who earned a grade of 50 on the third exam, because 50 is not within the domain of the x-values in the sample data, which are between 65 and 75. </item></list></note><para id="element-39"><title>UNDERSTANDING SLOPE</title>The slope of the line, b, describes how changes in the variables are related. It is important to interpret the slope of the line in the context of the situation represented by the data. You should be able to write a sentence interpreting the slope in plain English.</para><para id="element-725"><emphasis>INTERPRETATION OF THE SLOPE:</emphasis> The slope of the best fit line tells us how the dependent variable (y) changes for every one unit increase in the independent (x) variable, on average. </para><list id="eip-553" list-type="labeled-item"><title>THIRD EXAM vs FINAL EXAM EXAMPLE</title><item>Slope: The slope of the line is b = 4.83. </item>
+<item>Interpretation:  For a one point increase in the score on the third exam, the final exam score increases by 4.83 points, on average.</item>
+</list></content>
+  
+</document>

@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Two Column Model Step by Step Example of a Hypotheses Test for a Two Population Proportion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46748</md:content-id>
+  <md:title>Two Column Model Step by Step Example of a Hypotheses Test for a Two Population Proportion</md:title>
+  <md:abstract>This is a step by step example modeling the process of calculating a hypothesis test for a two population proportion.</md:abstract>
+  <md:uuid>35e98212-d813-48b0-a6ec-aed6b1f7570f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164255579967">
+      <title>Step-By-Step Example of a Hypotheses Test for Two Population Proportions (used Ex 10.3)</title><para id="import-auto-id1164254058583">Two types of medication for hives are being tested to determine if medication A is more effective than medication B.  One hundred-eighty-eight out of a random sample of 200 adults given medication A did not have hives 30 minutes after taking the medication.  One hundred-eighty out of another random sample of 200 adults given medication B did not have hives 30 minutes after taking the medication.  Test at the 1% level of significance.</para>
+      <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1164255625124" summary="Will write later.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>Guidelines</entry>
+              <entry>Example</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">State the question:</emphasis> State what we want to determine and what level of significance is important in your decision. </entry>
+              <entry>We are asked to test the hypothesis that the proportion of adults taking medicine A without hives is more than the proportion of adults taking medicine B without hives after 30 minutes.  The significance level is 5%.</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="bold">Plan:</emphasis> Based on the above question(s) and the answer to the following questions, decide which test you will be performing.  Is the problem about numerical or categorical data?If the data is numerical is the population standard deviation known? Do you have one group or two groups?What type of model is this?</entry>
+              <entry><para id="eip-428">We have bivariate, categorical data.  We have two independent groups. We have a sample of 200 adults taking medicine A and 200 adults taking medicine B.  Our model will be: </para><para id="eip-21"><m:math>
+<m:msub> <m:mi>P</m:mi> <m:mi>A</m:mi> </m:msub>
+<m:mi>-</m:mi>
+<m:msub> <m:mi>P</m:mi> <m:mi>B</m:mi> </m:msub>
+<m:mi>~</m:mi>
+</m:math></para><para id="eip-988"><m:math>
+<m:mi>N (</m:mi>
+<m:msub> <m:mi>P</m:mi> <m:mi>A</m:mi> </m:msub>
+<m:mi>-</m:mi>
+<m:msub> <m:mi>P</m:mi> <m:mi>B</m:mi> </m:msub>
+<m:mi>,</m:mi>
+<m:msqrt> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>pooled</m:mi> </m:msub>  <m:mi>( 1 -</m:mi> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>pooled</m:mi> </m:msub> <m:mi>) (</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msub> <m:mi>n</m:mi> <m:mi>1</m:mi> </m:msub> </m:mrow> </m:mfrac> <m:mi>+</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msub> <m:mi>n</m:mi> <m:mi>2</m:mi> </m:msub> </m:mrow> </m:mfrac> <m:mi>)</m:mi> </m:msqrt> <m:mi>)</m:mi>
+</m:math></para></entry>
+            </row>
+            <row>
+              <entry><emphasis effect="bold">Hypotheses: </emphasis>  State the null and alternative hypotheses in words and then in symbolic form
+<list id="eip-id233423743" list-type="enumerated" number-style="arabic"><item>Express the hypothesis to be tested in symbolic form.</item> 
+<item>Write a symbolic expression that must be true when the original claim is false.</item> 
+<item> The null hypothesis is the statement which included the equality.</item>
+<item>The alternative hypothesis is the statement without the equality.</item>
+</list>
+</entry>
+              <entry><para id="eip-623"><emphasis effect="bold"> Null hypothesis in words: </emphasis> The null hypothesis is that the true proportion of adults helped by medication A is equal to the true proportion of adults helped by medication B.</para><para id="import-auto-id1164255664800"><emphasis effect="bold">Null Hypothesis symbolically: </emphasis>H<sub>0</sub>: Proportion <m:math><m:msub> <m:mi>p</m:mi> <m:mi>A</m:mi> </m:msub>
+<m:mi>=</m:mi>
+<m:msub> <m:mi>p</m:mi> <m:mi>B</m:mi> </m:msub></m:math></para><para id="eip-829"><emphasis effect="bold"> Alternative Hypothesis in words: </emphasis> The alternative is that the true proportion of adults helped by medication A is more than the true proportion of adults helped by medication B.</para><para id="eip-280"><emphasis effect="bold">Alternative Hypothesis symbolically: </emphasis> H<sub>a</sub>: Proportion <m:math><m:msub> <m:mi>p</m:mi> <m:mi>A</m:mi> </m:msub>
+<m:mi>&gt;</m:mi>
+<m:msub> <m:mi>p</m:mi> <m:mi>B</m:mi> </m:msub></m:math> </para></entry>
+            </row>
+            <row>
+              <entry><emphasis effect="bold">The criteria for the inferential test stated above:</emphasis> Think about the assumptions and check the conditions.If your assumptions include the need for particular types of data distribution, please insert the appropriate graphs or charts if necessary.</entry>
+              <entry><para id="eip-234"><emphasis effect="bold">Randomization Condition:  </emphasis>The samples are random samples.</para><para id="eip-24"><emphasis effect="bold">Independence Assumption:</emphasis>  Since we know that a random sample was taken it is reasonable to assume independence.  The likelihood of having the medicine work for one person has no bearing on if it will work for another.</para><para id="eip-566"><emphasis effect="bold">Independent Groups Assumption:</emphasis> It is reasonable to think that the medicine A group and medicine B group recovery rates are independent of each other.</para><para id="eip-521"><emphasis effect="bold">10% Condition:</emphasis>  I assume the number of adults in the community where this was done is more than 4000, so the 200 adults in each group is less than 10% of each population. </para><para id="eip-151"><emphasis effect="bold">Success/Failure Condition: </emphasis> Success = no hives Failure = hives
+(.94)(200) = 188 and (1 - .94)(200) = 12 and (.90)(200) = 180 and (1 - .9)(200) = 20, all values are larger than 10 so the condition is met.</para><emphasis effect="bold"/></entry>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164255548867">
+                  <emphasis effect="bold">Compute the test statistic: </emphasis>
+                </para>
+              </entry>
+              <entry>The conditions are satisfied, so we will use a hypothesis test for two proportions. We will use a z-test.We need the sample percentages, sample sizes, and p-hat pooled.<list id="eip-716" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>A</m:mi> </m:msub>
+<m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>188</m:mi> </m:mrow> <m:mrow> <m:mi>200</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.94; </m:mi> <m:msub> <m:mi>n</m:mi> <m:mi>A</m:mi> </m:msub> <m:mi>= 200;</m:mi> </m:math> </item><item><m:math>
+<m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>B</m:mi> </m:msub>
+<m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>180</m:mi> </m:mrow> <m:mrow> <m:mi>200</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.90; </m:mi> <m:msub> <m:mi>n</m:mi> <m:mi>B</m:mi> </m:msub> <m:mi>= 200</m:mi> 
+</m:math>
+</item></list><list id="eip-106" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>pooled</m:mi> </m:msub>
+<m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>188 + 180</m:mi> </m:mrow> <m:mrow> <m:mi>200 + 200</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.92 </m:mi>
+</m:math>
+</item></list><list id="eip-253" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:mi> z = </m:mi>
+<m:mfrac>
+<m:mrow> <m:mi>(</m:mi> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>A</m:mi> </m:msub> <m:mi>-</m:mi> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>B</m:mi> </m:msub> <m:mi>) - (0)</m:mi> </m:mrow>
+<m:mrow>  <m:msqrt> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>pooled</m:mi> </m:msub> <m:mi>(1 -</m:mi> <m:msub> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>pooled</m:mi> </m:msub> <m:mi>)(</m:mi> <m:mfrac> <m:mrow><m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msub> <m:mi>n</m:mi> <m:mi>A</m:mi> </m:msub> </m:mrow> </m:mfrac> <m:mi>+</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msub> <m:mi>n</m:mi> <m:mi>B</m:mi> </m:msub> </m:mrow> </m:mfrac> <m:mi>)</m:mi> </m:msqrt> </m:mrow> </m:mfrac>
+</m:math>
+</item>
+
+<item>
+<m:math>
+<m:mi>=</m:mi>
+<m:mfrac>
+<m:mrow> <m:mi>0.94 - 0.90</m:mi> </m:mrow>
+<m:mrow>  <m:msqrt> <m:mi>0.92(1 - 0.92)(</m:mi><m:mfrac> <m:mrow><m:mi>1</m:mi> </m:mrow> <m:mrow> <m:mi>200</m:mi> </m:mrow> </m:mfrac> <m:mi>+</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:mi>200</m:mi> </m:mrow> </m:mfrac> <m:mi>)</m:mi> </m:msqrt> </m:mrow> </m:mfrac>
+
+</m:math> 
+</item>
+
+<item>
+<m:math><m:mi>=</m:mi>
+<m:mfrac> 
+<m:mrow> <m:mi>0.04</m:mi> </m:mrow>
+<m:mrow> <m:mi>0.19183</m:mi> </m:mrow>
+</m:mfrac>
+<m:mi>= 2.085 </m:mi>
+</m:math>
+</item></list></entry>
+            </row>
+            <row>
+              <entry><emphasis effect="bold">Determine the Critical Region(s): </emphasis>Based on your hypotheses are you performing a left-tailed, right-tailed, or two-sided test?</entry>
+              <entry>I will perform a right-tailed test.  </entry>
+            </row>
+            <row>
+              <entry><para id="import-auto-id1164255558564"><emphasis effect="bold">Sketch the test statistic and critical region:</emphasis></para>Look up the probability on the table.</entry>
+              <entry>
+                <para id="eip-229"><media id="import-auto-id13164251642783" alt="">
+                    <image mime-type="image/png" src="../../media/Picture 1-7d83.png" height="216" width="380" print-width="3in"/>
+                  </media></para></entry>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164253127610">
+                  <emphasis effect="bold">Determine the P-value</emphasis>
+                </para>
+              </entry>
+              <entry>P(z &gt; 2.085) = 1 – P(z &lt; 2.085) = 1 – 0.9815 = 0.0185 &gt; 0.01 </entry>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164255510129">
+                  <emphasis effect="bold">State whether you reject or fail to reject the Null hypothesis.</emphasis>
+                </para>
+              </entry>
+              <entry>Since the probability is more than the critical value of 1%, we will fail to reject the null hypothesis.</entry>
+            </row>
+            <row>
+              <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+              <entry>Since the probability is more than 1%, this is not a rare event and the large probability tells us to fail to reject the null hypothesis.  There is no evidence against the null hypothesis.  There is no reason to believe that medication A is more effective than medication B. </entry>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164255731419">
+                  <emphasis effect="bold">If you reject the null hypothesis, continue to complete the following</emphasis>
+                </para>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164254305244">
+                  <emphasis effect="bold">Calculate and display your confidence interval for the Alternative hypothesis.</emphasis>
+                </para>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <para id="import-auto-id1164255730845">
+                  <emphasis effect="bold">State your conclusion based on your confidence interval.</emphasis>
+                </para>
+              </entry>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></section>
+  </content>
+</document>

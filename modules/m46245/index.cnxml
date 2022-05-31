@@ -1,0 +1,75 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Central Limit Theorem: Two Column Model Step by Step Example of a Sampling Distribution for a Binomial</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46245</md:content-id>
+  <md:title>Central Limit Theorem: Two Column Model Step by Step Example of a Sampling Distribution for a Binomial</md:title>
+  <md:abstract>This is a step by step example of the normal approximation to the binomial in a table format</md:abstract>
+  <md:uuid>fda5e3f6-719d-4df7-bcb5-0b9434e210a8</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165233753173"><emphasis effect="bold">Two Column Model Step by Step Example of a Sampling Distribution for a Binomial</emphasis>
+    </para><para id="import-auto-id1165240626608">Suppose in a local Kindergarten through 12<sup>th</sup> grade (K-12) school district, 53 percent of the population favor a charter school for grades K-5.  A simple random sample of 300 is surveyed. </para>
+    <para id="import-auto-id1165213292407">Find the probability that <emphasis effect="bold">at least 150</emphasis> favor a charter school.</para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4961177" summary="This is table has two columns and 7 rows. The first row contains the tiles of the two columns.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+<row>
+<entry>Guidelines</entry>
+<entry>Example from book</entry>
+</row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>We are asked  the probability that number of people who favor a charter school is at least 150. </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions. Check to see that these are Bernoulli trials.</entry>
+            <entry>
+<para id="eip-838"><emphasis effect="bold"> Randomization Condition:</emphasis> The sample was stated to be random. 
+</para><para id="eip-788"><emphasis effect="bold"> Independence Assumption: </emphasis>  It is reasonable to think that the opinions of 300 randomly selected people are independent. 
+</para><para id="eip-110"><emphasis effect="bold"> 10% Condition: </emphasis>  I assume the population of the school district is over 3000 people, so 300 people is less than 10% of the population.</para><para id="eip-790"><emphasis effect="bold"> Success/Failure Condition </emphasis> success = favor charter school, failure = do not favor p = 0.53, (1 – p) = 0.47 np= 300(0.53) = 159 &gt; 10, n(1-p)= 300(0.47) =141 &gt; 10 </para></entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model.</entry>
+            <entry>Since this is a binomial distribution, X ~ B(300,0.53). <equation id="eip-359"><m:math>
+<m:mi>µ = np = 300(0.53) = 159</m:mi>
+</m:math></equation><equation id="eip-304"><m:math>
+<m:mi>σ = </m:mi> <m:msqrt> <m:mi>npq</m:mi> </m:msqrt> <m:mi>=</m:mi> <m:msqrt> <m:mi>300(0.53 * 0.47)</m:mi> </m:msqrt> <m:mi>= 8.6447</m:mi>
+</m:math></equation><para id="eip-766">We will use the normal approximation to the binomial, Y~ N(159,8.6447)</para> </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Plot:</emphasis>  Make a picture. Sketch the model and shade the area we’re interested in.  </entry>
+            <entry>
+              <para id="eip-777"><media id="import-auto-id21165211752966" alt="">
+                  <image mime-type="image/png" src="../../media/Picture 1-55c8.png" height="167" width="260" print-width="2.5in"/>
+                </media>
+              </para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Mechanics:</emphasis> Since we want the probability of at least 150, 150 is included so we correct to 149.5. Then, we convert into a z score. <equation id="eip-484"><m:math>
+<m:mi>Y ~ N(159,8.6447) </m:mi>
+</m:math></equation> Find the resulting probability from a table of Normal probabilities, a computer program or a calculator.  </entry>
+            <entry>A z-score will be used:<list id="eip-857" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:mi>P(x ≥ 150) = P(y ≥ 149.5),</m:mi></m:math></item><item><m:math>
+<m:mfrac> <m:mrow> <m:mi>x - µ</m:mi> </m:mrow> <m:mrow> <m:mi>σ</m:mi> </m:mrow> </m:mfrac> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>149.5 - 159</m:mi> </m:mrow> <m:mrow> <m:mi>8.6447</m:mi> </m:mrow> </m:mfrac> <m:mi>= -1.0989</m:mi>
+</m:math>
+</item></list><para id="eip-905">Look this up in the table or use a computer. P(z &lt; -1.0989) = 0.136 P(z &gt;-1.0989) = 1-0.136 = 0.864 </para> </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>The probability that the number of people who favor charter schools is at least 150 is 86.4%.</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

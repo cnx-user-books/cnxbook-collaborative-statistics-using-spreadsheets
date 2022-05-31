@@ -1,0 +1,165 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Assumptions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46725</md:content-id>
+  <md:title>Hypothesis Testing of Single Mean and Single Proportion: Assumptions</md:title>
+  <md:abstract/>
+  <md:uuid>466282df-17bd-41ef-aeca-598fbc33ed8a</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-274">When performing hypotheses tests the appropriate assumptions and conditions need to be met in order for us to use the model. </para><para id="eip-205">For a <term target-id="hypotest">hypothesis test</term><emphasis> of a single population mean</emphasis> <m:math><m:mi>μ</m:mi></m:math><emphasis> and the population </emphasis><term target-id="stddev">standard deviation</term><emphasis> is known, performing a z-test</emphasis> the following assumptions and conditions must be met.</para><list id="eip-427"><item><emphasis>Randomization Condition:</emphasis> The data must be sampled randomly.  Is one of the good sampling methodologies discussed in the Sampling and Data chapter being used?</item>
+<item><emphasis>Independence Assumption:</emphasis>  The sample values must be independent of each other.  This means that the occurrence of one event has no influence on the next event.  Usually, if we know that people or items were selected randomly we can assume that the independence assumption is met.</item>
+<item><emphasis>10% Condition: </emphasis> When the sample is drawn without replacement (usually the case), the sample size, n, should be no more than 10% of the population.</item>
+<item><emphasis>Large Enough Sample Condition: </emphasis>  The sample size must be sufficiently large.  Although the Central Limit Theorem tells us that we can use a Normal model to think about the behavior of sample means when the sample size is large enough, it does not tell us how large that should be. If the population is very skewed, you will need a pretty large sample size to use the CLT, however if the population is unimodal and symmetric, even small samples are ok.  So think about your sample size in terms of what you know about the population and decide whether the sample is large enough.  In general a sample size of 30 is considered sufficient.</item></list><para id="delete_me">When working with numerical data and  <m:math><m:mi>σ</m:mi></m:math> is unknown, performing a 
+<term target-id="studenttdist">Student's-t distribution</term> (often called a t-test), the assumptions of randomization, independence and the 10% condition must be met.  In addition, with small sample sizes we cannot assume that that data follows a normal distribution so we need to check the nearly <term target-id="nrmdist">normally distributed</term> condition.  To check the nearly normal condition start by making a histogram or stemplot of the data, it is a good idea to make an outlier boxplot, too.  If the sample is small, less than 15 then the data must be normally distributed.  If the sample size is moderate, between 15 and 40, then a little skewing in the data will can be tolerated.  With large sample sizes, more than 40, we are concerned about multiple peaks (modes) in the data and outliers.  The data might not be approximately normal with either of these conditions and you may want to run the test both with and without the outliers to determine the extent of their effect.  If there are multiple modes in the data it could be that there are two groups in the data that need to be separated.
+</para><para id="element-395">When working with categorical data, construct a  <emphasis>hypothesis test of a single population proportion <m:math><m:mi>p</m:mi></m:math></emphasis>, the assumptions of randomization, independence and the 10% condition must be met.  In addition, a new assumption, the <emphasis> success/ failure condition </emphasis>, must be checked.  When working with proportions we need to be especially concerned about sample size when the proportion is close to zero or one.  To check that the sample size is large enough, calculate the success by multiplying the null hypothesized percentage by the sample size and calculate failure by multiplying one minus the null hypothesized percentage by the sample size.  If both of these products are larger than ten then the condition is met.
+<m:math><m:mspace width="36pt"/>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>:
+<m:math><m:mi>p</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>
+</para><para id="eip-359">You are meeting the conditions
+for a <term target-id="bidist">binomial distribution</term> which are there are a certain number <m:math><m:mi>n</m:mi></m:math> of independent
+trials, the outcomes of any
+trial are success or failure, and each trial has the same probability of a success <m:math><m:mi>p</m:mi></m:math>. The shape of the binomial distribution needs to be
+similar to the shape of the normal distribution. To ensure this, the quantities <m:math><m:mi>n</m:mi><m:mi>p</m:mi></m:math>
+and <m:math><m:mi>n</m:mi><m:mi>(1-p)</m:mi></m:math> must both be greater than ten <m:math><m:mi>n</m:mi>
+<m:mi>p</m:mi>
+<m:mo>&gt;</m:mo><m:mn>10</m:mn></m:math> and <m:math><m:mi>n</m:mi><m:mo>(</m:mo>
+<m:mi>1-p </m:mi>
+<m:mo>)</m:mo><m:mo>&gt;</m:mo><m:mn>10</m:mn></m:math>. Then the binomial distribution of sample (estimated)
+proportion can be approximated by the normal distribution with
+<m:math><m:mi>μ</m:mi><m:mo>=</m:mo>
+<m:mi>p</m:mi>
+</m:math>
+ 
+and
+
+<m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
+
+
+    <m:mfrac>
+      
+<m:mrow>
+<m:mi>p</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>q</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+</m:mrow>
+
+    </m:mfrac>
+  
+</m:msqrt>
+</m:math>.
+
+Remember that <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:math>.
+
+</para></content>
+<glossary>
+<definition id="bidist">
+    <term>Binomial Distribution</term>
+    <meaning id="id8181257">
+      A discrete random variable (RV) which arises from Bernoulli trials. There are a fixed number, <m:math><m:mi>n</m:mi></m:math>, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is defined as the number of successes in <m:math><m:mi>n</m:mi></m:math> trials. The notation is: 
+
+<emphasis><m:math><m:mi>X</m:mi></m:math>~<m:math> <m:mi>B</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>n</m:mi>
+  <m:mo>,</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:math></emphasis>. The mean is <m:math><m:apply>
+  <m:eq/>
+  <m:ci>μ</m:ci>
+  <m:ci>np</m:ci>
+</m:apply>
+</m:math> and the standard deviation is 
+<m:math>
+
+   
+    <m:mi>σ</m:mi>
+  
+  <m:mo>=</m:mo>
+  <m:msqrt><m:mi>npq</m:mi></m:msqrt>
+
+</m:math>. The probability of exactly <m:math><m:mi>x</m:mi></m:math> successes in <m:math><m:mi>n</m:mi></m:math> trials is <m:math>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>X</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>x</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mfenced>
+    <m:mfrac linethickness="0">
+      <m:mi>n</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mfenced>
+  <m:msup>
+    <m:mi>p</m:mi>
+    <m:mi>x</m:mi>
+  </m:msup>
+  <m:msup>
+    <m:mi>q</m:mi>
+    <m:mrow>
+      <m:mi>n</m:mi>
+      <m:mo>−</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+  </m:msup>
+</m:math>.
+    </meaning>
+  </definition>
+
+
+  
+
+<definition id="normdist">
+    <term>Normal Distribution</term>
+    <meaning id="id42733014">
+   A continuous random variable (RV) with pdf  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>f(x)</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>σ</m:mi><m:msqrt><m:mn>2π</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mn>2σ</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "pdf"= {  {1}  over  {σ sqrt {2π} } } e rSup { size 8{ -  \( x - μ \)  rSup { size 6{2} } /2σ rSup { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>μ</m:mi></m:math>  is the mean of the distribution and <m:math><m:mi>σ</m:mi></m:math>  is the standard deviation. Notation: <m:math><m:mi>X</m:mi></m:math>  ~  <m:math> <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn/>
+    </m:msup>
+  </m:mfenced></m:math>. If <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, the RV is called <emphasis>the standard normal distribution</emphasis>.
+    </meaning>
+  </definition>
+
+<definition id="stddev">
+    <term>Standard Deviation</term>
+    <meaning id="id20302532">
+A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and   <m:math><m:ci>σ</m:ci></m:math> for population standard deviation.
+    </meaning>
+  </definition>
+
+
+<definition id="studenttdist">
+    <term>Student-<emphasis>t</emphasis> Distribution</term>
+    <meaning id="id8759760">
+Investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
+
+<list id="tdist1" list-type="bulleted"><item>It is continuous and assumes any real values. </item><item>The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution. </item><item>  It approaches the standard normal distribution as n gets larger. </item><item>  There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data.</item></list>
+
+    </meaning>
+  </definition>
+
+
+
+
+</glossary>  
+</document>

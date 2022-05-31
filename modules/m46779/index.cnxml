@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Hypothesis Testing: Two Population Means and Two Population Proportions: Summary of Types of Hypothesis Tests</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46779</md:content-id>
+  <md:title>Hypothesis Testing: Two Population Means and Two Population Proportions: Summary of Types of Hypothesis Tests</md:title>
+  <md:abstract/>
+  <md:uuid>684f76fd-7f2f-4ced-bef6-99b68c458590</md:uuid>
+</metadata>
+
+<content>
+      
+<list id="eip-443"><title>Two Population Means</title><item>Populations are independent and population standard deviations are unknown.</item>
+</list><list id="eip-722"><title>Two Population Proportions</title><item>Populations are independent.</item>
+</list><section id="eip-508"><title>Glossary</title><para id="eip-456"><title>Degrees of Freedom</title>The number of objects in a sample that are free to vary.
+</para><para id="eip-548"><title>Standard Deviation</title>A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and σ for population standard deviation.</para><para id="eip-612"><title>Variance (Random Variable)</title>A characteristic of interest in a population being studied. Common notation for variables are upper case Latin letters 
+X, 
+Y, 
+Z,...; common notation for a  specific value from the domain (set of all possible values of a variable) are lower case Latin letters 
+x, 
+y, 
+z,.... For example, if 
+X is the number of children in a family, then 
+x represents a specific  integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two following ways. 
+
+<newline/>(1). The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if 
+X = hair color then the domain is {black, blond, gray, green, orange}.  <newline/>(2). We can tell what specific value  
+x of the Random Variable   
+X takes only after performing the experiment.</para></section>
+
+  </content>
+  
+</document>

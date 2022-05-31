@@ -1,0 +1,56 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Bivariate Descriptive Statistics: Summary</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46200</md:content-id>
+  <md:title>Bivariate Descriptive Statistics: Summary</md:title>
+  <md:abstract>This module provides a summary on Linear Regression and Correlation as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>f8e5c4c4-b0ff-47dd-867b-ab320d9c9d73</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me"><emphasis>Bivariate Data:</emphasis> Each data point has two values. The form is <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:math>.</para><para id="element-590"><emphasis>Line of Best Fit or Least Squares Line (LSL):</emphasis>
+<m:math>
+<m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mtext>bx</m:mtext>
+</m:math>
+</para><para id="element-19"><m:math><m:mi>x</m:mi></m:math> = independent variable; 
+<m:math><m:mi>y</m:mi></m:math> = dependent variable</para><para id="element-806"><emphasis>Residual:</emphasis> <m:math><m:mtext>Actual y value</m:mtext><m:mo>-</m:mo><m:mtext>predicted y value</m:mtext><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math></para><list id="element-274" list-type="enumerated"><title>Correlation Coefficient r:</title><item>Used to determine whether a line of best fit is good for prediction.</item>
+<item>Between -1 and 1 inclusive. The closer <m:math><m:mi>r</m:mi></m:math> is to 1 or -1, the closer the original points are to a straight line.</item>
+<item>If <m:math><m:mi>r</m:mi></m:math> is negative, the slope is negative. If  <m:math><m:mi>r</m:mi></m:math> is positive, the slope is positive.</item>
+<item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, then the line is horizontal.</item></list><para id="eip-597"><emphasis>Calculating the correlation coefficient:</emphasis>
+<m:math>
+<m:mi>r</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mfrac><m:mrow><m:mo>Σ(</m:mo><m:mi>xy</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac><m:mo>-</m:mo>
+<m:mo>(</m:mo><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply><m:mo>)</m:mo><m:mo>(</m:mo><m:apply><m:conjugate/><m:ci>y</m:ci></m:apply><m:mo>)</m:mo>
+
+
+</m:mrow>
+<m:mrow>
+<m:ci>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+</m:ci>
+
+<m:ci>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>y</m:mi>
+</m:msub>
+</m:ci>
+</m:mrow>
+</m:mfrac>
+<m:mo>(</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mo>1</m:mo></m:mrow></m:mfrac><m:mo>)</m:mo>
+</m:math></para><para id="element-745"><emphasis>Sum of Squared Errors (SSE):</emphasis> The smaller the <emphasis>SSE</emphasis>, the better the original set of
+points fits the line of best fit.</para><para id="element-802"><emphasis>Outlier:</emphasis> A point that does not seem to fit the rest of the data.</para>   
+  </content>
+  
+</document>

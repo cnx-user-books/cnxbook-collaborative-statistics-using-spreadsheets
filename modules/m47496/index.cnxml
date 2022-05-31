@@ -1,0 +1,62 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Confidence Intervals: Using Spreadsheets to Explore and Display Confidence Intervals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47496</md:content-id>
+  <md:title>Confidence Intervals: Using Spreadsheets to Explore and Display Confidence Intervals</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheets and Excel to calculate and display Confidence Intervals.</md:abstract>
+  <md:uuid>7b360c47-21f3-45b2-8094-d44391462d2f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1169187686382">
+      <title>Confidence Intervals using Spreadsheets</title>
+      <para id="import-auto-id1169186621301">In this section we will discuss techniques using spreadsheet for creating confidence intervals for a one population mean, population standard deviation known; a one population mean, population standard deviation unknown: and for a population proportion, </para>
+      <section id="import-auto-id6716151">
+        <title>Confidence Intervals Formulas</title>
+        <para id="import-auto-id1169186024158">You can set up a worksheet in Excel to compute the confidence interval be using one of the following formulas in Excel or Google Spreadsheet</para>
+        <table id="import-auto-id1169185468784" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>Function</entry>
+                <entry>Excel Formula</entry>
+                <entry>Google Spreadsheet formula</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Confidence interval for one population mean, population standard deviation known.</entry>
+                <entry>=confidence.norm(alpha, standard deviation, number in sample)</entry>
+                <entry>=confidence(alpha, standard deviation, number in sample)</entry>
+              </row>
+              <row>
+                <entry>Confidence interval for one population mean, population standard deviation unknown.</entry>
+                <entry>=confidence.t(alpha, standard deviation, number in sample)</entry>
+                <entry>No built in formula</entry>
+              </row>
+              <row>
+                <entry>Confidence interval for one population proportion.</entry>
+                <entry>There is no built in formula. . . we will calculate using model below = p-hat±(critical value z-score*sqrt((p-hat*(1-p-hat)/n)</entry>
+                <entry>There is no built in formula. . . we will calculate using model below = p-hat±(critical value z-score*sqrt((p-hat*(1-p-hat)/n)</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="import-auto-id1169181323473">
+        <title>Displaying Confidence Intervals:</title><para id="import-auto-id1169181314389">To graph confidence intervals  the  “Statistics Online Computational Resources (SOCR)” (just as in the previous chapter) at <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> has in the dropdown menu for SOCR distribution the normal distribution and for a Student’s t-distribution. For a normal distribution, you will need to have your mean and standard deviation and again your right and left cut off values (which in this case will be your critical values). For a Student’s t-distribution, you will need to have degrees of freedom and again your right and left cut off values (which in this case will be your critical values). Below is a graph of the Student’s t-distribution. We have used the example from 8.6 Two column Model step by step example for this demonstration. The degrees of freedom were 14 and a 95% confidence interval. We used the t-table to determine the left and right cut off values. In this instance two tailed confidence interval of 95% with 14 degrees for freedom is minus and plus 2.145. <figure id="import-auto-id1169185491531"><media id="import-auto-id1169186357486" alt=""><image mime-type="image/png" src="../../media/graphics1-3ad2.png" height="402" width="575"/></media></figure></para><para id="import-auto-id1169186275697">This next example is using the normal distribution for determining the confidence interval for a population proportion. The normal density curve here has the population proportion as the mean (p or p-hat) and the standard deviation  (the square root of (p(1-p)/n). We have demonstrated the example 8.8 to show you how this looks in SOCR. For this problem the mean proportion was .842 and the critical z-value for a 95% confidence interval was ± 0.032 or (0.81, 0.874).</para><figure id="import-auto-id1169186981349">
+          <media id="import-auto-id1883175" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-0ae5.png" height="403" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id2749037">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1169186109209">At your computer, try to use some of these tools to work out your homework problems or check homework that you have completed to see if the results are the same or similar. </para>
+      </section>
+    </section>
+  </content>
+</document>

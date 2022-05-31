@@ -1,0 +1,764 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Hypothesis Testing of Two Means and Two Proportions: Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46777</md:content-id>
+  <md:title>Hypothesis Testing of Two Means and Two Proportions: Homework</md:title>
+  <md:abstract/>
+  <md:uuid>88b91b41-7e3e-474f-9f31-77d5270eb9fb</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Hypothesis Testing of Two Means and Two Proportions.doc" strength="3">Download handout (.doc)</link>
+      <link url="Hypothesis Testing of Two Means and Two Proportions.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id12925134">For questions <link target-id="exer1"/> - <link target-id="exer10"/>, indicate which of the following choices best identifies the hypothesis test.</para>
+    <list id="id12925139" mark-suffix="." list-type="labeled-item"><item><label>A</label>Independent group means, population standard deviations and/or variances unknown</item>
+
+      <item><label>B</label>Single mean</item>
+      <item><label>C</label>2 proportions</item>
+      <item><label>D</label>Single proportion</item>
+    </list><exercise id="exer2"><problem id="id5345814"><para id="id12925185">A new chocolate bar is taste-tested on consumers. Of interest is whether
+the proportion of children that like the new chocolate bar is greater than
+the proportion of adults that like it.</para></problem></exercise>
+    <exercise id="exer3"><problem id="id11458107"><para id="id12925195">The mean number of English courses taken in a two–year time period by male and female college students is believed to be about the same. An experiment is conducted and data are collected from 9 males and 16 females.</para></problem>
+
+<solution id="id16017966"><para id="pasidhadsfa">A</para></solution></exercise><exercise id="exer4"><problem id="id3629929"><para id="id12911671">A football league reported that the mean number of touchdowns per game was 5. A study is done to determine if the mean number of touchdowns has decreased.</para></problem></exercise>
+    <exercise id="exer6"><problem id="id16769715"><para id="id12911698">According to a YWCA Rape Crisis Center newsletter, 75% of rape victims know their attackers. A study is done to verify this.</para></problem></exercise>
+    <exercise id="exer7"><problem id="id3494069"><para id="id12911708">According to a recent study, U.S. companies have an mean maternity-leave of six weeks. </para></problem>
+
+<solution id="id11111586"><para id="pasidqwerqwehadsfa">B</para></solution></exercise><exercise id="exer8"><problem id="id8688748"><para id="id12911715">A recent drug survey showed an increase in use of drugs and alcohol among local high school students as compared to the national percent. Suppose that a survey of 100 local youths and 100 national youths is conducted to see if the proportion of drug and alcohol use is higher locally than nationally.</para></problem></exercise>
+    <exercise id="exer10"><problem id="id4446742"><para id="id12911739">University of Michigan researchers reported in the <cite><cite-title>Journal of the National Cancer Institute</cite-title></cite> that quitting smoking is especially beneficial for those under age 49. In this American Cancer Society study, the risk (probability) of dying of lung cancer was about the same as for those who had never smoked.</para></problem></exercise>
+    <section id="id3519776"><title/><note id="eip-519"><label>Directions</label>For each of the word problems, use a solution sheet to do the hypothesis test.  Use the two column step by step model, as is used in the text. A blank form can be found in your course management system. Please feel free to make copies of the step by step model forms. 
+
+</note><note id="id17215905">If you are using a student's-t distribution for a homework problem below, including for paired data, you may assume that the underlying population is normally distributed. (In general, you must first prove that assumption, though.)</note><exercise id="exer11"><problem id="id18754156"><para id="id12911772">A powder diet is tested on 49 people and a liquid diet is tested on 36 different people. Of interest is whether the liquid diet yields a higher mean weight loss than the powder diet. The powder diet group had an mean weight loss of 42 pounds with a standard deviation of 12 pounds. The liquid diet group had an mean weight loss of 45 pounds with a standard deviation of 14 pounds.</para></problem>
+
+<solution id="id6234930"><list id="element-129" mark-suffix="." list-type="labeled-item"><item><label>d</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>t</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>68</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>44</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"68" "." "44"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+<item><label>e</label>-1.04</item>
+<item><label>f</label>0.1519</item>
+<item><label>h</label>Decision: Do not reject null</item></list></solution></exercise>
+    <exercise id="exer12"><problem id="id7363987"><para id="id12962456">The mean number of English courses taken in a two–year time period by male and female college students is believed to be about the same. An experiment is conducted and data are collected from 29 males and 16 females. The males took an average of 3 English courses with a standard deviation of 0.8. The females took an average of 4 English courses with a standard deviation of 1.0. Are the means statistically the same?</para></problem></exercise>
+    <exercise id="exer15"><problem id="id9504371"><para id="id11960146">A recent drug survey showed an increase in use of drugs and alcohol among local high school seniors as compared to the national percent. Suppose that a survey of 100 local seniors and 100 national seniors is conducted to see if the proportion of drug and alcohol use is higher locally than nationally. Locally, 65 seniors reported using drugs or alcohol within the past month, while 60 national seniors reported using them.</para></problem>
+
+<solution id="id16909255"><list id="element-12asf9" list-type="labeled-item" mark-suffix="."><item><label>e</label>0.73
+      
+      </item>
+<item><label>f</label>0.2326</item>
+<item><label>h</label>Decision: Do not reject null</item></list></solution></exercise>
+   <exercise id="exer16"><problem id="id3872628"><para id="id11960164">A student at a four-year college claims that mean enrollment at four–year colleges is higher than at two–year colleges in the United States. Two surveys are conducted. Of the 35 two–year colleges surveyed, the mean enrollment was 5068 with a standard deviation of 4777. Of the 35 four-year colleges surveyed, the mean enrollment was 5466 with a standard deviation of 8191. (Source: <cite><cite-title>Microsoft Bookshelf</cite-title></cite>)</para></problem></exercise>
+    <exercise id="exer17"><problem id="id4843177"><para id="id11960194">A study was conducted by the U.S. Army to see if applying antiperspirant to soldiers’ feet for a few days before a major hike would help cut down on the number of blisters soldiers had on their feet. In the experiment, for three nights before they went on a 13-mile hike, a group of 328 West Point cadets put an alcohol-based antiperspirant on their feet. A “control group” of 339 soldiers put on a similar, but inactive, preparation on their feet. On the day of the hike, the temperature reached 83° F. At the end of the hike, 21% of the soldiers who had used the antiperspirant and 48% of the control group had developed foot blisters. Conduct a hypothesis test to see if the proportion of soldiers using the antiperspirant was significantly lower than the control group. (Source: U.S. Army study reported in <cite><cite-title>Journal of the American Academy of Dermatologists</cite-title></cite>)</para></problem>
+
+<solution id="id15638020"><list id="element-12asddf9" list-type="labeled-item" mark-suffix="."><item><label>e</label>-7.33
+      
+      </item>
+<item><label>f</label>0</item>
+<item><label>h</label>Decision: Reject null</item></list></solution></exercise>
+    <exercise id="exer18"><problem id="id4902537"><para id="id12924042">We are interested in whether the proportions of female suicide victims for ages 15 to 24 are the same for the white and the black races in the United States. We randomly pick one year, 1992, to compare the races. The number of suicides estimated in the United States in 1992 for white females is 4930. 580 were aged 15 to 24. The estimate for black females is 330. 40 were aged 15 to 24. We will let female suicide victims be our population. (Source<cite><cite-title>: the National Center for Health Statistics, U.S. Dept. of Health and Human Services</cite-title></cite>)</para></problem></exercise>
+    <exercise id="exer20"><problem id="id3785760"><para id="id12924247">Elizabeth Mjelde, an art history professor, was interested in whether the value from the Golden Ratio formula,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mi>l</m:mi><m:mtext>arg</m:mtext><m:mrow><m:mi>er</m:mi><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>smaller dimension</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mi>l</m:mi><m:mtext>arger dimension</m:mtext></m:mrow></m:mfrac></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {l"arg"e+ ital "small"}  over  {l"arg"e} }  right )} {}</m:annotation></m:semantics></m:math>was the same in the Whitney Exhibit for works from 1900 – 1919 as for works from 1920 – 1942. 37 early works were sampled. They averaged 1.74 with a standard deviation of 0.11. 65 of the later works were sampled. They averaged 1.746 with a standard deviation of 0.1064. Do you think that there is a significant difference in the Golden Ratio calculation? (Source: <cite><cite-title>data from Whitney Exhibit on loan to San Jose Museum of Art</cite-title></cite>)</para></problem></exercise>
+    <exercise id="exer23"><problem id="id4506104"><para id="id12116053">Mean entry level salaries for college graduates with mechanical engineering degrees and electrical engineering degrees are believed to be approximately the same. (Source: <cite><cite-title>http:// </cite-title></cite><link url="http://www.graduatingengineer.com/"><cite><cite-title>www.graduatingengineer.com</cite-title></cite></link>). A recruiting office thinks that the mean mechanical engineering salary is actually lower than the mean electrical engineering salary. The recruiting office randomly surveys 50 entry level mechanical engineers and 60 entry level electrical engineers. Their mean salaries were $46,100 and $46,700, respectively. Their standard deviations were $3450 and $4210, respectively. Conduct a hypothesis test to determine if you agree that the mean entry level mechanical engineering salary is lower than the mean entry level electrical engineering salary.</para></problem>
+
+
+<solution id="id3512400"><list id="element-12alllsf9" list-type="labeled-item" mark-suffix="."><item><label>d</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>t</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mtext>108</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{"108"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+<item><label>e</label>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>82</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{t= - 0 "." "82"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      
+      
+      </item>
+<item><label>f</label>0.2066</item>
+<item><label>h</label>Decision: Do not reject null</item></list></solution></exercise>
+    <exercise id="exer24"><problem id="id19336074"><para id="id12116088">A recent year was randomly picked from 1985 to the present. In that year, there were 2051 Hispanic students at Cabrillo College out of a total of 12,328 students. At Lake Tahoe College, there were 321 Hispanic students out of a total of 2441 students. In general, do you think that the percent of Hispanic students at the two colleges is basically the same or different? (Source: <cite><cite-title>Chancellor’s Office, California Community Colleges, November 1994</cite-title></cite>)</para></problem></exercise>
+    <exercise id="exer26"><problem id="id12255202"><para id="id12115758">Marketing companies have collected data implying that teenage girls use more ring tones on their cellular phones than teenage boys do. In one particular study of 40 randomly chosen teenage girls and boys (20 of each) with cellular phones, the mean number of ring tones for the girls was 3.2 with a standard deviation of 1.5. The mean for the boys was 1.7 with a standard deviation of 0.8. Conduct a hypothesis test to determine if the means are approximately the same or if the girls’ mean is higher than the boys’ mean.</para></problem></exercise>
+    <exercise id="exer27"><problem id="id19245180"><para id="id12115782">While her husband spent 2½ hours picking out new speakers, a statistician decided to determine whether the percent of men who enjoy shopping for electronic equipment is higher than the percent of women who enjoy shopping for electronic equipment. The population was Saturday afternoon shoppers. Out of 67 men, 24 said they enjoyed the activity. 8 of the 24 women surveyed claimed to enjoy the activity. Interpret the results of the survey.</para></problem>
+
+
+<solution id="id12039597"><list id="element-12apppsf9" list-type="labeled-item" mark-suffix="."><item><label>e</label>0.22
+      
+      </item>
+<item><label>f</label>0.4133</item>
+<item><label>h</label>Decision: Do not reject null</item></list></solution></exercise>
+    <exercise id="exer28"><problem id="id4339603"><para id="id12115806">We are interested in whether children’s educational computer software costs less, on average, than children’s entertainment software. 36 educational software titles were randomly picked from a catalog. The mean cost was $31.14 with a standard deviation of $4.69. 35 entertainment software titles were randomly picked from the same catalog. The mean cost was $33.86 with a standard deviation of $10.87. Decide whether children’s educational software costs less, on average, than children’s entertainment software. (Source: <cite><cite-title>Educational Resources</cite-title></cite>, December catalog)</para></problem></exercise>
+    <exercise id="exer31"><problem id="id17583264"><para id="id12115877">Joan Nguyen recently claimed that the proportion of college–age males with at least one pierced ear is as high as the proportion of college–age females. She conducted a survey in her classes. Out of 107 males, 20 had at least one pierced ear. Out of 92 females, 47 had at least one pierced ear. Do you believe that the proportion of males has reached the proportion of females?</para></problem>
+
+<solution id="id19082788"><list id="element-12aspoiuf9" list-type="labeled-item" mark-suffix="."><item><label>e</label>-4.82
+      
+      </item>
+<item><label>f</label>0</item>
+<item><label>h</label>Decision: Reject null</item></list></solution></exercise>
+    <exercise id="exer32"><problem id="id3865334"><para id="id12115899">Some manufacturers claim that non-hybrid sedan cars have a lower mean miles per gallon (mpg) than hybrid ones. Suppose that consumers test 21 hybrid sedans and get a mean of 31 mpg with a standard deviation of 7 mpg. Thirty-one non-hybrid sedans get a mean of 22 mpg with a standard deviation of 4 mpg. Conduct a hypothesis test to the manufacturers claim.</para></problem></exercise></section>
+    <section id="id-0243773548094">
+      <title>Try these multiple choice questions.</title>
+      <para id="id11897844">For questions <link target-id="element-719"/> – <link target-id="element-198"/>, use the following information.</para>
+      <para id="id11897850">A new AIDS prevention drugs was tried on a group of 224 HIV positive patients. Forty-five (45) patients developed AIDS after four years. In a control group of 224 HIV positive patients, 68 developed AIDS after four years. We want to test whether the method of treatment reduces the proportion of patients that develop AIDS after four years or if the proportions of the treated group and the untreated group stay the same.</para>
+      
+      <para id="id11897874">Let the subscript 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>= treated patient and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "ut"} {}</m:annotation></m:semantics></m:math>= untreated patient.</para>
+      <exercise id="element-719"><problem id="id17683497">
+  <para id="element-505">
+     The appropriate hypotheses are:
+  </para><list id="element-722" list-type="labeled-item" mark-suffix="."><item><label>A</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p rSub { size 8{t} } &lt;p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math>
+
+and <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≥</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p rSub { size 8{t} }  &gt;= p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>B</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p rSub { size 8{t} }  &lt;= p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math> and  
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p rSub { size 8{t} } &gt;p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math></item>
+
+
+<item><label>C</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p rSub { size 8{t} } =p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math> and 
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≠</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p rSub { size 8{t} }  &lt;&gt; p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math> </item>
+
+
+<item><label>D</label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } :p rSub { size 8{t} } =p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math>
+and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi><m:mrow><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ut</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :p rSub { size 8{t} } &lt;p rSub { size 8{ ital "ut"} } } {}</m:annotation></m:semantics></m:math></item></list>
+</problem>
+
+<solution id="id7248755">
+  <para id="element-695">D</para>
+</solution>
+</exercise>
+      
+      
+      
+      
+      
+      <exercise id="element-198"><problem id="id12277184">
+  <para id="element-849">If the <m:math><m:mo>p</m:mo></m:math> -value is 0.0062 what is the conclusion (use 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0.05</m:mn>
+                  </m:mrow>
+                  <m:mtext/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{α=5%} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    )?</para>
+<list id="list1111" mark-suffix="." list-type="labeled-item"><item><label>A</label>The method has no effect.</item>
+        <item><label>B</label>There is sufficient evidence to conclude that the method reduces the proportion of HIV positive patients that develop AIDS after four years.</item>
+        <item><label>C</label>There is sufficient evidence to conclude that the method increases the proportion of HIV positive patients that develop AIDS after four years.</item>
+        <item><label>D</label>There is insufficient evidence to conclude that the method reduces the proportion of HIV positive patients that develop AIDS after four years. </item>
+      </list></problem>
+
+<solution id="id7050591">
+  <para id="element-967">B</para>
+</solution>
+</exercise>
+      <exercise id="element-526"><problem id="id3400567">
+  <para id="element-380">
+    Lesley E. Tan investigated the relationship between left-handedness and right-handedness and motor competence in preschool children. Random samples of 41 left-handers and 41 right-handers were given several tests of motor skills to determine if there is evidence of a difference between the children based on this experiment. The experiment produced the means and standard deviations shown below. Determine the appropriate test and best distribution to use for that test. 
+<table id="id12115224" summary="The table presents the left-handed values in the second column and the right-handed values in the third column. The first row lists the sample size, the second row lists the sample mean, and the third row lists the sample standard deviation.">
+
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry>Left-handed</entry>
+              <entry>Right-handed</entry>
+            </row>
+            <row>
+              <entry>Sample size</entry>
+              <entry>41</entry>
+              <entry>41</entry>
+            </row>
+            <row>
+              <entry>Sample mean</entry>
+              <entry>97.5</entry>
+              <entry>98.1</entry>
+            </row>
+            <row>
+              <entry>Sample standard deviation</entry>
+              <entry>17.5</entry>
+              <entry>19.2</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+  </para><list id="element-694" mark-suffix="." list-type="labeled-item"><item><label>A</label>Two independent means, normal distribution</item>
+        <item><label>B</label>Two independent means, student's-t distribution</item>
+        <item><label>C</label>Matched or paired samples, student's-t distribution</item>
+        <item><label>D</label>Two population proportions, normal distribution</item>
+      </list></problem>
+
+<solution id="id3621650">
+  <para id="element-941">B</para>
+</solution>
+</exercise>
+      
+      
+      <para id="id12940356">For questions <link target-id="element-876"/>– <link target-id="element-310"/>, use the following information.</para>
+      <para id="id12940365">The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.</para><table id="id12940376" summary="This table shows the western major league in the first column and the eastern major league in the second column.">
+
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Western</entry>
+              <entry>Eastern</entry>
+            </row>
+            <row>
+              <entry>Los Angeles 9</entry>
+              <entry>D.C. United 9</entry>
+            </row>
+            <row>
+              <entry>FC Dallas 3 </entry>
+              <entry>Chicago 8</entry>
+            </row>
+            <row>
+              <entry>Chivas USA 4</entry>
+              <entry>Columbus 7</entry>
+            </row>
+            <row>
+              <entry>Real Salt Lake 3</entry>
+              <entry>New England 6 </entry>
+            </row>
+            <row>
+              <entry>Colorado 4</entry>
+              <entry>MetroStars 5</entry>
+            </row>
+            <row>
+              <entry>San Jose 4</entry>
+              <entry>Kansas City 3</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id12940613">Conduct a hypothesis test to determine if the Western Reserve Division teams score, on average, fewer goals than the Eastern Reserve Division teams. Subscripts: <emphasis>1 </emphasis>Western Reserve Division (<emphasis>W</emphasis>); <emphasis>2</emphasis> Eastern Reserve Division (<emphasis>E</emphasis>) </para>
+      <exercise id="element-876"><problem id="id17212136">
+  <para id="element-688">
+    The <emphasis>exact</emphasis> distribution for the hypothesis test is:
+  </para><list id="element-155" mark-suffix="." list-type="labeled-item"><item><label>A</label>The normal distribution.</item>
+        <item><label>B</label>The student's-t distribution.</item>
+        <item><label>C</label>The uniform distribution.</item>
+        <item><label>D</label>The exponential distribution.</item>
+      </list></problem>
+
+<solution id="id18048311">
+  <para id="element-160">B</para>
+</solution>
+</exercise>
+      
+      <exercise id="element-310"><problem id="id4498742">
+  <para id="element-644">
+    If the level of significance is 0.05, the conclusion is:
+  </para><list id="element-998" mark-suffix="." list-type="labeled-item"><item><label>A</label>There is sufficient evidence to conclude that the <emphasis>W</emphasis> Division teams score, on average, fewer goals than the <emphasis>E</emphasis> teams. </item>
+        <item><label>B</label>There is insufficient evidence to conclude that the <emphasis>W</emphasis> Division teams score, on average, more goals than the <emphasis>E</emphasis> teams. </item>
+        <item><label>C</label>There is insufficient evidence to conclude that the <emphasis>W</emphasis> teams score, on average, fewer goals than the <emphasis>E</emphasis> teams score. </item>
+        <item><label>D</label>Unable to determine.</item></list></problem>
+
+<solution id="id4526334">
+  <para id="element-418">C</para>
+</solution>
+</exercise>
+      
+      <para id="id12952039">Questions <link target-id="element-950"/> – <link target-id="element-92"/> refer to the following.</para>
+      <para id="element-265">Neuroinvasive West Nile virus refers to a severe disease that affects a person’s nervous system . It is spread by the Culex species of mosquito.   In the United States in 2010 there were 629 reported  cases of neuroinvasive West Nile virus out of a total of 1021 reported cases and there were 486 neuroinvasive reported cases out of a total of 712 cases reported in 2011.  Is the 2011 proportion of neuroinvasive West Nile virus cases more than the 2010 proportion of neuroinvasive West Nile virus cases? Using a 1% level of significance, conduct an appropriate hypothesis test.
+(Source: <cite><cite-title>http:// </cite-title></cite><link url=" http://www.cdc.gov/ncidod/dvbid/westnile/index.htm "><cite><cite-title> http://www.cdc.gov/ncidod/dvbid/westnile/index.htm </cite-title></cite></link>)
+
+
+<list id="list2342352"><item>“2011” subscript: 2011 group. </item>
+        <item>“2010” subscript: 2010 group</item>
+      </list>
+  </para><exercise id="element-950"><problem id="id4870569">
+  <para id="element-229">This is:</para><list id="element-923" list-type="labeled-item" mark-suffix="."><item><label>A</label>a test of two proportions</item>
+        <item><label>B</label>a test of two independent means</item>
+        <item><label>C</label>a test of a single mean</item>
+        <item><label>D</label>a test of matched pairs.</item>
+      </list>
+</problem>
+
+<solution id="id13130395">
+  <para id="element-402">A</para>
+</solution>
+</exercise>
+      
+      
+      
+      <exercise id="element-552"><problem id="id12760036">
+  <para id="element-51">An appropriate null hypothesis is:
+  </para><list id="element-565" mark-suffix="." list-type="labeled-item"><item><label>A</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>p</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>2011</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>p</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>2010</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{p rSub { size 8{ ital "drugless"} }  &lt;= p rSub { size 8{ ital "drug"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>B</label>
+          
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>p</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2011</m:mtext>
+
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:msub>
+                          <m:mi>p</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2010</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{ ital "drugless"} }  &gt;= P rSub { size 8{ ital "drug"} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          
+        </item>
+        <item><label>C</label>
+          
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2011</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2010</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{ ital "drugless"} }  &gt;= μ rSub { size 8{ ital "drug"} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+         
+        </item>
+        <item><label>D</label>
+         
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>p</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2011</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:msub>
+                          <m:mi>p</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>2010</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{ ital "drugless"} } &gt;P rSub { size 8{ ital "drug"} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+        
+        </item>
+      </list></problem>
+
+<solution id="id9070418">
+  <para id="element-9">A</para>
+</solution>
+</exercise>
+      
+      <exercise id="element-92"><problem id="id12134941">
+  <para id="element-793">The 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value is 0.0022. At a 1% level of significance, the appropriate conclusion is 
+  </para><list id="element-105" mark-suffix="." list-type="labeled-item"><item><label>A</label>There is sufficient evidence to conclude that the proportion of people in the United States in 2011 that got neuroinvasive West Nile disease is less than the proportion of people in the United States in 2010 that got neuroinvasive West Nile disease.</item>
+        <item><label>B</label>There is insufficient evidence to conclude that the proportion of people in the United States in 2011 that got neuroinvasive West Nile disease is more than the proportion of people in the United States in 2010 that got neuroinvasive West Nile disease.</item>
+        <item><label>C</label>There is insufficient evidence to conclude that the proportion of people in the United States in 2011 that got neuroinvasive West Nile disease is less than the proportion of people in the United States in 2010 that got neuroinvasive West Nile disease.</item>
+        <item><label>D</label>There is sufficient evidence to conclude that the proportion of people in the United States in 2011 that got neuroinvasive West Nile disease is more than the proportion of people in the United States in 2010 that got neuroinvasive West Nile disease.</item>
+      </list></problem>
+
+<solution id="id18735492">
+  <para id="element-907">D</para>
+</solution>
+</exercise>
+      
+      <para id="id12927367">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations.  The mean and standard deviation for 35 statistics day  students were 75.86 and 16.91. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The “day” subscript refers to the statistics day students. The “night” subscript refers to the statistics night students. </para><exercise id="element-214"><problem id="id9731476">
+  <para id="element-225">
+    An appropriate alternate hypothesis for the hypothesis test is:
+  </para><list id="element-584" mark-suffix="." list-type="labeled-item"><item><label>A</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                             
+                              <m:mtext>day</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">&gt;</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>night</m:mtext>
+                              
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{8:"30"} } &gt;μ rSub { size 8{"11":"30"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>B</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              
+                              <m:mtext>day</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>night</m:mtext>
+                              
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{8:"30"} } &lt;μ rSub { size 8{"11":"30"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>C</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              
+                              <m:mtext>day</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtext>night</m:mtext>
+                              
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{8:"30"} } =μ rSub { size 8{"11":"30"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>D</label>
+    
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                
+                                <m:mtext>day</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">≠</m:mo>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                              <m:mtext>night</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{8:"30"} }  &lt;&gt; μ rSub { size 8{"11":"30"} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          
+        </item>
+      </list>
+</problem>
+
+<solution id="id18305489">
+  <para id="element-28">D</para>
+</solution>
+</exercise>
+      
+      <exercise id="element-904"><problem id="id17094202">
+  <para id="element-304">
+   A concluding statement is:
+  </para><list id="element-435" mark-suffix="." list-type="labeled-item"><item><label>A</label>There is sufficient evidence to conclude that  statistics night students mean on Exam 2 is better than the statistics day  students mean on Exam 2.</item>
+        <item><label>B</label>There is insufficient evidence to conclude that the statistics day  students mean on Exam 2 is better than the statistics night students mean on Exam 2.</item>
+        <item><label>C</label>There is insufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
+        <item><label>D</label>There is sufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
+      </list></problem>
+
+<solution id="id11430245">
+  <para id="element-605">C
+  </para>
+</solution>
+</exercise>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

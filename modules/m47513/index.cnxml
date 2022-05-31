@@ -1,0 +1,56 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Probability Topics: Using Spreadsheets to Explore Probability Topics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47513</md:content-id>
+  <md:title>Probability Topics: Using Spreadsheets to Explore Probability Topics</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to explore probability topics</md:abstract>
+  <md:uuid>19abdbab-9bae-4522-8469-6c6de1cc8946</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164422970785">
+      <title>Probability Topics using Spreadsheets</title>
+      <para id="import-auto-id1164432654569">In this section we will discuss techniques using spreadsheets for exploring probability topics particularly, generating random numbers and use of contingency tables. </para>
+      <section id="import-auto-id1164407431856">
+        <title>Generating Random Numbers</title>
+        <para id="import-auto-id1164412228897">Random numbers can be generated in Excel or Google Spreadsheet. To create a random number, column of numbers, or a page of numbers you would use the formula =rand() in any cell, copy and paste that same formula to any other cell and you have a list of random numbers. The rand formula gives you a decimal random number between 0.0000 and 1.0000 so if you do not want a decimal random number that you can enter =rand()*1000 in a worksheet cell you will then have a whole number between 9999 and 0000.</para>
+        <para id="import-auto-id1164415473795">Both Excel and Google Spreadsheet also have a function called =randbetween(lower bound, upper bound) where you can specify your numbers. To use this function you will pick your lower and upper bounds. So if you want a random list of numbers between 0 and 50 you would enter =randbetween(0,50). Again if you copy and paste this formula into multiple cells you will have a list of random numbers within your criteria.  See image below of numbers generated using Excel and Google Spreadsheet.  The first row has numbers generated using =rand() the second column has numbers generated using =randbetween(0,50).  Note though that if you want stable numbers that will not change every time you open the spreadsheet you will need to use the copy function and paste as “value” into a column to make the numbers static. </para>
+        <para id="import-auto-id1164396111141">
+          <figure id="import-auto-id1164415156134">
+            <media id="import-auto-id8859105" alt="">
+              <image mime-type="image/png" src="../../media/graphics1-72d1.png" height="445" width="360"/>
+            </media>
+          </figure>
+          <figure id="import-auto-id1164427334403">
+            <media id="import-auto-id1164397009273" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-6f2f.png" height="493" width="320"/>
+            </media>
+          </figure>
+        </para>
+      </section>
+      <section id="import-auto-id1164399655546">
+        <title>Creating Probability Contingency Tables:</title>
+        <para id="import-auto-id1164411610760">Given the data set of “College Rank” and “How did you arrive on campus today?” let’s figure out some probabilities using Excel PivotTable. Below is the data we will use.</para>
+        <figure id="import-auto-id1164431951571">
+          <media id="import-auto-id1164403346307" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-6e03.png" height="290" width="133"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1164412972132">We will create a PivotTable using the same techniques as we did for Bivariate Data. We can keep the counts if we want to calculate the percentages by hand to determine the probability of any particular event or we can alter the “Values” field by using the down arrow next to “count”, pick “Value Field Setting” from the pull down menu and then go to the tab called, “Show Values As” and pick “% of Grand Total”. That will give you all the probabilities of the particular events out of all possible events.  In this example the probability of a selecting a senior who drives a car would be .2 or 20% or the probability of selecting a student who arrived at school today by car would be 50%. Think of what other questions you could answer.</para>
+        <figure id="import-auto-id1164413407925">
+          <media id="import-auto-id1164403393268" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-0fcd.png" height="400" width="575"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1164406644461">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1164415592628">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously (2) open the file in Excel or Google Spreadsheet (3) create a new worksheet tab and label it Probability topics; (4) pick two columns of categorical that have been “cleaned” and create a pivot table; (4) determine the probability of at least 4 events of interest to you. (6) copy your pivot table and your questions into a word document and describe the probability of your selected data. (7) save the Excel or file again and this time post only the word document you created in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1164431508560">
+        <title>Other Topics of Interest:</title>
+        <para id="import-auto-id1164415260750">There is a wonderful web site call Random.org <link url="http://www.random.org/"><emphasis effect="underline">http://www.random.org/</emphasis></link> that has some free tools to explore random events and probability. On the Random.org home webpage there is a category called “Games and Gambling.” If you mouse over “Coin Flipper”, “Dice Roller” or “playing Card Shuffler” and click on it, you will be able to explore random events. You will be able to choose the number of events you want to generate and some display options. Try it to generate a sample space.</para>
+      </section>
+    </section>
+  </content>
+</document>

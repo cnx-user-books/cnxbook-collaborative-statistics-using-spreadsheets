@@ -1,0 +1,198 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Normal Distribution: Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48355</md:content-id>
+  <md:title>Normal Distribution: Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>e26885ac-f83e-47fe-a78c-bb67bf354c1f</md:uuid>
+</metadata>
+
+<content>
+       
+  
+  <rule id="normal-1" type="formula"><label>Formula</label><title>Normal Probability Distribution</title><statement id="id7525029">
+<para id="element-100"><m:math>
+		<m:mi>X</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mi>μ</m:mi>
+		<m:mo>,</m:mo>
+		<m:mi>σ</m:mi>
+		<m:mo>)</m:mo>
+	</m:math>
+</para><para id="element-738"><m:math><m:mi>μ</m:mi></m:math> = the mean <m:math><m:mspace width="20pt"/><m:mi>σ</m:mi></m:math> = the standard deviation</para>
+</statement>
+</rule>
+ 
+<rule id="standard-1" type="formula"><label>Formula</label><title>Standard Normal Probability Distribution</title><statement id="id1167165304173">
+<para id="element-101"><m:math>
+		<m:mi>Z</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mn>0</m:mn>
+		<m:mo>,</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>)</m:mo>
+	</m:math>
+</para><para id="element-736"><m:math><m:mi>z</m:mi></m:math>
+= a standardized value (z-score)</para><para id="element-739">mean = 0 <m:math><m:mspace width="20pt"/></m:math> standard deviation = 1</para>
+</statement>
+</rule>
+ <rule id="kth-1" type="formula"><label>Formula</label><title>Finding the kth Percentile</title><statement id="id1167162100516">
+<para id="element-102">To find the <emphasis>kth</emphasis> percentile when the z-score is known:
+<emphasis>
+<m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>z</m:mi>
+<m:mo>)</m:mo>
+<m:mi>σ</m:mi>
+</m:math>
+</emphasis>
+</para>
+</statement>
+</rule>
+ <rule id="zscore-1" type="formula"><label>Formula</label><title>z-score</title><statement id="id8518165">
+<para id="element-103"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</para>
+</statement>
+</rule>
+ <rule id="areatotheleft-1" type="formula"><label>Formula</label><title>Finding the area to the left</title><statement id="id8606837">
+<para id="element-104">The area to the left: 
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>X</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+</m:math></para>
+</statement>
+</rule>
+ <rule id="areatotheright-1" type="formula"><label>Formula</label><title>Finding the area to the right</title><statement id="id5378258">
+<para id="element-105">The area to the right:
+<m:math>
+		<m:reln><m:gt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>X</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mi>x</m:mi>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+		<m:mo>=</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>-</m:mo>
+		<m:reln><m:lt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>X</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mi>x</m:mi>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+	</m:math></para>
+</statement>
+</rule><section id="eip-303"><title>Definitions</title><list id="eip-38"><title>Normal Distribution</title><item>A continuous Random Variable (RV) with Probability Density Function (PDF) <m:math>
+            <m:mi>f</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+ <m:mfrac>
+   <m:mrow>
+    <m:mn>1</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mi>σ</m:mi>
+    <m:mo>⋅</m:mo>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+     <m:mo>⋅</m:mo>
+     <m:mi>π</m:mi>
+    </m:msqrt>
+   </m:mrow>
+ </m:mfrac>
+
+    <m:mo>⋅</m:mo>
+
+ <m:msup>
+  <m:mi>e</m:mi>
+  <m:mrow>
+   <m:mo>-</m:mo>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>⋅</m:mo>
+    <m:msup>
+     <m:mrow>  
+     <m:mo>(</m:mo>
+     <m:mfrac> 
+      <m:mrow> 
+       <m:mi>x</m:mi>
+       <m:mo>-</m:mo>
+       <m:mi>μ</m:mi>
+      </m:mrow>
+      <m:mrow>
+       <m:mi>σ</m:mi>
+      </m:mrow>
+     </m:mfrac>
+     <m:mo>)</m:mo>
+    </m:mrow>        
+    <m:mn>2</m:mn>
+   </m:msup>
+  </m:mrow>
+ </m:msup>
+</m:math>
+, where μ  is the mean of the distribution and σ  is the standard deviation. </item><item>Notation: X ~ N(μ, σ). If μ=0 and σ=1, the RV is called the standard normal distribution.</item>
+</list><list id="eip-800"><title>Standard Normal Distribution</title><item>A continuous random variable (RV) 
+X~N(0,1).  When X follows the standard normal distribution, it is often noted as 
+Z~N(0,1).</item>
+</list><list id="eip-783"><title>z-score</title><item>The linear transformation of the form <m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>.
+ If this transformation is applied to any normal distribution X~N(μ,σ), the result is the standard normal distribution Z~N(0,1). If this transformation is applied to any specific value x of the RV with mean μ and standard deviation σ , the result is called the  z-score of x. Z-scores allow us to compare data that are normally distributed but scaled differently</item>
+</list></section>
+</content>
+</document>

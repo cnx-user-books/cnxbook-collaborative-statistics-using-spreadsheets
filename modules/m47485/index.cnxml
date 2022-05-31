@@ -1,0 +1,105 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Discrete and Continuous Random Variables: Using Spreadsheets to Explore Distributions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47485</md:content-id>
+  <md:title>Discrete and Continuous Random Variables: Using Spreadsheets to Explore Distributions</md:title>
+  <md:abstract>Basic directions on exploring distributions.</md:abstract>
+  <md:uuid>1ef1876f-dc4e-4023-8890-e4f96a26ce2c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1170484176475">
+      <title>Discrete and Continuous Random Variables using Spreadsheets</title>
+      <para id="import-auto-id1170504147751">In this section we will discuss techniques using spreadsheet for exploring discrete and continuous variables particularly, creating probability tables, calculating the binomial probability functions, and then graphing probabilities. </para>
+      <section id="import-auto-id1170503947636">
+        <title>Creating Probability Tables</title>
+        <para id="import-auto-id1170508607272">If you are generating your data and have your outcomes, or if you know the probabilities of the outcomes you can generate a table of probabilities by using a formula. You will create a three column table with the “possible outcomes” in the first column, the probability of that outcome in the second column, and in the third column you will create the formula multiplying column one by column two or the “expected value”. Using the example in the book on finding the expected value of the number of times a baby’s crying will wakes its mother after midnight. The data below is from a sample of 50 mothers’ responses to the question how many times did your baby’s crying awake you after midnight? 2 mothers said “0” times, 11 mothers said “1” time, 23 mothers said “2” times, 9 mothers said “3” times, 4 mothers said “4” times, 1 mother said “5” times,</para>
+        <table id="import-auto-id1170489381792" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <para id="import-auto-id1170509985980">
+                    <emphasis effect="italics">Number of times baby’s cry awoke mother after midnight</emphasis>
+                  </para>
+                </entry>
+                <entry>Number of Mothers who selected </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>0</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=0) = 2/50</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=1) = 11/50</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=2) = 23/50</entry>
+              </row>
+              <row>
+                <entry>3</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=3) = 9/50</entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=4) = 4/50</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>P(<emphasis effect="italics">x</emphasis>=5) = 1/50</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="import-auto-id1170508645931">Using the formulas shown in the google spreadsheet below you can calculate the expected value and create a chart of probabilities.</para>
+        <para id="import-auto-id1170483175353">
+          <figure id="import-auto-id1170504191210">
+            <media id="import-auto-id1170504195481" alt="">
+              <image mime-type="image/png" src="../../media/graphics1-3bbd.png" height="271" width="363"/>
+            </media>
+          </figure>
+          <figure id="import-auto-id1170496789700">
+            <media id="import-auto-id1170506270845" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-bdf9.png" height="383" width="279"/>
+            </media>
+          </figure>
+        </para>
+      </section>
+      <section id="import-auto-id1170480413980">
+        <title>Calculating the Binomial Probability Function</title>
+        <para id="import-auto-id1170509752034">Both Excel and Google Spreadsheet will calculate Binomial Probability functions. The Excel formula for a particular value is =BINOM.DIST(x of successes<emphasis effect="italics">,</emphasis>sample size<emphasis effect="italics">,</emphasis>probability of<emphasis effect="italics"/>success,false) for a cumulative probability it is =BINOM.DIST(x of successes<emphasis effect="italics">,</emphasis>sample size<emphasis effect="italics">,</emphasis>probability of<emphasis effect="italics"/>success,true) The Google Spreadsheet formula is given below in the spreadsheet.  The setup is the same but there isn’t a “period between binom and dist.  The other difference is that instead of using true and false for cumulative probability, Google uses 0 for false and 1 for true. Using the example problem from the book: It has been stated that about 41% of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education? <figure id="import-auto-id1170506692797"><media id="import-auto-id1170480375643" alt=""><image mime-type="image/png" src="../../media/graphics3-8240.png" height="411" width="492"/></media></figure><figure id="import-auto-id1170508788412"><media id="import-auto-id1170488261278" alt=""><image mime-type="image/png" src="../../media/graphics4-af21.png" height="541" width="428"/></media></figure></para>
+        <para id="import-auto-id1170499928742">Note that the answer to the question is asking for a cumulative frequency for 12 or less people out of the sample of twenty.  The answer is in column C, row 14, .9738. We would expect that out of a sample size of 20 people a probability of 97.38% that 12 or less people would have a high school diploma and did not pursue further education. </para>
+        <para id="import-auto-id1170499648660">To graph probability functions, we have found that “Statistics Online Computational Resources (SOCR)” has a wonderful site with tools for statistics.  If you go to <link url="http://socr.ucla.edu/htmls/SOCR_Distributions.html"><emphasis effect="underline">http://socr.ucla.edu/htmls/SOCR_Distributions.html</emphasis></link> in the dropdown menu for SOCR distribution you will find many types of distributions.  For the example we just completed you would use Binomial Distribution; set the number of trials to 20 and the success probability to .41 (as stated in the problem and the following image will appear. Everything you would want to know. </para>
+        <figure id="import-auto-id1170481939846">
+          <media id="import-auto-id1170507992940" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-c8df.png" height="415" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1170485623315">
+        <title>Continuous Uniform Distributions and Normal Distributions:</title>
+        <para id="import-auto-id1170508771470">This same tool can be used to generate continuous uniform distributions, and normal distributions. For continuous uniform distributions you will need to know and enter the lower and upper limits of the data plus the range of data that you wish to calculate the probability. In the example below I have used the problem from the book: Suppose we want to find the area between f(x) = 1/20 and the x-axis where 4&lt;x&lt;15 the following image would be produced with the Red shaded density (probability) = 0.55</para>
+        <figure id="import-auto-id1170498057426">
+          <media id="import-auto-id1170490321515" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-eafe.png" height="401" width="575"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1170487267613">For a normal distribution, you will need to have your mean and standard deviation and again your right and left cut off values. Replicating Figure 5.3 in your text, I would use 0 as the mean, 1 as the standard deviation and 1 as my left cut off and 2 as my right cut off. See below. I now have the density or probability for a value between 1 and 2 (0.125905)</para>
+        <figure id="import-auto-id1170507243316">
+          <media id="import-auto-id1170511257460" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-9c3a.png" height="401" width="576"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1170507918231">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1170498625269">At your computer, try to use some of these tools to work out homework problems or check homework that you have completed to see if the results are the same or similar. </para>
+      </section>
+    </section>
+  </content>
+</document>

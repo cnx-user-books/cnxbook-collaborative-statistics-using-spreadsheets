@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>The 5W's</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46118</md:content-id>
+  <md:title>The 5W's</md:title>
+  <md:abstract>In order to understand the context of data in a research study examine Who, What, Why, Where, When and How.</md:abstract>
+  <md:uuid>ccbd6ed6-95d6-4297-9c60-e2615bcc17ea</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">The 5 W’s are questions we ask in order to understand our data.  Knowing the answers to these questions helps to inform the decision making process, guiding the researcher in the most appropriate ways to graph and analyze their data.</para><para id="eip-71">The questions we are answering when examining the 5W’s of a dataset are; who, what, why, where, when, and how.  Yes, I know that how does not start with a w.  The ‘who’ question tell us the cases or who the data is coming from.  When we collect data from a survey we call these cases respondents.  If the data is collected via an experiment we would call the cases subjects or participants.  If we are collecting data from an inanimate object then the cases are experimental units.  The important thing to understand is that the ‘who’ are the respondents, the people or things that are answering your questions.</para><para id="eip-260">The ‘what’ question of the 5 W’s refers to the variables or the questions you have for the respondents.  These are the things you want to know from them.  These variables are either numerical, resulting in a measured number value, or categorical, resulting in a word or category answer.</para><para id="eip-432">The ‘why’ question is the purpose of the study, the reason you are asking questions of the cases.  This is your guiding research question.  To proceed with the analysis of data you always need to know the who, what, and why.  It is important that you understand who your data is coming from (the source), what data you have (the questions asked), and why you have this data (what research question you are trying to answer.)</para><para id="eip-686">The where, when, and how are nice things to know and when you collect your own data you will know the answers to these questions, but they are not always known if you are working with someone else’s data.  The ‘where’ question is the geographic location of the data collection.  If you want to know about students’ usage of the library on campus where you collect your data will be important.  You may get different results if you survey students in the library versus the student union.</para><para id="eip-39">‘When’ is the date and time of the data collection process.  If we want to know how satisfied students are with their course schedule we may get different results if we survey students in classes that meet at 8:00 a.m. versus ones that meet at 11:30 a.m.
+The last question is ‘how’, the data collection process.  This question encompasses the where and when, but goes further to examine the data collection process.  If you are surveying individuals, which sampling methodology will you use?  Will you interview respondents or hand out paper copies of your survey?  How will bias be minimized in the data collection process?  All of these considerations fall under how.  </para><exercise id="eip-384"><title>Practice Problem</title><problem id="eip-538">
+  <para id="eip-881">
+    Pew Charitable Trusts conducted a longitudinal study that has followed families from 1968 to the present to gain a better understanding of the American Dream and economic mobility.  They surveyed 2227 American families asking, “What is your “Family income” including all taxable income (such as earnings, interest, and dividends) and cash transfers (such as Social Security and welfare) of all family members?”  Identify the 5W’s of this example.
+  </para>
+</problem>
+
+<solution id="eip-69">
+  <para id="eip-865">
+    Who: 2227 American families 
+What: Family income
+Why: To understand the relationship between the American Dream and economic mobility.
+Where: United States of America
+When: 1968 to present
+How: Longitudinal study
+  </para>
+</solution>
+</exercise></content>
+
+</document>

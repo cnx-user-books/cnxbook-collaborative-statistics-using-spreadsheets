@@ -1,0 +1,166 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Hypothesis Testing: Two Column Model Step by Step Example of a Hypothesis Test for a Single Mean, Sigma Known</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46718</md:content-id>
+  <md:title>Hypothesis Testing: Two Column Model Step by Step Example of a Hypothesis Test for a Single Mean, Sigma Known</md:title>
+  <md:abstract>This is a two column model for conducting a hypotheses test for a mean with sigma known.</md:abstract>
+  <md:uuid>d8cb051c-03b6-43b1-99a3-c5d38fa11ca3</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id7837700"><emphasis effect="bold">Step-By-Step Example of a Hypothesis Test for a Single Mean, Sigma Known</emphasis> (used Ex XX)</para><para id="import-auto-id9028601">Suppose a baker claims that his bread height is more than 15 cm, on the average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He randomly bakes 10 loaves of bread.  The mean height of the sample loaves is 15.7 cm. The baker knows from baking hundreds of loaves of bread that the standard deviation for the height is 1 cm. and the distribution of heights is normal.  Test at the 5% significance level.</para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id5500987" summary="Will write later">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+<entry> </entry>
+<entry> </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">State the question:</emphasis> State what we want to determine and what level of significance is important in your decision.</entry>
+            <entry>We are asked to test the hypothesis that the mean bread height, μ, is more than 15 cm.  We have a sample of 10 loaves.  We know the population standard deviation is 1. Significance level is 5%.</entry>
+</row>
+<row>
+            <entry><emphasis effect="bold">Plan: </emphasis>Based on the above question(s) and the answer to the following questions, decide which test you will be performing.<list id="eip-id1172276530130" list-type="bulleted" bullet-style="none"><item>Is the problem about numerical or categorical data?</item><item>If the data is numerical is the population standard deviation known?</item><item>Do you have one group or two groups?</item><item>What type of model do we have?</item></list></entry>
+            <entry>We have univariate, quantitative data. We have a sample of 10 loaves.  We know the population standard deviation is 1. Therefore, we can perform a z-test (known population standard deviation). Our model will be: <equation id="eip-64"><m:math>
+<m:apply><m:conjugate/><m:msub><m:mi>X</m:mi><m:mi>G</m:mi></m:msub></m:apply>
+<m:mi>~</m:mi> <m:mi>N</m:mi> <m:mi>(</m:mi> <m:mi>μ</m:mi> <m:mi>,</m:mi> 
+<m:mfrac> 
+<m:mrow> <m:mi>σ</m:mi> </m:mrow>
+<m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow>  </m:mfrac>
+<m:mi>)</m:mi><m:mi>=</m:mi> <m:mi>N</m:mi> <m:mi>(</m:mi> <m:mi>15</m:mi> <m:mi>,</m:mi>
+<m:mfrac>
+<m:mrow> <m:mi>1</m:mi> </m:mrow>
+<m:mrow> <m:msqrt> <m:mi>10</m:mi> </m:msqrt> 
+</m:mrow> </m:mfrac>
+<m:mi>)</m:mi>
+</m:math></equation></entry>
+          </row>
+          <row>
+            <entry align="left"><emphasis effect="bold">Hypotheses: </emphasis>State the null and alternative hypotheses in words then in symbolic form<list id="import-auto-id4728022" list-type="enumerated" number-style="arabic"><item>Express the hypothesis to be tested in symbolic form, </item><item>Write a symbolic expression that must be true when the original claim is false.</item><item>The null hypothesis is the statement which includes the equality.</item><item>The alternative hypothesis is the statement without the equality. </item></list></entry>
+            <entry align="left"><para id="eip-902"><emphasis effect="bold"> Null hypothesis in words:</emphasis> The null hypothesis is that the true mean height of the loaves is equal to 15 cm.
+</para><para id="eip-489"><emphasis effect="bold"> Null Hypothesis symbolically: </emphasis>  <m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o (Mean height)</m:mi>
+</m:msub>
+</m:math>:
+ μ = 15</para><para id="eip-384"><emphasis effect="bold"> Alternative Hypothesis in words: </emphasis>  The alternative is that the true mean height on average is greater than 15 cm.</para><para id="eip-805"><emphasis effect="bold">Alternative Hypothesis symbolically: </emphasis><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a (Mean height)</m:mi>
+</m:msub>
+</m:math>:
+ μ &gt; 15 </para></entry>
+          </row>
+          <row>
+            <entry align="left"><emphasis effect="bold">The criteria for the inferential test stated above:</emphasis> Think about the assumptions and check the conditions.<emphasis effect="bold">Summary statistics to support assumptions: </emphasis>If your assumptions include the need for particular types of data distribution, please indicate here and insert the appropriate graphs or charts.</entry>
+            <entry align="left"> <para id="eip-82"><emphasis effect="bold">Randomization Condition:</emphasis> The sample is a random sample.
+<newline/><emphasis effect="bold"> Independence Assumption: </emphasis>  It is reasonable to think that the loaves of bread have heights that are independent.
+<newline/><emphasis effect="bold"> 10% Condition:</emphasis>  I assume the number of loaves of bread baked is more than 100, so 10 loaves is less than 10% of the population. 
+<newline/><emphasis effect="bold"> Sample Size Condition: </emphasis>Since the distribution of the bread heights is normal, my sample of 10 loaves is large enough.</para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Compute the test statistics: </emphasis>State the parameters and the sampling model</entry>
+            <entry align="left">The conditions are satisfied and σ is known, so we will use a hypothesis test for a mean with known standard deviation. For this calculation,we need the sample mean and standard error (SE).<equation id="eip-464"><m:math> 
+<m:apply> <m:conjugate/> <m:mi>x</m:mi> </m:apply> 
+<m:mi>=</m:mi> <m:mi>15.7</m:mi>  <m:mi>;</m:mi><m:mspace width="10pt"/> <m:mi>σ</m:mi> <m:mi>=</m:mi> <m:mi>1</m:mi> <m:mi>; </m:mi><m:mspace width="10pt"/> <m:mi>n</m:mi> <m:mi>=</m:mi> <m:mi>10</m:mi> 
+</m:math></equation><equation id="eip-537"><m:math> <m:mi>SE</m:mi> <m:mi>=</m:mi> <m:mn>(</m:mn> <m:mfrac> <m:mrow> <m:mi>σ</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mn>)</m:mn> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>10</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mi>=</m:mi> <m:mi>0.3162</m:mi>
+</m:math></equation><equation id="eip-812"><m:math>
+<m:mi>z</m:mi> <m:mi>=</m:mi> 
+<m:mfrac>
+<m:mrow> <m:apply><m:conjugate/><m:mi>x</m:mi></m:apply> <m:mi>-</m:mi> <m:mi>µ</m:mi> </m:mrow>
+<m:mrow> <m:mfrac> <m:mrow> <m:mi>σ</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow> </m:mfrac> </m:mrow>
+</m:mfrac>
+<m:mi>=</m:mi> 
+<m:mfrac>
+<m:mrow> <m:mi>15.7</m:mi> <m:mi>-</m:mi> <m:mi>15</m:mi> </m:mrow>
+<m:mrow> <m:mi>0.3162</m:mi> </m:mrow>
+</m:mfrac>
+<m:mi>=</m:mi> <m:mi>2.214</m:mi> 
+</m:math></equation></entry>
+          </row>
+          <row>
+            <entry align="left"><emphasis effect="bold">Determine the Critical Region(s): </emphasis>Based on your hypotheses are you performing a left-tailed, right tailed or two-tailed test?</entry>
+            <entry align="left">I will perform a right tailed test. I am only concerned about the bread being higher than 15 cm.</entry>
+          </row>
+          <row>
+            <entry align="left"><emphasis effect="bold">Sketch the test statistic and critical region:</emphasis>  . Look up the probability on the table.</entry>
+            <entry>
+              <para id="eip-782"><media id="import-auto-id38097292" alt="">
+                  <image mime-type="image/png" src="../../media/Picture 2-85ac.png" height="194" width="241" print-width="3in"/>
+                </media>
+              </para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id8061485">
+                <emphasis effect="bold">Determine the P-value </emphasis>
+              </para>
+            </entry>
+            <entry align="left">P(z &lt; 2.2134) = 0.9838; P(z &gt; 2.214) = 1-0.9838 = 0.0162</entry>
+          </row>
+          <row>
+            <entry align="left">
+              <para id="import-auto-id8995016">
+                <emphasis effect="bold">State whether you reject or fail to reject the Null hypothesis. </emphasis>
+              </para>
+            </entry>
+            <entry align="left">Since the probability is less than 2%, this is considered a rare event and the small probability leads us to reject the null hypothesis.  </entry>
+          </row>
+          <row>
+            <entry align="left"><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry align="left">Since the probability is less than 2%, this is considered a rare event and the small probability leads us to reject the null hypothesis.  It is unlikely that a loaf of bread rises no more than 15 cm, on the average.  That is, less than 2% of all loaves of bread would be at least as high as the outcome of 15.7 cm. <emphasis effect="bold">purely</emphasis> by chance had the population mean height really been 15 cm. We conclude that the evidence is against the null hypothesis (the mean height is 15 cm.).  There is sufficient evidence that the true mean height for the population of the baker’s loaves is greater than 15 cm. </entry>
+          </row>
+          <row>
+            <entry align="left">
+              <para id="import-auto-id8980028">
+                <emphasis effect="bold">If you reject the null hypothesis, continue to complete the following </emphasis>
+              </para>
+            </entry>
+            <entry/>
+          </row>
+          <row>
+            <entry align="left">
+              <para id="import-auto-id8053476">
+                <emphasis effect="bold">Calculate and display your confidence interval for the Alternative hypothesis.</emphasis>
+              </para>
+            </entry>
+            <entry align="left">The mathematics for the confidence interval uses 15.7 as the mean bread height and 0.3162 as the SE. We graph a two tailed confidence interval. <para id="eip-773"><m:math> 
+<m:apply> <m:conjugate/> <m:mi>x</m:mi> </m:apply> 
+<m:mi>=</m:mi> <m:mi>15.7</m:mi> <m:mi>;</m:mi> <m:mi>σ</m:mi> <m:mi>=</m:mi> <m:mi>1</m:mi> <m:mi>;</m:mi> <m:mi>n</m:mi> <m:mi>=</m:mi> <m:mi>10</m:mi> <m:mi>;</m:mi> <m:mi>SE</m:mi> <m:mi>=</m:mi> <m:mo>(</m:mo> <m:mfrac> <m:mrow> <m:mi>σ</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mo>)</m:mo> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>10</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mi>=</m:mi> <m:mi>0.3162</m:mi>
+</m:math></para><para id="eip-70">z-score for a two tailed test with 95% confidence is plus or minus 1.96 (read from the z-table  0.025 probability in the left tail and 0.025 probability in the right tail)
+<list id="eip-id1169211464984" list-type="bulleted" bullet-style="none"><item>
+<m:math><m:apply> <m:conjugate/> <m:mi>x</m:mi> </m:apply> <m:mi> - </m:mi><m:mn>z*</m:mn>  <m:mo>(SE)</m:mo>  <m:mi>&lt; µ &lt; </m:mi>  <m:apply> <m:conjugate/> <m:mi> x</m:mi> </m:apply>  <m:mo>+</m:mo><m:mn>z*</m:mn>  <m:mo>(SE)</m:mo> 
+<m:mspace width="20pt"/>
+</m:math></item><item><m:math><m:apply> <m:conjugate/> <m:mi>x</m:mi> </m:apply> <m:mi> - </m:mi><m:mn>1.96</m:mn>  <m:mo>(SE)</m:mo>  <m:mi>&lt; µ &lt; </m:mi>  <m:apply> <m:conjugate/> <m:mi> x</m:mi> </m:apply>  <m:mo>+</m:mo><m:mn>1.96 </m:mn>  <m:mo>(SE)</m:mo> 
+
+</m:math>;</item></list></para><para id="eip-154"><m:math><m:mn> 15.7</m:mn> <m:mi> - </m:mi><m:mn>1.96</m:mn>  <m:mn>(0.3162)</m:mn>  <m:mi>&lt; µ &lt;</m:mi>  <m:mn> 15.7 </m:mn> <m:mo>+</m:mo><m:mn>1.96 </m:mn>  <m:mn>(0.3162)</m:mn></m:math>; 
+
+</para><para id="eip-104"><m:math><m:mn>15.08</m:mn>  <m:mi>&lt; µ &lt;</m:mi>  <m:mn> 16.32 </m:mn> </m:math></para><para id="eip-751"><media id="import-auto-id39026822" alt=""><image mime-type="image/png" src="../../media/Picture 1-47e9.png" height="253" width="274" print-width="3in"/> </media></para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id8472760">
+                <emphasis effect="bold">Conclusion State your conclusion based on your confidence interval.</emphasis>
+              </para>
+            </entry>
+            <entry>We are 95% confident that the true mean of the bakers bread height is greater than 15 cm. We are 95% confident that the population mean height is between 15.08 cm. and 16.32 cm.</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

@@ -1,0 +1,143 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Hypothesis Testing: Two Column Model Step by Step Example of a Hypothesis Test for a Single Proportion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46731</md:content-id>
+  <md:title>Hypothesis Testing: Two Column Model Step by Step Example of a Hypothesis Test for a Single Proportion</md:title>
+  <md:abstract>This is a two column Model for conducting a Hypotheses Test for a proportion.</md:abstract>
+  <md:uuid>96e6e0d9-de90-4767-8866-3db11a4fdcd1</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169780501022"><emphasis effect="bold">Step-By-Step Example of a Hypothesis Test for a single proportion </emphasis></para><para id="import-auto-id1169780625395">Cell Phone Market Research Company conducted a national survey in 2010 and found the 30% of households in the United States owned at least three cell phones. Michele, a statistics student, decided to replicate this study where she lives.  She conducts of random survey of 150 households in her town and finds that 53 own at least three cell phones.  Is this strong evidence that the proportion of households in Michele’s town that own at least three cell phones is more than the national percentage? Test at a 5% significance level.</para><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1169773917801" summary="Will write later.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry> </entry>
+            <entry> </entry>
+          </row>
+        </thead>
+        <tbody>
+<row>
+<entry><emphasis effect="bold">State the question:</emphasis> State what we want to determine and what level of confidence is important in your decision.</entry>
+            <entry>We are asked to test the hypothesis that the proportion of households that own at least three cell phones is more than 30%. The parameter of interest, p, is the proportion of households that own at least three cell phones.  </entry>
+</row>
+          <row>
+            <entry><emphasis effect="bold">Plan: </emphasis>Based on the above question(s) and the answer to the following questions, decide which test you will be performing.Is the problem about numerical or categorical data?If the data is numerical is the population standard deviation known?Do you have one group or two groups?</entry>
+            <entry><para id="eip-268">We have univariate, categorical data. Therefore, we can perform a one proportion z-test to test this belief. Our model will be
+<newline/><m:math>
+<m:mo> N</m:mo> <m:mo>(</m:mo>
+<m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub>
+<m:mo> , </m:mo>
+<m:msqrt> <m:mfrac>
+<m:mrow> <m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub> <m:mo>(</m:mo> <m:mo>1</m:mo> <m:mo>-</m:mo> <m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub> <m:mo> ) </m:mo> </m:mrow>
+<m:mrow> <m:mo> n </m:mo> </m:mrow>
+</m:mfrac> </m:msqrt> <m:mo>)</m:mo>
+</m:math>
+
+<newline/>
+<m:math>
+<m:mo>= N</m:mo> <m:mo>(</m:mo> <m:mo>0.3</m:mo> <m:mo>,</m:mo>
+<m:msqrt> <m:mfrac>
+<m:mrow> <m:mo>0.3</m:mo> <m:mo>(</m:mo> <m:mo>1</m:mo><m:mo>-</m:mo><m:mo>0.3</m:mo><m:mo>)</m:mo> </m:mrow>
+<m:mrow> <m:mo>150</m:mo></m:mrow>
+</m:mfrac> </m:msqrt> <m:mo>)</m:mo>
+</m:math></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Hypotheses: </emphasis>State the null and alternative hypotheses in words then in symbolic form<list id="import-auto-id1169755920225" list-type="enumerated" number-style="arabic"><item>Express the hypothesis to be tested in symbolic form, </item><item>Write a symbolic expression that must be true when the original claims is false.</item><item>The null hypothesis is the statement which includes the equality.</item><item>The alternative hypothesis is the statement without the equality. </item></list></entry>
+<entry>
+<para id="eip-853"><emphasis effect="bold"> Null Hypothesis in words: </emphasis> The null hypothesis is that the true population proportion of households that own at least three cell phones is equal to 30%. 
+<newline/> <emphasis effect="bold"> Null Hypothesis symbolically: </emphasis> <newline/><m:math><m:msub> <m:mo> H </m:mo> <m:mo> o </m:mo> </m:msub></m:math>: p = 30%
+<newline/><emphasis effect="bold"> Alternative Hypothesis in words: </emphasis> The alternative hypothesis is that the population proportion of households that own at least three cell phones is more than 30%.
+<newline/><emphasis effect="bold"> Alternative Hypothesis symbolically: </emphasis> <newline/><m:math><m:msub> <m:mo> H </m:mo> <m:mo> o </m:mo> </m:msub></m:math>: p &gt; 30%</para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">The criteria for the inferential test stated above:</emphasis> Think about the assumptions and check the conditions.</entry>
+<entry>
+            <para id="eip-210"><emphasis effect="bold"> Randomization Condition: </emphasis> The problem tells us she used a random sample.
+<newline/> <emphasis effect="bold"> Independence Assumption: </emphasis> When you know you have a random sample it is likely outcomes are independent. There is no reason to think how many cell phones one household owns has any bearing on the next household. 
+<newline/><emphasis effect="bold"> 10% Condition: </emphasis> I will assume that the city Michele lives in is large and that 150 households is less than 10% of all households in her community.
+<newline/><emphasis effect="bold"> Success/Failure: </emphasis> 
+<newline/>p<sub>0</sub>(n) &gt; 10 and (1 - p<sub>0</sub>)n &gt; 10
+<newline/>To meet this condition both the success and failure products must be larger than 10 (p<sub>0</sub> is the value of the null hypothesis in decimal form.) 
+<newline/>0.3(150) = 45 &gt; 10 and (1 – 0.3)150 = 105 &gt; 10</para></entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis effect="bold">Compute the test statistic: </emphasis>
+            </entry>
+            <entry><para id="eip-927">The conditions are satisfied, so we will use a hypothesis test for a single proportion to test the null hypothesis. For this calculation we need the sample proportion, <m:math> <m:mover><m:mi> p</m:mi><m:mo>̂</m:mo></m:mover> </m:math>
+<newline/><m:math> <m:mover><m:mi> p</m:mi><m:mo>̂</m:mo></m:mover> <m:mo> = </m:mo> <m:mfrac> <m:mrow> <m:mo>53</m:mo></m:mrow><m:mrow><m:mo>150</m:mo></m:mrow></m:mfrac> <m:mo>= 0.3533</m:mo></m:math>
+<newline/><m:math> <m:mo>z</m:mo> <m:mo> = </m:mo> <m:mfrac> <m:mrow> <m:mover><m:mi> p</m:mi><m:mo>̂</m:mo></m:mover> <m:mo> -</m:mo><m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub></m:mrow>
+<m:mrow> <m:msqrt> <m:mfrac> <m:mrow> <m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub> <m:mo>( </m:mo> <m:mo> 1 - </m:mo> <m:msub> <m:mo> p </m:mo> <m:mo> o </m:mo> </m:msub> <m:mo>)</m:mo> </m:mrow> <m:mrow> <m:mo> n</m:mo> </m:mrow> </m:mfrac> </m:msqrt> </m:mrow> </m:mfrac> <m:mo>=</m:mo> <m:mfrac> <m:mrow> <m:mo> 0.3533 - 0.3 </m:mo> </m:mrow> <m:mrow> <m:msqrt> <m:mfrac> <m:mrow> <m:mo> 0.3 </m:mo> <m:mo>(</m:mo> <m:mo>1 - 0.3</m:mo> <m:mo>)</m:mo></m:mrow> <m:mrow> <m:mo>150</m:mo> </m:mrow> </m:mfrac> </m:msqrt> </m:mrow> </m:mfrac> <m:mo> =</m:mo><m:mfrac> <m:mrow><m:mo> 0.0533</m:mo></m:mrow> <m:mrow> <m:mo> 0.0374</m:mo> </m:mrow></m:mfrac> <m:mo>=</m:mo><m:mo>1.425</m:mo> </m:math></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Determine the Critical Region(s): </emphasis>Based on your hypotheses are you performing a left-tailed, right tailed or two-tailed test?</entry>
+            <entry>I will perform a right tailed test. </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Sketch the test statistic and critical region:  </emphasis>  Look up the probability on the table.</entry>
+            <entry>
+              <para id="eip-935"><media id="import-auto-id9780372067" alt="">
+                  <image mime-type="image/png" src="../../media/Picture 1-a117.png" height="200" width="369" print-width="3in"/>
+                </media>
+  </para></entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169780362679">
+                <emphasis effect="bold">Determine the P-value </emphasis>
+              </para>
+            </entry>
+            <entry align="left">p-value = P(z &gt; 1.425) = 1 – P(z &lt;1.425) = <newline/>1 - 0.923 = 0.077 </entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169773592001">
+                <emphasis effect="bold">State whether you reject or fail to reject the Null hypothesis. </emphasis>
+              </para>
+            </entry>
+            <entry>Since the probability is greater than the critical value of 5% we will fail to reject the null hypothesis.  </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>Since the probability is greater than 5%, this is not considered a rare event and the large probability tells us not to reject the null hypothesis.  The p-value tells us that there is a 7.7% chance of obtaining our sample percentage of 35.33% if the null hypothesis is true.  The sample data do not show sufficient evidence that the percentage of households in Michele city that have at least three cell phones is more than 30%. We do not have strong evidence against the null hypothesis. </entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169753388404">
+                <emphasis effect="bold">If you reject the null hypothesis, continue to complete the following </emphasis>
+              </para>
+            </entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169755654269">
+                <emphasis effect="bold">Calculate and display your confidence interval for the Alternative hypothesis.</emphasis>
+              </para>
+            </entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>
+              <para id="import-auto-id1169779742805">
+                <emphasis effect="bold">Conclusion State your conclusion based on your confidence interval.</emphasis>
+              </para>
+            </entry>
+            <entry>NA</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

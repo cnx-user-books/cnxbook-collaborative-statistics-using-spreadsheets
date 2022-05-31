@@ -1,0 +1,131 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Central Limit Theorem: Two Column Model Step by Step Example of a Sampling Distribution for a Mean</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46242</md:content-id>
+  <md:title>Central Limit Theorem: Two Column Model Step by Step Example of a Sampling Distribution for a Mean</md:title>
+  <md:abstract/>
+  <md:uuid>772ef167-a83e-4f8e-8fcf-24e73dae50fc</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-945"><emphasis effect="bold">Two Column Step by Step Example of a Sampling Distribution for a Mean</emphasis></para><para id="import-auto-id1164902426184">A study involving stress is done on a college campus among the students. The stress scores follow a uniform distribution with the lowest stress score equal to 1 and the highest equal to 5. </para>
+        <para id="import-auto-id1164901622165">Using a random sample of 50 students, find the probability that the mean stress score for the 50 students is less than 2.65.</para><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1164905511022" summary="This is a table with 2 columns and 6 rows. The first column is an outline of what tasks need to be done to create a sampling distribution for a mean. The second column is a step by step solution to the problem listed above this table.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+<row> 
+<entry>Guidelines</entry>
+<entry>Example</entry>
+</row>
+            </thead>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+                <entry>We are asked  the probability that the mean stress score of the sample of 50 students is less than 2.65. </entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions.</entry>
+                <entry><para id="eip-193"><emphasis effect="bold">Randomization Condition: </emphasis> The problem states that the sample was random.</para><para id="eip-8"><emphasis effect="bold">Independence Assumption:</emphasis>  It is reasonable to think that the stress scores of 50 randomly selected students will be independent of each other.  (But there could be exceptions, such as , if they were all from the same class that was having a major exam the next day.)</para><para id="eip-861"><emphasis effect="bold">10% Condition:</emphasis>  I assume the student body is over 500 students, so 50 students is less than 10% of the population.</para><para id="eip-487"><emphasis effect="bold">Sample Size Condition:</emphasis>  Since the distribution of the stress levels is uniform, a larger sample size is needed.  I believe that my sample of 50 students seems large enough.</para></entry>
+              </row>
+              <row>
+                <entry>State the parameters and the sampling model.</entry>
+                <entry>Since the individual stress scores follow a uniform distribution, X ~ U(1,5) where a=1 and b=5 (See Continuous Random Variables for the uniform). <equation id="eip-909"><m:math>
+<m:msub> <m:mi>µ</m:mi> <m:mi>X</m:mi> </m:msub> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> <m:mi>+</m:mi> <m:mi>b</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>1</m:mi> <m:mi>+</m:mi> <m:mi>5</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> <m:mi>=</m:mi> <m:mi>3</m:mi>
+</m:math></equation><equation id="eip-381"><m:math>
+<m:msub> <m:mi>σ</m:mi> <m:mi>X</m:mi> </m:msub> <m:mi>=</m:mi> <m:msqrt> <m:mfrac> <m:mrow> 
+<m:mi>(</m:mi> <m:mi>b</m:mi> <m:mi>-</m:mi> 
+<m:mi>a</m:mi> <m:msup> <m:mi>)</m:mi> <m:mo>2</m:mo> </m:msup> </m:mrow> <m:mrow> <m:mi>12</m:mi> </m:mrow> </m:mfrac> </m:msqrt> <m:mi>=</m:mi> <m:msqrt> <m:mfrac> <m:mrow> 
+<m:mi>(</m:mi> <m:mi>5</m:mi> <m:mi>-</m:mi> <m:mi>1</m:mi> <m:msup> <m:mi>)</m:mi>  <m:mo>2</m:mo> </m:msup> </m:mrow> <m:mrow> <m:mi>12</m:mi> </m:mrow> </m:mfrac> </m:msqrt> <m:mi>=</m:mi> <m:mi>1.15</m:mi>
+</m:math></equation></entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">Plot:</emphasis>  Make a picture. Sketch the model and shade the area we’re interested in.  </entry>
+                <entry>
+                  <para id="eip-648"><media id="import-auto-id31164903046247" alt="">
+                      <image mime-type="image/png" src="../../media/CLTproblem1.PNG" height="198" width="284" print-width="3in"/>
+                    </media>
+                  </para></entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">Mechanics:</emphasis> Let <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> = the mean stress score for the 75 students. Then, <equation id="eip-906"><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply> <m:mi>~</m:mi>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mn>1.15</m:mn>
+<m:mrow>
+<m:msqrt>
+<m:mn>50</m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="25pt"/>
+</m:math></equation><list id="eip-id6215248" list-type="bulleted" bullet-style="none"><item>
+where <m:math><m:mi>n = 50</m:mi></m:math>.</item></list>Find the resulting probability from a table of Normal probabilities, a computer program or a calculator.</entry>
+                <entry>A z-score will be used: <equation id="eip-172"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>2.65</m:mn>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>0.1626</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>-2.15</m:mn>
+</m:math></equation><para id="eip-857">Look this up in the table or use a computer. P(z &lt; -2.15) = 0 </para> </entry>
+              </row>
+              <row>
+                <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+                <entry>The probability that the mean stress score for the 50 college students is less than 2.65 is about 0.</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+    </content>
+</document>

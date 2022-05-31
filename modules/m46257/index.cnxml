@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Two Column Model Step by Step Example of a Sampling Distribution for Sums</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46257</md:content-id>
+  <md:title>Two Column Model Step by Step Example of a Sampling Distribution for Sums</md:title>
+  <md:abstract>A two column step by step model of how to calculate and represent a sampling distribution for sums</md:abstract>
+  <md:uuid>873684c9-5096-417e-bc85-2a8911bf6786</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165306185692"><emphasis effect="bold">Step-By-Step Example of the Sampling Distribution Model for Sums </emphasis> (Ex 7.3)</para>
+    <para id="import-auto-id1165263906575">An unknown distribution has a mean of 90 and a standard deviation of 15.  A sample of size 80 is drawn randomly from the population.</para>
+    <para id="import-auto-id1165288773938">Find the probability that the sum of the 80 values (or the total of the 80 values) is more than 7500.</para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1165311031307" summary="This is a two column table calculating an example in the book for the central limit theorem for sums. It has 7 rows. The first row contains the column labels">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Guidelines</entry>
+            <entry>Example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>We are asked to find the probability that the sum of the 80 values is more than 7500. </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions.</entry>
+            <entry>
+<para id="eip-133"><emphasis effect="bold"> Randomization Condition: </emphasis> The sample was stated to be random.</para><para id="eip-86"><emphasis effect="bold"> Independence Assumption: </emphasis>  It is reasonable to think 80 randomly selected values will be independent of each other.</para><para id="eip-225"><emphasis effect="bold"> 10% Condition: </emphasis> I assume the population is over 700, so 80 is less than 10% of the population. </para></entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model.</entry>
+            <entry>Since the distribution is unknown, but n is large enough<equation id="eip-432"><m:math>
+<m:mi>ΣX~N(80 · 90,</m:mi> <m:msqrt> <m:mi>80</m:mi> </m:msqrt> <m:mi>· 15)</m:mi>
+</m:math></equation><para id="eip-893">where</para><equation id="eip-482"><m:math>
+<m:msub> <m:mi>µ</m:mi> <m:mi>ΣX</m:mi> </m:msub> <m:mi>= n ·</m:mi> <m:msub> <m:mi>µ</m:mi> <m:mi>X</m:mi> </m:msub> <m:mi>= 80 · 90 = 7200</m:mi>
+</m:math></equation><equation id="eip-689"><m:math>
+<m:msub> <m:mi>σ</m:mi> <m:mi>ΣX</m:mi> </m:msub> <m:mi>=</m:mi> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> <m:mi> ·</m:mi> <m:msub> <m:mi>σ</m:mi> <m:mi>X</m:mi> </m:msub> <m:mi>=</m:mi> <m:msqrt> <m:mi>80</m:mi> </m:msqrt> <m:mi>· 15 = 134.164</m:mi> 
+</m:math></equation><para id="eip-89">Σx = 7500</para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Plot:</emphasis>  Make a picture. Sketch the model and shade the area we’re interested in.  </entry>
+            <entry>
+              <para id="eip-368"><media id="import-auto-id331165253518177" alt="">
+                  <image mime-type="image/png" src="../../media/Picture 1-fa53.png" height="150" width="269" print-width="3in"/></media>
+              </para>
+            </entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Mechanics:</emphasis>  <para id="eip-691">Let  <m:math> <m:apply><m:conjugate/><m:mi>X</m:mi></m:apply> </m:math> = the sum of the scores. Then,</para><list id="eip-79" list-type="bulleted" bullet-style="none"><item><emphasis effect="bold">∑</emphasis>X ~ N(7200, 134.165)</item></list><para id="eip-182">where n = 80. Find the resulting probability from a table of Normal probabilities, a computer program or a calculator.</para></entry>
+            <entry>A z-score will be used: <equation id="eip-597"><m:math>
+<m:mi>z = </m:mi>
+<m:mfrac> 
+<m:mrow> <m:mi>x - µ</m:mi> </m:mrow>
+<m:mrow> <m:mi>σ</m:mi> </m:mrow>
+</m:mfrac>
+<m:mi>=</m:mi>
+<m:mfrac> 
+<m:mrow> <m:mi>7500 - 7200</m:mi> </m:mrow>
+<m:mrow> <m:mi>134.164</m:mi> </m:mrow>
+</m:mfrac>
+<m:mi>= 2.236</m:mi>
+</m:math></equation> 
+<para id="eip-12382">Look this up in the table or use a computer. P(z&lt; 2.236) = 0.987, P(z &gt;2.236) = 1-0.987 = 0.013 </para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>The probability that the sum of the scores is greater than 7500 is about 0.013. A the probability of a sum score this high or higher is only 1.3% </entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Interval for a Mean, Sigma Known</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46276</md:content-id>
+  <md:title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Interval for a Mean, Sigma Known</md:title>
+  <md:abstract>This is a two column example of a model for calculating a confidence interval for a Population Mean from a sample mean, sigma known</md:abstract>
+  <md:uuid>953f489e-a620-4587-b4e2-9faef58b9a00</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1164255625401"><emphasis effect="bold">Step-By-Step Example of a Confidence Interval for a Mean, sigma known</emphasis> (used Ex 8.2)</para>
+    <para id="import-auto-id1164255552924">Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of 3 points. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68. </para>
+    <para id="import-auto-id1164255550071">Find a 90% confidence interval for the true (population) mean of statistics exam scores.</para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1164255573366" summary="This is a two column six row table giving step by step directions on calculating a confidence interval for a single mean with the population standard deviation known. The first row contain the titles of the columns">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Guidelines</entry>
+            <entry>Example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>We are asked to find a 90% confidence interval for the mean exam score, μ, of statistics students.  We have a sample of 68 students.  We know the population standard deviations is 3.</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions.</entry>
+            <entry>
+<para id="eip-680"><emphasis effect="bold"> Randomization Condition: </emphasis> The sample is a random sample.</para><para id="eip-377"><emphasis effect="bold"> Independence Assumption: </emphasis> It is reasonable to think that the exam scores of 36 randomly selected students are independent. </para><para id="eip-422"><emphasis effect="bold"> 10% Condition: </emphasis> I assume the statistic student population is over 360 students, so 36 students is less than 10% of the population. </para><para id="eip-196"><emphasis effect="bold"> Sample Size Condition: </emphasis> Since the distribution of the stress levels is normal, my sample of 36 students is large enough. </para>
+</entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model</entry>
+            <entry>The conditions are satisfied and σ is known, so we will use a confidence interval for a mean with known standard deviation.We need the sample mean and Margin of Error (ME).<equation id="eip-129"><m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply> 
+<m:mi>= 68; σ = 3; n = 36; ME =</m:mi>
+<m:msub> <m:mi>z</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> </m:msub> <m:mi>(</m:mi> <m:mfrac> <m:mrow> <m:mi>σ</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>n</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mi>)</m:mi>
+</m:math></equation></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Mechanics:</emphasis> CL = 0.90, so α = 1-CL = 1-0.90 = 0.10.  ; <equation id="eip-25"><m:math>
+<m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.05,</m:mi> <m:msub> <m:mi>z</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> </m:msub> <m:mi>=</m:mi> <m:msub> <m:mi>z</m:mi> <m:mi>0.05</m:mi> </m:msub>
+</m:math></equation><sub>0.05 </sub>is 1 – 0.05= 0.95So z<sub>0.05</sub> = 1.645</entry>
+            <entry><equation id="eip-42"><m:math>
+<m:mi>ME = 1.645</m:mi> <m:mi>(</m:mi>
+<m:mfrac> <m:mrow> <m:mi>3</m:mi> </m:mrow> <m:mrow> <m:msqrt> <m:mi>36</m:mi> </m:msqrt> </m:mrow> </m:mfrac> <m:mi>)</m:mi> <m:mi> = 0.8225</m:mi>
+</m:math></equation><equation id="eip-182"><m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mi>- ME = 68 - 0.8225 = 67.1775</m:mi>
+</m:math></equation><equation id="eip-798"><m:math>
+<m:apply> <m:conjugate/> <m:ci>x</m:ci> </m:apply>
+<m:mi>+ ME = 68 + 0.8225 = 68.8225</m:mi>
+</m:math></equation> The 90% confidence interval for the mean score is (67.1775, 68.8225)
+<para id="eip-970"><media id="import-auto-id1164255665203" alt=""><image mime-type="image/png" src="../../media/Confidence interval mean sigmaknown.PNG" height="209" width="257" print-width="3in"/></media></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>I am 90% confident that the interval from 67.1775% to 68.8225% contains the true mean score of all the statistics exams.  90% of all confidence intervals constructed in this way contain the true mean statistics exam score.  </entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

@@ -1,0 +1,82 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Bivariate Descriptive Statistics: Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46177</md:content-id>
+  <md:title>Bivariate Descriptive Statistics: Introduction</md:title>
+  <md:abstract>This module included categorical-categorical, cateogorical-measurement, and measurement-measurement descriptive statistics It also contains information from the descriptive statistics chapter part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>f5b42824-c7cc-4669-9380-078658aa2380</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id5428130">
+      <title>Descriptive Statistics for Bivariate Data: Introduction</title><section id="import-auto-id5812099">
+        <title> Student Learning Outcomes</title>
+        <para id="eip-434">By the end of this chapter, the student should be able to:</para><list id="eip-341"><item>Identify different types of relationships between variables: categorical-categorical, categorical-numerical, and numerical-numerical</item></list><para id="eip-269">Categorical - Categorical</para><list id="import-auto-id2716539" list-type="bulleted"><item>Know how to make and summarize a contingency table between two categorical variables</item>
+          <item>Discuss and describe  patterns in contingency tables and supporting graphic summaries</item>
+          
+        </list><para id="eip-557">Categorical - Numerical</para><list id="eip-851"><item>Be able to build side-by-side histograms, back-to-back stemplots, and multiple box-plots between a categorical and a numeric variable.</item>
+          <item>Compare and contrast multiple groups based on their shape, center, and spread.</item>
+</list><para id="eip-235">Numerical - Numerical</para><list id="eip-323"><item>Discuss basic ideas of the relationship between two numeric variables including scatter plots, linear regression and correlation</item>
+<item>Create and interpret a line of best fit</item>
+<item>Calculate and interpret the correlation coeficient</item></list></section>
+      <section id="import-auto-id3200983">
+        <title>Introduction</title>
+        <para id="import-auto-id5169672">In the previous chapters you have explored how to organize, summarize, and discuss both univariate categorical and numerical variables.  Usually more interesting questions are to examine relationships between sets of variables.  For example, are men or women more likely to purchase coffee at a coffee shop or do students that spend more time studying for an exam really do better?  We can start to answer these questions by examining the relationship between the variables: categorical and categorical variables, categorical and numerical variables, or numerical and numerical variables.  We will do this by producing graphs, calculating summary statistics, and making comparisons.  </para></section>
+      <section id="import-auto-id2233207">
+        <title>Categorical-Categorical Relationships: Contingency Tables</title><para id="import-auto-id2035389">When we want to examine a relationship between two categorical variables we build a contingency table.  Tables that summarize two categorical variables are called <emphasis effect="italics">contingency tables.  </emphasis>These tables are also called <emphasis effect="italics">two-way tables</emphasis>, <emphasis effect="italics">crosstabulations</emphasis>, <emphasis effect="italics">summary tables</emphasis>, or <emphasis effect="italics">pivot tables </emphasis>(in Microsoft Excel). </para>
+        <para id="import-auto-id5841059">The table below is an example of a contingence table.  It presents the number of students that fall into six different groups.  The groups are based on answers to two categorical questions.  The first question asked for gender (Female or Male) and the second asked for the type of transportation a student typically uses to go to school each day (bicycle, car, or walking).</para>
+        <figure id="import-auto-id5879892">
+          <media id="import-auto-id5611848" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-e327.png" height="132" width="617"/>
+          </media>
+        </figure>
+        <para id="import-auto-id3081010">In this situation, we get two measurements from each person: a person’s gender, and a person’s type of transportation.  One variable is represented by the rows (GENDER) and the other variable is represented by the columns (TRANSPORTATION).  There are two values for gender (Female or Male) and three possible values for transportation (Bike, Car, or Walk).  Each person can have only one value for gender and only one value for transportation.  Together, the two variables are said to make a 2 x 3 table, two rows and three columns. This creates a table with six cells.  The cells are the boxes that are outlined with a heavy line.</para>
+        <para id="import-auto-id5506127"><emphasis effect="bold">We are interested in whether there is a relationship between a person’s gender and how they typically get to school.  In other words, is there a difference between men and women with respect to the type of transportation they use to get to school?</emphasis>  To answer this question we must look at percentages, since the numbers of men and women are unequal.</para><para id="import-auto-id5386243">Notice that the question about the difference in the relationship is stated in terms of whether or not the percentages are the same.  To answer this question, you must first calculate the percentages for each box in the table so that you can make a comparison.  However, there are three different types of percentages that you can calculate, and you need to choose the right type to make a meaningful comparison.  You can calculate a percentage based on the <emphasis effect="bold">Table Total </emphasis>for the entire table, or on the <emphasis effect="bold">Column Totals</emphasis>, or on the <emphasis effect="bold">Row Totals</emphasis>. </para><para id="import-auto-id2392446">Start off by calculating the row totals, column total, and the overall total (or sample size).  There are two rows, so there will be two row totals, one for the Females and one for the Males. For the females, there are 4 who ride a bike, 20 who use a car, and 45 who walk.  The Row Total for females is, therefore, 4 + 20 + 45 = 69.  Similarly, you should find that the row total for males is 61.  Write the two row totals (69 and 61) into the boxes provided under ROW TOTAL.</para>
+        <figure id="import-auto-id5513543">
+          <media id="import-auto-id2593407" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-a48d.png" height="212" width="601"/>
+          </media>
+        </figure>
+        <para id="import-auto-id6256873">There are three columns, so you will have three column totals. The column total for Bike is 17.  Write that in for the Bike column total, and then calculate and fill in the column totals for Car and Walk.</para>
+        <para id="import-auto-id5065777">The Table Total is just the sum of the counts in all six cells.  So, you can either add up all of the cell counts, or you can add up just the two row totals, or you can add up just the three column totals.  Any one of the three methods will give you exactly same value for the Table Total.  In fact, it is a good idea to calculate the Table Total in at least two ways to make sure the two calculations agree.</para>
+        <para id="import-auto-id5590907">Now that you have all of the totals, it’s time to decide which type to use to calculate the percentages for each cell.  To do this, you need to consider the question that is asked: <emphasis effect="bold">Is there a difference between men and women with respect to the type of transportation they use to get to school? </emphasis> The question focuses on the difference between men and women, so gender is our dominate variable.  Since men and women are represented by the rows in the table, we want to use the ROW TOTALS to calculate ROW percentages.</para>
+        <para id="import-auto-id5907455">Calculate the row percent for each cell. For example, there are 4 women who bike.  The Row Total for women is 69. So the Row % for that cell (females who bike) is equal to 4/69 x 100 = 5.8%.  And that is what you write after ROW % = in the first cell. As another example, there are 23 men who walk. The Row Total for men is 61. Therefore, the Row % for that cell (men who walk) is 23/61 x 100 = 37.7%.  Use this same method to calculate the other four row percentages and write them into the table.</para>
+        <para id="import-auto-id5764780"><figure id="import-auto-id2967633"><media id="import-auto-id3087106" alt=""><image mime-type="image/png" src="../../media/graphics3-e035.png" height="226" width="593"/></media></figure>Now that you have all six percentages, you can compare them.  You will certainly see that the percentages are not the same for men and women.  Are the differences in percentages between males and females large enough for you to claim that there is a relationship between gender and type of transportation to school?  In other words, is there a type of transportation that males tend to take more so than females, or vice versa?  </para>
+        <para id="import-auto-id5834982">When describing a relationships between two categorical variables represented in a two-way table describe any similarities and differences paying particular attention to the largest percentages based on your dominate variable.  </para>
+        <para id="import-auto-id3101102">For this relationship there does seem to be a difference between men and women with respect to type of transportation used to get to school.  Men are closely split between taking the car at 41% and walking at 37.3%.  While the women’s biggest percentage is for walking at 65.3% with driving a car at 29%.</para>
+        <para id="import-auto-id2796249">Here is a summary of the steps needed to identify whether you should calculate row or column percentages:</para>
+        <list id="import-auto-id3142244" list-type="bulleted"><item>Read the question carefully</item>
+          <item>Calculate the Row total, Column total, and Overall total.</item>
+          <item>Based on the question, determine whether Row percentages or Column percentages should be used to answer the question.</item>
+          <item>Calculate the appropriate percentages (either Row or Column)</item>
+          <item>Remember to label the percentages as either ROW or COLUMN.</item>
+          <item>Finally, write a few sentences that compare the percentages in order to answer the question (Is there a relationship or are the variables independent?)</item>
+        </list><para id="import-auto-id6348349">Graphical Displays of Contingency Tables</para>
+        <para id="import-auto-id6391409">The relationship you are examining in a contingency table can also be viewed graphically with multiple bar graphs, multiple pie charts or a segmented bar chart. The following graph of Male and Female Modes of Transportation represents all the data from the contingency table in a bar graph using row percents.  The graph on the left uses clustered columns to display the data.  The graph on the right uses stacked columns to display the data.  Also take note that depending on your variable of interest, you can organize your data on the x-axis by mode of transportation or by gender.</para><figure id="import-auto-id6373020"><media id="import-auto-id6068274" alt="">
+            <image mime-type="image/png" src="../../media/gender preference clustered histogram.png" height="243" width="624"/>
+          </media>
+        </figure><para id="import-auto-id6083710">This data can also be represented by multiple Pie Charts or Graphs.  The graphs below demonstrate how the data can be represented by two pie charts.  If we used mode of transportation to define the groups for pie charts, we would need to display three pie charts with the percent male and female on each chart. </para>
+        <figure id="import-auto-id6094384">
+          <media id="import-auto-id6076990" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-4fc0.png" height="227" width="624"/>
+          </media>
+        </figure>
+        <para id="import-auto-id5907049">When making any of these graphs to show the relationship between the two categorical variables always include the percentages, not the frequencies.  The percentages allow us to compare groups with different sample sizes. However, somewhere in your narrative or in the description of your data the actual counts should be represented so that the reader knows the basis of the percentages.  Including a contingency table with counts would fill that need. </para></section>
+      <section id="import-auto-id5077287">
+        <title>Categorical-Numerical Relationships: Comparing Distributions with two or more groups</title><para id="import-auto-id6383337">Another type of relationship between variables that we are interested in examining is between a categorical and numerical variable.  All the summary statistics and graphing techniques that we learned about in the previous chapter can be used to compare multiple groups on the same variable.  Have you ever wondered who gets more speeding tickets, men or women, or who spends more time studying on your campus, freshmen, sophomores, juniors or seniors?  These questions can be examined by constructing multiple histograms, back-to-back stemplots, and multiple box-plots. Below is an example of a box plot showing the differences between the number of hours per week male and female students studied for their statistics course. </para>
+        <figure id="import-auto-id5862367">
+          <media id="import-auto-id6373631" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-d90d.png" height="417" width="622"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1673205">When comparing groups with any of these displays we want to pay special attention to differences and similarities is shape, center, spread.  You will want to compare the group’s shapes, comment on any gaps, multiple modes or peaks, and outliers you see in the data.  This is easy to do when the data is graphed on the same scale as seen in the graphs above.</para><para id="import-auto-id6024408">Next compare and contrast the measures of center: mean, median, and mode.  These statistics describe what is a typical response to a numerical question.  Are these measurements the same between groups or not.</para><para id="import-auto-id6036999">Lastly, examine their measures of variability: range, standard deviation, and interquartile ranges.  Are these measurements of variability and spread similar or different?  Remember our purpose in examining these groups is to see if there is a difference.  We are looking to see if there is a relationship between the multiple groups.</para></section><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-26"><title>Numerical - Numerical Relationships: Linear Regression and Correlation</title><para id="eip-963">
+Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is it and how strong is the relationship?
+</para><para id="eip-848">In another example, your income may be determined by your education, your profession,
+your years of experience, and your ability. The amount you pay a repair person for labor is
+often determined by an initial amount plus an hourly fee. These are all examples in which
+regression can be used.</para><para id="eip-251">The type of data described in the examples is bivariate data - "bi" for two variables. In reality, statisticians use multivariate data, meaning many variables.</para><para id="eip-552">In the next section, you will be studying the simplest form of regression, "linear regression" with
+one independent variable (<m:math><m:mi>x</m:mi></m:math>). This involves data that fits a line in two dimensions. You will
+also study correlation which measures how strong the relationship is.</para></section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,201 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Univariate Descriptive Statistics Using Spreadsheets to View and Summarize Data</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47492</md:content-id>
+  <md:title>Univariate Descriptive Statistics Using Spreadsheets to View and Summarize Data</md:title>
+  <md:abstract>Basic directions on how to use Google Spreadsheet and Excel to prepare summaries and graphs of univariate data.</md:abstract>
+  <md:uuid>71915a10-d619-4861-8be2-85076635175c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1167344065586">
+      <title>Displaying Data in Graphs</title>
+      <para id="import-auto-id1167344099781">In this section we will discuss techniques using a spreadsheet for displaying quantitative data using stemplots, histograms, boxplots and qualitative data using bar graphs and pie charts. We will primarily use Microsoft Excel and Google Spreadsheet, as we will use these two resources for sampling and surveying in this introductory course.  </para><section id="import-auto-id1167344064236">
+        <title>Common Characteristics of Spreadsheets</title>
+        <para id="import-auto-id7058796">We will review a few techniques that you will use to create, copy and paste into a document, and save your displays of data.  </para>
+        <para id="import-auto-id1167344062229"><emphasis effect="bold">Copy and Paste 2.0:</emphasis>  When you copy and paste information you have a few choices in Excel and Google Spreadsheet. You can copy as is or you can copy as a picture. You can paste as paste, paste values or paste other.  If you copy any cell with a formula by just clicking on the copy picture it will copy the contents. If you copy using the black arrow to the right of the copy symbol you will also have the option to copy as a picture.  When we copy a formula, we will copy the cell content. When we copy a graph, we will copy as a picture.  The picture is then not dynamic and will always stay the same.  If you copy regularly, the graph will be dynamic and any time you change or delete something in your spreadsheet it will change in your document.  So graphs copy as picture; formulas copy as usual.  Now for pasting you have many options.  We generally use two options.  Paste as formula or paste as values.  If you want a dynamic formula . . . copy formula. If you are interested in making a copy of the “values” only, then paste values. If you go to the down arrow next to the paste symbol on the home tab, you can mouse over each of the pictures in the pull down menu and select the type of paste you want (see figure below).  You may not see the advantage of this right now.  But before you complete your project . . . you will use these techniques.</para><figure id="import-auto-id1167335771220">
+          <media id="import-auto-id7096542" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-7737.png" height="198" width="80"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1167342969273">
+        <title>Common Characteristics of Bar Graphs and Histograms</title>
+        <para id="import-auto-id1167340165898">Both bar graphs for qualitative data and histograms for quantitative data involve using frequency distributions of the data. For qualitative data each bar will represent one category of data. Since the data is discrete or nominal in nature, we will be sure to represent the data with each category having its own bar.  The order of the bars does not matter, but what does matter is that the bars are separated by space so that it is clear that each bar is a different category.  When  we work with quantitative data, we will make sure that the bars are touching (connected) since we will be working with continuous data and there is no space between the measurement-level data.  </para></section>
+      <section id="import-auto-id1167340574768">
+        <title>Creating Bar Graphs</title>
+        <para id="import-auto-id1167341854803">To create a bar graph using Excel, highlight the column of qualitative date that you would like to represent. Open the “Insert” tab on the ribbon and choose “Chart” in google spreadsheet or mouse over recommended charts in excel and click. A popup window with a bar chart will appear with categories and the counts in each of the categories.  If it looks like you intended, then mouse over to the OK button and click (bottom right of the popup screen). Excel will create a new spreadsheet for you.  Again you will want to give the worksheet tab a descriptive name. You may even want to change the counts to percent of total.  If so you will use the sum of values box in the pivot chart fields, use the downward pointing arrow to bring up another pull down menu and select “Value Field Settings” (sound familiar), show values as, instead of no calculation pick percent of total, then click on the ok button.  You now have a bar chart with relative frequency. Note that this was a quick way to create a pivot table and a bar chart at the same time.  While you are on this page you can select the categories of your data (in the example below college rank categories) and the relative frequency column (highlight them with your mouse, next go to the insert tab in your ribbon and select recommended charts, Pie and then mouse over your OK button and you will have a pie chart on your Excel spreadsheet. You can mouse over the space provided for a title and give your pie chart a more descriptive title.</para><figure id="import-auto-id1167345835687">
+          <media id="import-auto-id1167334737016" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-3876.png" height="453" width="504"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1167339644920">In  Google Spreadsheet, simply select Form from your ribbon. In the dropdown menu we will find “Show summary of responses” in the response for each qualitative question you will see a bar chart, a pie chart, and the frequency and relative frequency data. </para>
+      </section>
+      <section id="import-auto-id1167345322499">
+        <title>Pie Charts for Qualitative Data</title>
+        <para id="import-auto-id1167333996442">If you go back to your page with your pivot chart and bar chart and you select the categories of your data (in the example below college rank categories) and the relative frequency column (highlight them with your mouse), then go to the insert tab in your ribbon and select recommended charts, pie and then mouse over your OK button and you will have a pie chart on your Excel spreadsheet. You can mouse over the space provided for a title and give your pie chart a more descriptive title.</para></section>
+      <section id="import-auto-id1167337690927">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1167339692425">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Google Spreadsheet or Excel; (3) create a new worksheet tab and label it Graphs for Categorical Data; (4) pick a column of data that is categorical and has been “cleaned” and create a bar graph and a pie graph  with all the appropriate labels; And (5) save the file again and post in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1167344077965">
+        <title>Creating Histograms for Quantitative data</title>
+        <para id="import-auto-id1167345454013">The easiest way <emphasis effect="bold">to create a histogram in Excel</emphasis> is to use the data analysis package or work from a pivot table with frequency bins that you have previously defined.  Using an existing pivot table you will create a graph just as you did above to create a bar graph but you will need to change the spacing of the “bars.” This is accomplished by double clicking on a data bar in your graph to highlight it  (you will see little circles in the four corners of the bar(s)). That action will bring up a pop up menu called “Format Data Point” or “Format Data Series.” It is that menu that has “series options” with a gap width marker. The gap width can be changed by sliding the marker on the line or changing the percentage of the gap width to “0%”. With a little playing you can mouse over the Chart Title and give it a descriptive title. You can also add chart elements by mousing over the “Add Chart Element” in the “Chart Tools”,  “Design tab.” A histogram is complete with the axis labeled, descriptive title and 0% gap between the bars. </para>
+        <para id="import-auto-id1167341709990">Using data analysis: You will highlight your column of data, select the data tab on the ribbon. The last option on the data menu is “Data Analysis,” click on data analysis and a popup menu will appear with the option of “histogram.” After you have selected histogram from the data analysis menu, click on the OK button. Another popup menu will appear.  It will ask for bin range. If you do not specify a bin range, Excel will automatically give you bin ranges but they may or may not be appropriate.  Remember that you should select about 5-15 bins for your data (depending on the number of data points in your data set, less data, less bins). </para>
+        <para id="import-auto-id1167340170444"><emphasis effect="bold">If you want to create your own bins:</emphasis> The best way to calculate bins given in your book is to look at the range of your data and then divide that range into equal parts. For this example let’s use a width of thirty since thirty credit hours a year is fairly equivalent to one year of college credit. You will need to select the upper bounds of your bins and label them as bins on your spread sheet. You will create a column of bin data on your spreadsheet. Then, place the cell address (beginning celladdress:end cell address) into the box provided for bin range.  Make sure that labels are selected as shown by a check mark. If you have a label for your column of quantitative data that you will be using to create a histogram, then you must have a label for your bins.  It is always a best practice to label data. Note that the picture of the Excel spreadsheet has my bins in the right most column. The other columns with bin and frequency were generated by Excel when it produced the histogram. Note that I have begun to relabel the names of the bins in the left most column labeled “credit hour bins” to the midrange or the column and that change is automatically registered on the graph x-axis. </para>
+        <figure id="import-auto-id1167344774392">
+          <media id="import-auto-id6082768" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-3d23.png" height="312" width="451"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1167351760589">For output you can select either a cell on the Excel spreadsheet you are working on or you can select a new worksheet.  You will then have three boxes at the bottom of that popup menu that you can check off. For our purposes you will select “chart output” only.  This will create a histogram (of sorts). You will need to go back and make the bars touch, put in your title and axis labels plus you will need to change the bins labels since you will have the bin upper bounds in the center of the bar.  You can go back to the chart output created by Excel when you created your histogram and change the bin name to the midpoint value. You will then have the correct data point on you histogram. See the image below for details on that process.</para><para id="import-auto-id1167341759463"><emphasis effect="bold">Google spreadsheet will not allow you to eliminate the spaces between the bars so we will not be using Google Spreadsheet to display quantitative data.</emphasis>  We will only use Excel. </para>
+        <figure id="import-auto-id1167347767173">
+          <media id="import-auto-id1167345820140" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-f96b.png" height="384" width="522"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1167345309122">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1167339720257">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Excel; (3) create a new worksheet tab and label it Graphs for Quantitative Date; (4) pick a column of data that is quantitative and has been “cleaned” and create a histogram with appropriate spacing, titles, midpoints, and axis labels; (5) save the file again and post in the appropriate Moodle assignment. </para>
+        <para id="import-auto-id1167344651713">
+          <emphasis effect="bold">Creating box plots</emphasis>
+        </para>
+        <para id="import-auto-id1167344086752"><emphasis effect="bold">There are two methods for us to create box plots in Excel. </emphasis>We will use the free  excel template by Vertex42 that has been modified by Janet Stottlemyer and Irene Duranczyk. </para><para id="eip-236">This template is on your course shell (Moodle) or can be downloaded from the Vertex42 website given: <link url="http://www.vertex42.com/ExcelTemplates/box-whisker-plot.html"><emphasis effect="underline">http://www.vertex42.com/ExcelTemplates/box-whisker-plot.html</emphasis></link>.  The other method to create a box plot can be found by watching the video at <link url="http://www.youtube.com/watch?v=bgaN446TQXo"><emphasis effect="underline">http://www.youtube.com/watch?v=bgaN446TQXo</emphasis></link> and downloading the sample file found at that link. </para><para id="eip-28">To use the Vertex42 template, follow the directions on the template spreadsheet to create the box plot.  The directions are on the “BoxPlot” spreadsheet tab. To create a boxplot with outliers. You will need a few additional steps.  The template only identifies the one upper and one lower outlier (if there is one) You will need to follow the steps below to create a marker for other near (1.5*IQR to less than 2.0 IQR) or far (2.0+IQR or more) outliers. First, identify your outliers and make a list of the outliers labeled as near or far outliers. Remember that one outlier will already be plotted on your graph. Do not re-plot that min or max outlier. With your spreadsheet open and your data already graphed on the BoxPlot template, with your mouse, click on the graphed data. When you click on the graphed data, chart tools will be highlighted. While this is highlighted, go to the insert tap. Once that tab is opened you should see “Illustrations" as one of the options on the ribbon. On the Insert tab, in the Illustrations group, click Shapes.</para><figure id="import-auto-id1167339443688">
+          <media id="import-auto-id1167340090147" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-1910.png" height="77" width="450"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1167346327707">Click the shape that you want, click anywhere in the document, and then drag to place the shape. For our box plots use the circle from basic shapes for near outliers and use the star shape from stars and banners for the far outliers. To create a perfect star or circle (or constrain the dimensions of other shapes), press and hold SHIFT while you drag. Add one shape for each outlier. You will then copy picture and add this figure to your statistics document. You can change the name of the columns by adding your category name in the data table.  You are only to change the names in the data table and only add data to the data table.  Only make changes in the “blue” highlighted fields.  If you want fewer columns of data delete the columns you are not using.  If you want more columns, talk to your instructor or follow the directions on the right hand side of the “BoxPlot” spreadsheet. See the image below of the results of the Data Table that is highlighted blue.</para>
+        <figure id="import-auto-id1167337855158">
+          <media id="import-auto-id1167340170394" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-da43.png" height="439" width="575"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1167344113994">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1167337667369">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Excel; (3) create a new worksheet tab and label it BoxPlot for Quantitative Date; (4) pick a column of data that is quantitative and has been “cleaned” and create a BoxPlot with appropriate titles, axis labels, near and far outliers; (5) save the file again and post in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1167347787972">
+        <title>
+          <emphasis effect="bold">Creating Stem and Leaf Graphs </emphasis>
+        </title>
+        <para id="import-auto-id1167344077117">Using the same process that we used for creating the dot plot we will replace the “dot” with the leaf for each of the numbers in our column of quantitative data. For this example I used the data on How many credit hours have you completed to date.  The data list included: 124, 84, 72, 95, 165, 100, 72, 95, 26, 110, and 0. For the stem we are using the tens place value. For the leaf we will use the unit place value. You will create two columns labeling the first column Stem and the second column Leaf. In the Stem column you will enter the numbers 0 – 12 or 1 – 11. This is the range of “tens” in your data set. For the Leaf column you will enter the repeat function and the countif function. You will ask Excel to repeat the “unit value” for as many times as the countif function found the unit value you specified. So for this example if I wanted to find the Leaf for the 7 “tens” column I would be entering =rept(“0” countif(beginning cell address):(end cell address), the cell address of the Stem,*10+0)&amp; =rept(“1” countif(beginning cell address):(end cell address), the cell address of the Stem,*10+1)&amp; =rept(“2” countif(beginning cell address):(end cell address), the cell address of the Stem,*10+2). . . . =rept(“9” countif(beginning cell address):(end cell address), the cell address of the Stem,*10+9). The results will look like the excel spreadsheet below.  Google Spreadsheet will also look the same. We have just used this opportunity to display the formula in the Google Spreadsheet for you. Right clicking on the Stem row you can select format cell,  then select the border tab, and then select the style and color for your line clicking on only the right border of the cells. You have created a stem and leaf graph.  If you use “absolute” notation as the example does once you have entered the first line of your leaf you can copy and paste the rest into cells below. It goes quit quickly.</para>
+        <figure id="import-auto-id1167344108839">
+          <media id="import-auto-id1167345187049" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-d264.png" height="184" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1167343947360">
+          <media id="import-auto-id1167334741523" alt="">
+            <image mime-type="image/png" src="../../media/graphics8-a5f5.png" height="383" width="199"/>
+          </media>
+        </figure>
+      </section>
+      <section id="import-auto-id1167340569632">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1167346056124">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Excel; (3) create a new worksheet tab and label it Stem and Leaf for Quantitative Date; (4) pick column of data that is quantitative and has been “cleaned” and create a Stem and Leaf with appropriate titles, labels, and lines; (5) save the file again and post in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id1167344635217">
+        <title>Creating Summary Statistics for Quantitative Data</title>
+        <para id="import-auto-id1167332845057">For quantitative data there are measures of center and spread that we will want to evaluate in order to determine (1) whether data is nearly normal, skewed to the right or skewed to the left or (2) whether we should display data with a histogram or on a boxplot. Below are the formulas for calculating center and spread using Google Spreadsheet or Excel. </para>
+        <table id="import-auto-id1167344830376" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Mean</entry>
+                <entry>=average(beginning cell address:end Cell address)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Median</entry>
+                <entry>=meadian(beginning cell address:end Cell address)</entry>
+              </row>
+              <row>
+                <entry>Mode*</entry>
+                <entry>=mode(beginning cell address:end Cell address)</entry>
+              </row>
+              <row>
+                <entry>Largest number</entry>
+                <entry>=large((beginning cell address:end Cell address,1)</entry>
+              </row>
+              <row>
+                <entry>Smallest number</entry>
+                <entry>=small(beginning cell address:end Cell address,1)</entry>
+              </row>
+              <row>
+                <entry>Range</entry>
+                <entry>=largest number-smallest number</entry>
+              </row>
+              <row>
+                <entry>Standard deviation</entry>
+                <entry>=stdev(beginning cell address:end Cell address)</entry>
+              </row>
+              <row>
+                <entry>1<sup>st</sup> quartile</entry>
+                <entry>=quartile(beginning cell address:end Cell address,1)</entry>
+              </row>
+              <row>
+                <entry>2<sup>nd</sup> quartile</entry>
+                <entry>=quartile(beginning cell address:end Cell address,2)</entry>
+              </row>
+              <row>
+                <entry>3<sup>rd</sup> quartile</entry>
+                <entry>=quartile(beginning cell address:end Cell address,3)</entry>
+              </row>
+              <row>
+                <entry>IQR</entry>
+                <entry>=3<sup>rd</sup> quartile=1<sup>st</sup> quartile</entry>
+              </row>
+              <row>
+                <entry>Percentile (eg. 90<sup>th</sup> percentile)</entry>
+                <entry>=percentile(beginning cell address:end Cell address,the percentile between 0-1)Eg =percentile(beginning cell address:end Cell address, .9)</entry>
+              </row>
+              <row>
+                <entry>Z score</entry>
+                <entry>=(x – mean)/standard deviation</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="import-auto-id4904118">These few formula will allow you to calculate the 5 number summary or the relevant data for normal or nearly normal data. </para>
+        <para id="import-auto-id1167345630894">To use the above formulas to create summary statistics you will use one column for your labels and one column for placing your equations.  Below are screenshots of how to create your descriptive statistics.  The Googlespreadsheet document shows the equations. The excel document show the results of those equations. </para><para id="import-auto-id1167346031994"><emphasis effect="bold">*Multiple Modes:</emphasis> In Google Spreadsheet the mode function will not provide multiple modes.  In Google Spreadsheet only the mode of the one number (the largest number, see example below) will be provided if there are multiple modes.  In Excel you also only see one number based on its “rank” in your list unless you highlight the cell with your MODE.MULT formula (as demonstrated below) and press F9 on your keyboard.  You will then see your multiple modes.  Note that once you left that cell, the only way you will see your multiple modes is in the formula bar as the screenshot indicates. View the screen shot below. The first screenshot is with the multiple mode formula highlighted.  The second screenshot is after pressing F9. on the keyboard.  The third screenshot displays the formulas for a set of data in Google Spreadsheet.</para><figure id="import-auto-id1167338521347">
+          <media id="import-auto-id1167344630684" alt="">
+            <image mime-type="image/png" src="../../media/graphics9-7f40.png" height="427" width="386"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1167340172624">
+          <media id="import-auto-id6045133" alt="">
+            <image mime-type="image/png" src="../../media/graphics10-5608.png" height="397" width="322"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id8917752">
+          <media id="import-auto-id1167344078849" alt="">
+            <image mime-type="image/png" src="../../media/graphics11-be2f.png" height="340" width="576"/>
+          </media>
+        </figure>
+        <para id="import-auto-id1167344069901">To use the above formulas to create summary statistics you will use one column for your labels and one column for placing your equations.  Below is a screenshot of one example of how to create your descriptive statistics.  The Googlespreadsheet document shows the equations. The excel document show the results of those equations. </para></section>
+      <section id="import-auto-id1167333489749">
+        <title>Optional Classroom Exercise:</title>
+        <para id="import-auto-id1167337825878">At your computer, try this exercise: (1) Open the file, Statistics First Day of Class Survey that you worked on previously  (2) open the file in Excel or Google Spreadsheet (3) create a new worksheet tab and label it Descriptive Statistics; (4) pick column of data that is quantitative and has been “cleaned” and create a the descriptive statistics with  appropriate titles, labels, and lines; (4) Based on your descriptive statistics, determine if you will create a historgram or a box plot of the data (5) create the appropriate graph (6) compy your descriptive statistics and your graph into a word document and describe the data and tell the story about the shape, center, spread of your data. (7) save the Excel or  Google Spreadsheet file again and this time post only the word document you created in the appropriate Moodle assignment. </para>
+      </section>
+      <section id="import-auto-id6558161">
+        <title>Using the Data Analysis in Excel to create descriptive statistics for quantitative data:</title>
+        <para id="import-auto-id1167339691228">When one is using Excel and one only has quantitative data, there is another option to create a chart of the descriptive statistics.  On the Excel Ribbon, if you choose the “DATA” tab, you will see Data Analysis as one of the menu items.  If you double click on “data analysis”, a popup menu will appear.  The options are in alphabetical order and you will be looking for Descriptive statistics. If you click once on descriptive statistics to highlight it, and mouse over and click on the “OK” button, another popup menu will appear. Here you will enter your input range which is the beginning and end cell address for your data including your label in the first row, put a check mark in the “Labels in the First Row” box, and a check mark in the “Summary statistics” box. You have one more choice left.  Do you what you descriptive statistics on the same spreadsheet that you are working on or do you want to put the descriptive statistics on a separate worksheet. If  you want the descriptive statistics on a separate worksheet click on the radial button in front of New Worksheet. If you want the descriptive statistics chart in the same worksheet click on the radial button in from of “Output Range” and then you will need to put in an empty cell address in the box provided by entering it or placing your curser in the box provided and then clicking on a single empty cell on your spreadsheet. Next, click on the “OK” button. Voila, descriptive statistics will appear. See images below. Once again without using =MODE.MULT the descriptive statistics only gives one of the modes from this data set. </para><figure id="import-auto-id1167346099242">
+          <media id="import-auto-id1167341912271" alt="">
+            <image mime-type="image/png" src="../../media/graphics12-e3b8.png" height="384" width="576"/>
+          </media>
+        </figure>
+        <figure id="import-auto-id1167344061377">
+          <media id="import-auto-id1167344059122" alt="">
+            <image mime-type="image/png" src="../../media/graphics13-efdb.png" height="339" width="575"/>
+          </media>
+        </figure>
+      </section>
+    </section>
+  </content>
+</document>

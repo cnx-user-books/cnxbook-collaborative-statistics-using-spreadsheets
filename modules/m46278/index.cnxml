@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Intervals for a Proportion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46278</md:content-id>
+  <md:title>Confidence Interval: Two Column Model Step by Step Example of a Confidence Intervals for a Proportion</md:title>
+  <md:abstract>This is a two column step by step example of calculating a confidence interval for a proportion</md:abstract>
+  <md:uuid>5cdec5f2-b51f-415c-9740-b59621d68ff3</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1166317477470"><emphasis effect="bold">Step-By-Step Example of a Confidence Interval for a Proportion</emphasis> (used Ex 8.8)</para>
+    <para id="import-auto-id1166317497660">Suppose that a market research firm is hired to estimate the percent of adults living in a large city who have cell phones.  500 randomly selected adult residents in this city are surveyed to determine whether they have cell phones.  Of the 500 people surveyed, 421 responded yes-  they own cell phones.  </para>
+    <para id="import-auto-id1166317431666">Using a 95% confidence level, compute a confidence interval estimate for the true proportion of adult residents of this city who have cell phones.</para>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1166317474813" summary="This is a 6 row and w column table. The table headings are in the first row.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Guidelines</entry>
+            <entry>Example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Plan:</emphasis> State what we need to know.</entry>
+            <entry>We are asked to find a 95% confidence interval for the true proportion of city residents who have cell phones.  We have a sample of 500 residents.</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Model:</emphasis> Think about the assumptions and check the conditions.</entry>
+            <entry><para id="eip-981"><emphasis effect="bold">Randomization Condition: </emphasis> The sample is a random sample.</para><para id="eip-246"><emphasis effect="bold"> Independence Assumption: </emphasis> It is reasonable to think that the cell phone ownership of 500 residents are independent.</para><para id="eip-650"><emphasis effect="bold"> 10% Condition: </emphasis> Since this is a large city the number of adult residents must be over 5000, so 500 subjects is less than 10% of the population.</para><para id="eip-794"><emphasis effect="bold"> Success/Failure Condition: </emphasis>n<m:math><m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover></m:math>
+= 500(0.842) = 421 &gt; 10; n(1 - <m:math><m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover></m:math>)= 500(0.158) = 79 &gt; 10</para></entry>
+          </row>
+          <row>
+            <entry>State the parameters and the sampling model</entry>
+            <entry>The conditions are satisfied so I can use a Normal model to find a confidence interval for a proportion. <equation id="eip-750"><m:math>
+<m:mi>n</m:mi><m:mo>=</m:mo><m:mo>500;</m:mo> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>=</m:mi> <m:mfrac> <m:mrow> <m:mi>421</m:mi> </m:mrow> <m:mrow> <m:mi>500</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.842</m:mi>
+</m:math></equation><equation id="eip-12"><m:math>
+<m:mo>1 - </m:mo>  <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mo> = 1 - 0.842 = 0.158</m:mo>
+</m:math></equation></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Mechanics:</emphasis> CL = 0.95, so α = 1-CL = 1-0.95 = 0.05.  <equation id="eip-720"><m:math>
+<m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow> </m:mfrac> <m:mi>= 0.25;</m:mi> <m:msub> <m:mi>z</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow></m:mfrac> </m:msub> <m:mi>=</m:mi> <m:msub> <m:mi>z</m:mi> <m:mi>0.025</m:mi> </m:msub>
+</m:math></equation>The area to the right of  z<sub>0.25 </sub>is 1 – 0.025= 0.975So z<sub>0.025, </sub> = 1.96</entry>
+            <entry><list id="eip-649" list-type="bulleted" bullet-style="none"><item>
+<m:math>
+<m:mi>ME = </m:mi> <m:msub> <m:mi>z</m:mi> <m:mfrac> <m:mrow> <m:mi>a</m:mi> </m:mrow> <m:mrow> <m:mi>2</m:mi> </m:mrow></m:mfrac> </m:msub> <m:mi>·</m:mi> <m:msqrt> <m:mfrac> <m:mrow> <m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mover><m:mi>q</m:mi><m:mo>̂</m:mo></m:mover> </m:mrow> <m:mrow> <m:mi>n</m:mi> </m:mrow> </m:mfrac> </m:msqrt> <m:mi>= 1.96 · </m:mi> <m:msqrt> <m:mfrac> <m:mrow> <m:mi>(0.842)·(0.158)</m:mi> </m:mrow> <m:mrow> <m:mi>500</m:mi> </m:mrow> </m:mfrac> </m:msqrt> <m:mi>= 0.032</m:mi>
+</m:math>
+</item></list><equation id="eip-518"><m:math>
+<m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> 
+<m:mi>- ME = 0.842 - 0.032 = 0.81</m:mi>
+</m:math></equation><para id="eip-602"><equation id="eip-571"><m:math>
+<m:mover><m:mi>p</m:mi><m:mo>̂</m:mo></m:mover> <m:mi>+ ME = 0.842 + 0.032 = 0.874</m:mi>
+</m:math></equation> The 95% confidence interval for the binomial population proportion is  (0.810,0.874)</para>
+<para id="eip-id1167603333172"><media id="import-auto-id1166317474750" alt=""><image mime-type="image/png" src="../../media/confidence interval proportion.PNG" height="245" width="291" print-width="3in"/></media></para></entry>
+          </row>
+          <row>
+            <entry><emphasis effect="bold">Conclusion:</emphasis> Interpret your result in the proper context, and relate it to the original question. </entry>
+            <entry>I am 95% confident that between 81% and 87.4% of all adult residents of this city have cell phones.95% of all confidence intervals constructed in this way contain the true proportion of adults in this city who have cell phones.</entry>
+          </row>
+        </tbody>
+      
+
+
+
+
+
+
+</tgroup>
+</table></content>
+</document>

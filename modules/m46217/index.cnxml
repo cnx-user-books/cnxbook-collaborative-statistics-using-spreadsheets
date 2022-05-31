@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Central Limit Theorem: Assumptions and Conditions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46217</md:content-id>
+  <md:title>Central Limit Theorem: Assumptions and Conditions</md:title>
+  <md:abstract>This is a summary of the assumptions and conditions data must meet before using the Central Limit Theorem.</md:abstract>
+  <md:uuid>ee652647-7d10-4c33-b439-9bdf5aa6ba3f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163643571100">
+      <title>Assumptions and Conditions</title>
+      <para id="import-auto-id1163601463727">To use the normal model, we must meet some assumptions and conditions.  The Central Limit Theorem assumes the following: </para>
+      <para id="import-auto-id1163643590954"><emphasis effect="bold">Randomization Condition:</emphasis> The data must be sampled randomly.  Is one of the good sampling methodologies discussed in the chapter “Sampling and Data” being used?</para>
+      <para id="import-auto-id1163601966312"><emphasis effect="bold">Independence Assumption</emphasis>:  The sample values must be independent of each other.  This means that the occurrence of one event has no influence on the next event.  Usually, if we know that people or items were selected randomly we can assume that the independence assumption is met.</para>
+      <para id="import-auto-id1163601940963"><emphasis effect="bold">10% Condition:  </emphasis>When the sample is drawn without replacement (usually the case), the sample size, <emphasis effect="italics">n</emphasis>, should be no more than 10% of the population.</para>
+      <para id="import-auto-id1163643614884"><emphasis effect="bold">Sample Size Assumption:</emphasis> The sample size must be sufficiently large.  Although the Central Limit Theorem tells us that we can use a Normal model to think about the behavior of sample means when the sample size is large enough, it does not tell us how large that should be. If the population is very skewed, you will need a pretty large sample size to use the CLT, however if the population is unimodal and symmetric, even small samples are acceptable.  So think about your sample size in terms of what you know about the population and decide whether the sample is large enough.  In general a sample size of 30 is considered sufficient if the sample is unimodal (and meets the 10% condition).</para></section>
+  </content>
+</document>

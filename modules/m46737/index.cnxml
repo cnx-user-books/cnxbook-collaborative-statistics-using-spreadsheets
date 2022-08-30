@@ -159,12 +159,12 @@
 <m:mo>;</m:mo>
 <m:mo>SE = </m:mo> 
 <m:msqrt> <m:mfrac>
-<m:mrow> <m:msup><m:mo>S</m:mo><m:msub><m:mn>2</m:mn></m:msub><m:mn>G</m:mn></m:msup></m:mrow>
+<m:mrow> <m:mmultiscripts><m:mo>S</m:mo><m:mn>G</m:mn><m:mn>2</m:mn></m:mmultiscripts></m:mrow>
 <m:mrow> <m:msub><m:mo>n</m:mo><m:mn>G</m:mn></m:msub> </m:mrow>
 </m:mfrac>
 <m:mo>+</m:mo>
 <m:mfrac>
-<m:mrow> <m:msup><m:mo>S</m:mo><m:msub><m:mn>2</m:mn></m:msub><m:mn>B</m:mn></m:msup></m:mrow>
+<m:mrow> <m:mmultiscripts><m:mo>S</m:mo><m:mn>B</m:mn><m:mn>2</m:mn></m:mmultiscripts></m:mrow>
 <m:mrow> <m:msub><m:mo>n</m:mo><m:mn>B</m:mn></m:msub> </m:mrow>
 </m:mfrac> </m:msqrt> 
 <m:mo>+</m:mo>

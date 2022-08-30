@@ -109,11 +109,11 @@
 <m:mo>=</m:mo>
 <m:mi>μ</m:mi>
 </m:math></para><para id="eip-7"><title>Central Limit Theorem (standard error)</title><m:math>
-<m:msub>
+<m:mmultiscripts>
 <m:mo>σ</m:mo>
 <m:mn>x</m:mn>
 <m:mn>-</m:mn>
-</m:msub>
+</m:mmultiscripts>
 <m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>

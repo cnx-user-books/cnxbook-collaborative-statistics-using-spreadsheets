@@ -103,7 +103,7 @@ X~ B
   ,
   p
   ). The mean is μ=np
- and the standard deviation is <m:math display="display"><m:ci>σ</m:ci></m:math> = <m:math>
+ and the standard deviation is <m:math><m:ci>σ</m:ci></m:math> = <m:math>
 <m:apply><m:root/><m:ci>npq</m:ci></m:apply>
 </m:math>. The probability of exactly x successes in n trials is
 
@@ -128,7 +128,7 @@ E(x)
 <m:apply><m:divide/><m:ci>1</m:ci><m:ci>m </m:ci></m:apply>
 </m:math> and the standard deviation is σ = <m:math>
 <m:apply><m:divide/><m:ci>1</m:ci><m:ci>m </m:ci></m:apply>
-</m:math>. The probability density function  is ƒ(x) = <m:math display="display"><m:apply><m:power/><m:ci>me</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>, <m:math display="display"><m:apply><m:geq/><m:ci>x</m:ci><m:cn>0</m:cn></m:apply></m:math> and the cumulative distribution function is P(<m:math display="display"><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = 1 - <m:math display="display"><m:apply><m:power/><m:ci>e</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>.</para><para id="eip-108"><title>Geometric Distribution</title>A discrete random variable (RV) which arises from the Bernoulli trials. The trials are repeated until the first success. The geometric variable X is defined as the number of trials until the first success. Notation: <emphasis>X∼G(p)</emphasis>. The mean is μ = <m:math>
+</m:math>. The probability density function  is ƒ(x) = <m:math><m:apply><m:power/><m:ci>me</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>, <m:math><m:apply><m:geq/><m:ci>x</m:ci><m:cn>0</m:cn></m:apply></m:math> and the cumulative distribution function is P(<m:math><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = 1 - <m:math><m:apply><m:power/><m:ci>e</m:ci><m:apply><m:minus/><m:ci>mx</m:ci></m:apply></m:apply></m:math>.</para><para id="eip-108"><title>Geometric Distribution</title>A discrete random variable (RV) which arises from the Bernoulli trials. The trials are repeated until the first success. The geometric variable X is defined as the number of trials until the first success. Notation: <emphasis>X∼G(p)</emphasis>. The mean is μ = <m:math>
 <m:apply><m:root/><m:apply><m:times/><m:apply><m:divide/><m:cn>1</m:cn><m:ci>p</m:ci></m:apply><m:apply><m:minus/><m:apply><m:divide/><m:cn>1</m:cn><m:ci>p</m:ci></m:apply><m:cn>1</m:cn></m:apply></m:apply></m:apply>
 </m:math> is The probability of exactly x failures before the first success is given by the formula: 
 <m:math>
@@ -149,7 +149,7 @@ and the mean for a population (denoted by
 <newline/>(1). The probability that the event occurs in a given interval is the same for all intervals.
 <newline/>(2). The events occur with a known mean and independently of the time since the last event.
 <newline/>The distribution is defined by the mean μ of the event in the interval. Notation:   
-X~P(μ). The mean is μ = np. The standard deviation is <m:math display="display"><m:apply><m:eq/><m:ci>σ</m:ci><m:apply><m:root/><m:ci>μ</m:ci></m:apply></m:apply></m:math>. The probability of having exactly x  successes in r  trials is P(X = x) = <m:math display="display"><m:apply><m:exp/><m:apply><m:minus/><m:ci>μ</m:ci></m:apply></m:apply></m:math><m:math display="display"><m:apply><m:divide/><m:apply><m:power/><m:ci>μ</m:ci><m:ci>x</m:ci></m:apply><m:ci>x!</m:ci></m:apply></m:math>
+X~P(μ). The mean is μ = np. The standard deviation is <m:math><m:apply><m:eq/><m:ci>σ</m:ci><m:apply><m:root/><m:ci>μ</m:ci></m:apply></m:apply></m:math>. The probability of having exactly x  successes in r  trials is P(X = x) = <m:math><m:apply><m:exp/><m:apply><m:minus/><m:ci>μ</m:ci></m:apply></m:apply></m:math><m:math><m:apply><m:divide/><m:apply><m:power/><m:ci>μ</m:ci><m:ci>x</m:ci></m:apply><m:ci>x!</m:ci></m:apply></m:math>
 </para><para id="eip-912"><title>Probability Distribution Function (PDF)</title>A mathematical description of a discrete random variable (RV), given either in the form of an equation (formula) , or in the form of a table listing all the possible outcomes of an experiment and the probability associated with each outcome. 
 <emphasis>Example:</emphasis> 
 A biased coin with probability 0.7 for a head (in one toss of the coin) is tossed 5 times. We are interested in the number of heads (the RV X  = the number of heads). X  is Binomial, so<emphasis>
@@ -171,7 +171,7 @@ and <emphasis>
   =
   x
   )
-  = </emphasis>(<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>5</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>).<m:math display="display"><m:apply><m:power/><m:cn>.3</m:cn><m:ci>x</m:ci></m:apply></m:math><m:math display="display"><m:apply><m:power/><m:cn>7</m:cn><m:ci>5-x</m:ci></m:apply></m:math> or in the form of the table:
+  = </emphasis>(<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>5</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>).<m:math><m:apply><m:power/><m:cn>.3</m:cn><m:ci>x</m:ci></m:apply></m:math><m:math><m:apply><m:power/><m:cn>7</m:cn><m:ci>5-x</m:ci></m:apply></m:math> or in the form of the table:
 <table id="fs-id1169995568824" summary="Example for Probability Distribution Function">
 <tgroup cols="2"><thead>
   <row>
@@ -219,14 +219,14 @@ and <emphasis>
 
 </tgroup>
 </table></para>
-<para id="eip-755"><title>Random Variable (RV)</title>See <emphasis>variable</emphasis>.</para><para id="eip-490"><title>Uniform Distribution</title>A continuous random variable (RV) that has equally likely outcomes over the domain, <m:math display="display"><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math>
+<para id="eip-755"><title>Random Variable (RV)</title>See <emphasis>variable</emphasis>.</para><para id="eip-490"><title>Uniform Distribution</title>A continuous random variable (RV) that has equally likely outcomes over the domain, <m:math><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math>
 . Often referred as the <emphasis>Rectangular distribution</emphasis> because the graph of the pdf has the form of a rectangle. Notation: 
 X~U(a,b). The mean is μ = <m:math>
 <m:apply><m:divide/><m:ci>a + b</m:ci><m:ci>2 </m:ci></m:apply>
-</m:math> and the standard deviation is <m:math display="display"><m:apply><m:root/><m:apply><m:divide/><m:apply><m:power/><m:apply><m:minus/><m:ci>b</m:ci><m:ci>a</m:ci></m:apply><m:cn>2</m:cn></m:apply><m:cn>12</m:cn></m:apply></m:apply></m:math>. The probability density function is ƒ(x) = <m:math>
-<m:apply><m:divide/><m:ci>1</m:ci><m:ci>b - a </m:ci></m:apply> </m:math>  for  <m:math display="display"><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math> or <m:math>
+</m:math> and the standard deviation is <m:math><m:apply><m:root/><m:apply><m:divide/><m:apply><m:power/><m:apply><m:minus/><m:ci>b</m:ci><m:ci>a</m:ci></m:apply><m:cn>2</m:cn></m:apply><m:cn>12</m:cn></m:apply></m:apply></m:math>. The probability density function is ƒ(x) = <m:math>
+<m:apply><m:divide/><m:ci>1</m:ci><m:ci>b - a </m:ci></m:apply> </m:math>  for  <m:math><m:apply><m:lt/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply></m:math> or <m:math>
 <m:apply><m:leq/><m:ci>a</m:ci><m:ci>x</m:ci><m:ci>b</m:ci></m:apply>
-</m:math>. The cumalative distribution is P(<m:math display="display"><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = <m:math>
+</m:math>. The cumalative distribution is P(<m:math><m:apply><m:leq/><m:ci>X</m:ci><m:ci>x</m:ci></m:apply></m:math>) = <m:math>
 <m:apply><m:divide/><m:ci>x - a</m:ci><m:ci>b - a </m:ci></m:apply>
 </m:math>.
 </para><para id="eip-591"><title>Variable (Random Variable)</title>A characteristic of interest in a population being studied. Common notation for variables are upper case Latin letters 

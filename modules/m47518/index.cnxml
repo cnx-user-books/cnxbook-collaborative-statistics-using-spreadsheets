@@ -996,23 +996,21 @@
                         <m:mrow>
                           <m:mover><m:mi>P</m:mi><m:mo>̂</m:mo></m:mover>
                           <m:mrow>
-                            <m:msub>
-                              <m:mstyle fontsize="8pt">
+                            <m:mstyle fontsize="8pt">
                                 <m:mrow>
                                   <m:mn>1</m:mn>
                                 </m:mrow>
                               </m:mstyle>
-                            </m:msub>
+                            
                             <m:mo stretchy="false">−</m:mo>
                             <m:mover><m:mi>P</m:mi><m:mo>̂</m:mo></m:mover>
                           </m:mrow>
-                          <m:msub> 
-                            <m:mstyle fontsize="8pt">
+                          <m:mstyle fontsize="8pt">
                               <m:mrow>
                                 <m:mn>2</m:mn>
                               </m:mrow>
                             </m:mstyle>
-                          </m:msub>
+                          
                         </m:mrow>
                       </m:mrow>
                     </m:mstyle>

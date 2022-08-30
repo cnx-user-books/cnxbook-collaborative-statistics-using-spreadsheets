@@ -225,7 +225,7 @@
 
 </m:math> is a critical value, based on the Normal Curve for an exact confidence interval such as for a 95% confidence interval. 
 <m:math>
-<m:msup><m:mi>z* = 1.96 </m:mi></m:msup>
+<m:mi>z* = 1.96 </m:mi>
 </m:math></para></statement>
 <statement id="criticalvalue2">
 <para id="CriticalValue2"><m:math>

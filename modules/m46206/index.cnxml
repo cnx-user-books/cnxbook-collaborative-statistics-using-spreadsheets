@@ -791,12 +791,7 @@ There are two games played for Chinese New Year and Vietnamese New Year. They ar
     </item>
 <item><label>h</label> Find the probability that a person is born after week 40.</item>
 <item><label>i</label> 
-      <m:math>
-        <m:semantics>
-          <m:mrow/>
-          <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-        </m:semantics>
-      </m:math>
+      
       <m:math>
         <m:semantics>
           <m:mrow>
